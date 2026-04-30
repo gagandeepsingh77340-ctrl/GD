@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class 12 - My Smart Counselling Support</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    /* ===== Global Styles ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: #f5f9ff;
+      color: #333;
+      line-height: 1.6;
+    }
+    
+    /* ===== Header Styles ===== */
+    header {
+      background: linear-gradient(135deg, #1a3a8f 0%, #2d5cc2 100%);
+      color: white;
+      padding: 1.2rem 0;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    
+    .header-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 2rem;
+    }
+    
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    
+    .logo i {
+      font-size: 1.8rem;
+      color: #6ee7ff;
+    }
+    
+    .logo h1 {
+      font-size: 1.8rem;
+      font-weight: 700;
+    }
+    
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 2rem;
+    }
+    
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+      transition: color 0.3s;
+      padding: 0.5rem 0;
+      position: relative;
+    }
+    
+    nav a:hover {
+      color: #6ee7ff;
+    }
+    
+    nav a::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 3px;
+      background: #6ee7ff;
+      bottom: 0;
+      left: 0;
+      transition: width 0.3s;
+    }
+    
+    nav a:hover::after {
+      width: 100%;
+    }
+    
+    /* ===== Main Content Area ===== */
+    .main-content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .background-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      opacity: 0.9;
+      z-index: -1;
+    }
+    
+    /* ===== Marks Entry Container ===== */
+    .marks-container {
+      background: rgba(255, 255, 255, 0.92);
+      padding: 3rem 4rem;
+      border-radius: 20px;
+      box-shadow: 0 15px 40px rgba(26, 58, 143, 0.15);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(5px);
+      width: 450px;
+      text-align: center;
+      animation: fadeIn 1s ease-out;
+    }
+    
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    
+    .marks-container h2 {
+      color: #1a3a8f;
+      margin-bottom: 10px;
+      font-size: 2.2rem;
+      font-weight: 800;
+      letter-spacing: 1px;
+    }
+    
+    .marks-container .subtitle {
+      color: #2d5cc2;
+      margin-bottom: 2rem;
+      font-size: 1.1rem;
+      font-weight: 500;
+    }
+    
+    /* ===== Form Styles ===== */
+    .form-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 25px;
+    }
+    
+    .form-header i {
+      color: #1a3a8f;
+      font-size: 2rem;
+    }
+    
+    .form-header h3 {
+      color: #1a3a8f;
+      font-size: 1.8rem;
+    }
+    
+    label {
+      display: block;
+      text-align: left;
+      margin-top: 15px;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #333;
+    }
+    
+    .input-with-icon {
+      position: relative;
+      margin-top: 8px;
+    }
+    
+    .input-with-icon i {
+      position: absolute;
+      left: 15px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #1a3a8f;
+    }
+    
+    input[type="number"] {
+      width: 100%;
+      padding: 12px 12px 12px 45px;
+      border: 2px solid #e0e7ff;
+      border-radius: 10px;
+      outline: none;
+      font-size: 1rem;
+      color: #333;
+      transition: border 0.3s;
+      background-color: #f8fbff;
+    }
+    
+    input[type="number"]:focus {
+      border-color: #2d5cc2;
+      background-color: white;
+    }
+    
+    .marks-range {
+      font-size: 0.85rem;
+      color: #666;
+      margin-top: 5px;
+      text-align: left;
+      font-weight: 500;
+    }
+    
+    /* ===== Button Styles ===== */
+    .btn {
+      width: 100%;
+      margin-top: 30px;
+      padding: 14px;
+      background: linear-gradient(to right, #1a3a8f, #2d5cc2);
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 1.1rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.3s;
+      box-shadow: 0 8px 20px rgba(26, 58, 143, 0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+    
+    .btn:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 25px rgba(26, 58, 143, 0.4);
+      background: linear-gradient(to right, #2d5cc2, #3a6ae8);
+    }
+    
+    .btn:active {
+      transform: translateY(-2px);
+    }
+    
+    /* ===== Back Button ===== */
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.2);
+      padding: 10px 20px;
+      border-radius: 50px;
+      text-decoration: none;
+      color: white;
+      font-weight: 600;
+      transition: all 0.3s;
+      margin-bottom: 30px;
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      position: relative;
+      z-index: 10;
+    }
+    
+    .back-btn:hover {
+      background: rgba(255, 255, 255, 0.35);
+      transform: translateY(-3px);
+    }
+    
+    /* ===== Footer Styles ===== */
+    footer {
+      background: #1a1a2e;
+      color: #eee;
+      padding: 2.5rem 0 1.5rem;
+      margin-top: auto;
+    }
+    
+    .footer-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+    
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+    
+    .footer-section {
+      flex: 1;
+      min-width: 250px;
+    }
+    
+    .footer-section h3 {
+      font-size: 1.4rem;
+      margin-bottom: 1.2rem;
+      color: #6ee7ff;
+      position: relative;
+      padding-bottom: 0.5rem;
+    }
+    
+    .footer-section h3::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 40px;
+      height: 3px;
+      background: #2d5cc2;
+    }
+    
+    .footer-section p, .footer-section a {
+      color: #bbb;
+      margin-bottom: 0.8rem;
+      display: block;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    
+    .footer-section a:hover {
+      color: #6ee7ff;
+    }
+    
+    .social-icons {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    
+    .social-icons a {
+      background: #2d5cc2;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s;
+    }
+    
+    .social-icons a:hover {
+      background: #6ee7ff;
+      transform: translateY(-5px);
+    }
+    
+    .footer-bottom {
+      text-align: center;
+      padding-top: 1.5rem;
+      border-top: 1px solid #333;
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+    
+    /* ===== Responsive Design ===== */
+    @media (max-width: 768px) {
+      .header-container {
+        flex-direction: column;
+        gap: 1rem;
+      }
+      
+      nav ul {
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+      .marks-container {
+        width: 90%;
+        padding: 2.5rem 2rem;
+      }
+      
+      .marks-container h2 {
+        font-size: 1.8rem;
+      }
+      
+      .footer-content {
+        flex-direction: column;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .marks-container {
+        width: 95%;
+        padding: 2rem 1.5rem;
+      }
+      
+      .marks-container h2 {
+        font-size: 1.6rem;
+      }
+      
+      .form-header h3 {
+        font-size: 1.4rem;
+      }
+      
+      .btn {
+        padding: 12px;
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <i class="fas fa-brain"></i>
+        <h1>MySmartCounsellingSupport</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+          <li><a href="#"><i class="fas fa-users"></i> Services</a></li>
+          <li><a href="counselling.html"><i class="fas fa-graduation-cap"></i> Class Selection</a></li>
+          <li><a href="#"><i class="fas fa-calendar-alt"></i> Appointments</a></li>
+          <li><a href="#"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main class="main-content">
+    <div class="background-image"></div>
+    
+    <div class="marks-container">
+      <a href="counselling.html" class="back-btn">
+        <i class="fas fa-arrow-left"></i> Back to Class Selection
+      </a>
+      
+      <h2>Class 12 Analysis</h2>
+      <p class="subtitle">Enter your marks to get personalized career guidance</p>
+      
+      <div class="form-header">
+        <i class="fas fa-chart-line"></i>
+        <h3>Enter Your Marks</h3>
+      </div>
+      
+      <form id="marksForm" action="output_PCB.html" method="get">
+        <!-- Science Subjects: Physics, Chemistry, Biology -->
+        <label for="physics">Physics</label>
+        <div class="input-with-icon">
+          <i class="fas fa-atom"></i>
+          <input type="number" id="physics" name="physics" min="0" max="100" placeholder="Enter marks out of 100" required>
+        </div>
+        <div class="marks-range">Enter marks between 0 and 100</div>
+
+        <label for="chemistry">Chemistry</label>
+        <div class="input-with-icon">
+          <i class="fas fa-flask"></i>
+          <input type="number" id="chemistry" name="chemistry" min="0" max="100" placeholder="Enter marks out of 100" required>
+        </div>
+        <div class="marks-range">Enter marks between 0 and 100</div>
+
+        <label for="biology">Biology</label>
+        <div class="input-with-icon">
+          <i class="fas fa-dna"></i>
+          <input type="number" id="biology" name="biology" min="0" max="100" placeholder="Enter marks out of 100" required>
+        </div>
+        <div class="marks-range">Enter marks between 0 and 100</div>
+
+        <button type="submit" class="btn">
+          <i class="fas fa-paper-plane"></i> Submit & Get Analysis
+        </button>
+      </form>
+    </div>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Smart Counselling</h3>
+          <p>Providing data-driven academic analysis and personalized career guidance for Class 10 students based on their performance in Physics, Chemistry, and Biology.</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Science Resources</h3>
+          <a href="class10.html"><i class="fas fa-chevron-right"></i> Class 10 Analysis</a>
+          <a href="class12.html"><i class="fas fa-chevron-right"></i> Class 12 Analysis</a>
+          <a href="#"><i class="fas fa-chevron-right"></i> Medical Career Paths</a>
+          <a href="#"><i class="fas fa-chevron-right"></i> Engineering Options</a>
+          <a href="#"><i class="fas fa-chevron-right"></i> Science Study Materials</a>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Contact Support</h3>
+          <p><i class="fas fa-map-marker-alt"></i> 123 Science Street, Research City</p>
+          <p><i class="fas fa-phone"></i> +1 (555) 987-6543</p>
+          <p><i class="fas fa-envelope"></i> science@smartcounselling.com</p>
+          <p><i class="fas fa-clock"></i> Mon-Sat: 9am-7pm, Sun: 10am-4pm</p>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2023 Smart Counselling. All rights reserved. | Designed to empower Class 10 Science students</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Form validation
+    document.getElementById('marksForm').addEventListener('submit', function(e) {
+      const inputs = document.querySelectorAll('input[type="number"]');
+      let isValid = true;
+      
+      inputs.forEach(input => {
+        const value = parseInt(input.value);
+        if (value < 0 || value > 100) {
+          alert(`Please enter a valid mark between 0 and 100 for ${input.previousElementSibling.textContent}`);
+          input.focus();
+          isValid = false;
+          e.preventDefault();
+        }
+      });
+      
+      if (isValid) {
+        // Calculate total percentage before submitting
+        const physics = parseInt(document.getElementById('physics').value);
+        const chemistry = parseInt(document.getElementById('chemistry').value);
+        const biology = parseInt(document.getElementById('biology').value);
+        
+        const total = physics + chemistry + biology;
+        const percentage = (total / 300) * 100;
+        
+        // Show confirmation alert
+        alert(`Your total marks: ${total}/300\nPercentage: ${percentage.toFixed(2)}%\n\nSubmitting for analysis...`);
+        
+        // The form will proceed with submission to output.html
+      }
+    });
+    
+    // Input validation as user types
+    document.querySelectorAll('input[type="number"]').forEach(input => {
+      input.addEventListener('input', function() {
+        const value = parseInt(this.value);
+        if (value < 0) {
+          this.value = 0;
+        } else if (value > 100) {
+          this.value = 100;
+        }
+      });
+    });
+    
+    // Add visual feedback for form inputs
+    document.querySelectorAll('input[type="number"]').forEach(input => {
+      input.addEventListener('focus', function() {
+        this.parentElement.style.transform = 'scale(1.02)';
+      });
+      
+      input.addEventListener('blur', function() {
+        this.parentElement.style.transform = 'scale(1)';
+      });
+    });
+    
+    // Navigation menu interaction
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', function(e) {
+        if(this.getAttribute('href') === '#') {
+          e.preventDefault();
+          alert(`Navigating to ${this.textContent.trim()} section.`);
+        }
+      });
+    });
+  </script>
+</body>
+</html>

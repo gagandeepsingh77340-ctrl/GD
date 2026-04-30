@@ -1,0 +1,1001 @@
+Student_ID,Name,Gender,Physics,Chemistry,Maths,Average_Score,Future_Career
+1,Saanvi Yadav,Male,95,75,88,86.0,Engineering
+2,Myra Das,Female,68,63,74,68.33,IT Professional
+3,Arjun Tiwari,Male,60,99,91,83.33,Robotics Engineer
+4,Saanvi Gupta,Female,77,90,96,87.67,Defence Services
+5,Vihaan Kapoor,Female,81,62,63,68.67,Entrepreneur
+6,Ananya Mehta,Female,87,64,89,80.0,Engineering
+7,Myra Reddy,Male,97,64,88,83.0,Actuarial Science
+8,Krishna Pillai,Male,73,95,70,79.33,IT Professional
+9,Rohan Singh,Female,98,96,68,87.33,Architecture
+10,Saanvi Reddy,Female,93,95,79,89.0,Robotics Engineer
+11,Krishna Yadav,Male,90,67,78,78.33,Defence Services
+12,Saanvi Yadav,Male,72,63,60,65.0,Research Scientist
+13,Meera Pillai,Male,96,98,99,97.67,Defence Services
+14,Pari Nair,Female,90,81,97,89.33,Defence Services
+15,Aditya Verma,Male,92,74,96,87.33,Pilot
+16,Pari Pillai,Female,65,85,76,75.33,Actuarial Science
+17,Vihaan Bansal,Female,98,96,86,93.33,Architecture
+18,Aarav Reddy,Male,66,83,87,78.67,Research Scientist
+19,Rohan Pillai,Male,70,98,65,77.67,Entrepreneur
+20,Anika Chopra,Female,86,82,68,78.67,Entrepreneur
+21,Krishna Kumar,Male,63,87,73,74.33,Pilot
+22,Aarav Malhotra,Female,73,85,70,76.0,Data Science
+23,Aarav Pillai,Male,92,71,92,85.0,Architecture
+24,Krishna Yadav,Female,82,92,67,80.33,Actuarial Science
+25,Saanvi Joshi,Male,98,72,64,78.0,Pilot
+26,Aadhya Bansal,Male,68,84,65,72.33,Architecture
+27,Meera Reddy,Male,91,75,90,85.33,Robotics Engineer
+28,Kiara Das,Male,94,60,69,74.33,Pilot
+29,Aditya Yadav,Female,78,60,87,75.0,Engineering
+30,Myra Yadav,Male,64,73,100,79.0,Research Scientist
+31,Diya Das,Male,98,71,79,82.67,Entrepreneur
+32,Aarav Verma,Female,100,100,72,90.67,Pilot
+33,Saanvi Mehta,Female,82,72,85,79.67,Engineering
+34,Aarav Kapoor,Female,83,87,96,88.67,Pilot
+35,Aditya Sharma,Female,79,98,75,84.0,IT Professional
+36,Saanvi Verma,Female,84,67,92,81.0,Engineering
+37,Vivaan Reddy,Male,97,67,97,87.0,IT Professional
+38,Saanvi Ghosh,Male,71,80,64,71.67,Pilot
+39,Ananya Patel,Male,96,64,64,74.67,Entrepreneur
+40,Pari Bansal,Male,99,88,94,93.67,Research Scientist
+41,Ananya Ghosh,Female,96,72,88,85.33,Actuarial Science
+42,Aarav Singh,Male,71,83,100,84.67,Robotics Engineer
+43,Anika Mishra,Male,99,78,97,91.33,Pilot
+44,Aadhya Patel,Female,83,88,99,90.0,Defence Services
+45,Vivaan Joshi,Male,90,94,84,89.33,IT Professional
+46,Krishna Verma,Male,84,64,85,77.67,Data Science
+47,Ishaan Das,Male,96,86,73,85.0,Robotics Engineer
+48,Aadhya Reddy,Male,77,75,68,73.33,Architecture
+49,Kiara Mishra,Male,78,68,76,74.0,IT Professional
+50,Vivaan Das,Male,75,82,90,82.33,Research Scientist
+51,Pari Malhotra,Male,74,95,69,79.33,Data Science
+52,Vihaan Kumar,Male,79,78,80,79.0,Actuarial Science
+53,Anika Das,Male,77,71,81,76.33,Engineering
+54,Ishaan Ghosh,Male,85,66,70,73.67,Engineering
+55,Rohan Das,Female,93,65,74,77.33,Architecture
+56,Arjun Pillai,Female,67,98,75,80.0,Defence Services
+57,Ayaan Mehta,Female,77,83,80,80.0,Architecture
+58,Ayaan Sharma,Female,71,81,67,73.0,Defence Services
+59,Ishaan Ghosh,Male,61,75,97,77.67,Defence Services
+60,Vihaan Joshi,Male,68,92,86,82.0,Data Science
+61,Arjun Ghosh,Male,95,99,69,87.67,Engineering
+62,Vihaan Nair,Male,96,76,63,78.33,IT Professional
+63,Arjun Reddy,Female,75,90,93,86.0,Engineering
+64,Vivaan Malhotra,Female,84,83,60,75.67,Research Scientist
+65,Rohan Mishra,Male,65,67,84,72.0,Entrepreneur
+66,Ayaan Yadav,Female,80,94,92,88.67,Entrepreneur
+67,Anika Patel,Female,67,64,70,67.0,Engineering
+68,Ishaan Nair,Female,85,96,70,83.67,Engineering
+69,Aadhya Singh,Male,61,71,96,76.0,IT Professional
+70,Reyansh Ghosh,Male,89,69,69,75.67,Research Scientist
+71,Reyansh Kumar,Male,70,87,76,77.67,Architecture
+72,Anika Reddy,Female,75,100,60,78.33,Entrepreneur
+73,Ira Gupta,Male,91,96,85,90.67,Engineering
+74,Saanvi Joshi,Male,92,74,86,84.0,Defence Services
+75,Aadhya Kapoor,Male,100,95,75,90.0,Data Science
+76,Anika Pillai,Female,60,100,92,84.0,Engineering
+77,Myra Singh,Male,63,73,88,74.67,IT Professional
+78,Saanvi Patel,Male,87,64,82,77.67,Defence Services
+79,Vivaan Bansal,Female,80,98,95,91.0,IT Professional
+80,Aditya Das,Female,90,71,65,75.33,Research Scientist
+81,Meera Malhotra,Male,93,93,95,93.67,Pilot
+82,Ishaan Das,Male,94,84,75,84.33,Actuarial Science
+83,Meera Sharma,Female,61,67,81,69.67,Robotics Engineer
+84,Myra Reddy,Male,84,85,92,87.0,Entrepreneur
+85,Krishna Nair,Male,78,63,93,78.0,Architecture
+86,Vivaan Mehta,Female,72,76,66,71.33,Entrepreneur
+87,Ananya Gupta,Male,71,73,77,73.67,IT Professional
+88,Ananya Verma,Male,85,66,73,74.67,Actuarial Science
+89,Ayaan Patel,Male,88,87,72,82.33,Research Scientist
+90,Anika Mehta,Female,100,63,92,85.0,IT Professional
+91,Reyansh Gupta,Male,65,93,65,74.33,Defence Services
+92,Anika Malhotra,Female,98,64,80,80.67,Actuarial Science
+93,Pari Singh,Female,68,99,94,87.0,Entrepreneur
+94,Rohan Chopra,Male,65,97,66,76.0,Architecture
+95,Ishaan Pillai,Male,76,68,73,72.33,Defence Services
+96,Vihaan Gupta,Male,87,91,62,80.0,Engineering
+97,Ananya Malhotra,Female,62,80,63,68.33,Data Science
+98,Vihaan Bansal,Female,76,92,80,82.67,Data Science
+99,Ishaan Nair,Male,81,81,90,84.0,IT Professional
+100,Kiara Patel,Female,72,95,99,88.67,Actuarial Science
+101,Kiara Chopra,Female,82,74,62,72.67,IT Professional
+102,Ira Pillai,Male,86,76,79,80.33,Entrepreneur
+103,Rohan Ghosh,Female,72,85,69,75.33,Engineering
+104,Reyansh Patel,Male,79,75,66,73.33,Robotics Engineer
+105,Myra Kapoor,Female,81,91,98,90.0,Research Scientist
+106,Aditya Mishra,Female,96,69,82,82.33,Robotics Engineer
+107,Kiara Ghosh,Female,96,98,79,91.0,Entrepreneur
+108,Ananya Pillai,Male,98,91,72,87.0,Research Scientist
+109,Diya Ghosh,Female,62,91,93,82.0,Pilot
+110,Ayaan Kumar,Female,74,100,60,78.0,Engineering
+111,Pari Das,Male,62,96,78,78.67,Research Scientist
+112,Krishna Reddy,Male,75,92,82,83.0,Defence Services
+113,Ayaan Kapoor,Male,61,72,60,64.33,Defence Services
+114,Myra Pillai,Female,89,93,85,89.0,Engineering
+115,Pari Yadav,Female,79,87,63,76.33,Research Scientist
+116,Krishna Das,Male,73,61,81,71.67,Architecture
+117,Rohan Kapoor,Male,86,68,80,78.0,Actuarial Science
+118,Arjun Yadav,Female,94,62,68,74.67,Defence Services
+119,Rohan Yadav,Female,99,72,91,87.33,Entrepreneur
+120,Rohan Chopra,Female,84,64,87,78.33,Robotics Engineer
+121,Ishaan Verma,Male,70,86,85,80.33,IT Professional
+122,Aadhya Nair,Male,62,92,77,77.0,Pilot
+123,Aarav Verma,Female,75,86,63,74.67,IT Professional
+124,Diya Verma,Male,81,85,81,82.33,Robotics Engineer
+125,Diya Joshi,Male,92,97,95,94.67,Actuarial Science
+126,Reyansh Chopra,Male,92,73,75,80.0,Engineering
+127,Myra Singh,Male,61,66,72,66.33,Engineering
+128,Ayaan Reddy,Female,91,67,69,75.67,Defence Services
+129,Meera Chopra,Male,91,80,88,86.33,Defence Services
+130,Aarav Das,Male,95,76,77,82.67,Architecture
+131,Vihaan Kumar,Female,91,65,65,73.67,Pilot
+132,Aarav Yadav,Male,83,63,79,75.0,Data Science
+133,Rohan Joshi,Male,97,64,94,85.0,Pilot
+134,Vivaan Pillai,Female,78,82,73,77.67,Research Scientist
+135,Ayaan Nair,Male,67,66,94,75.67,Research Scientist
+136,Pari Reddy,Male,80,97,67,81.33,Entrepreneur
+137,Pari Bansal,Female,74,77,64,71.67,Defence Services
+138,Anika Nair,Male,98,90,65,84.33,IT Professional
+139,Myra Malhotra,Male,100,87,65,84.0,Research Scientist
+140,Aarav Patel,Male,86,89,87,87.33,Actuarial Science
+141,Vivaan Mishra,Female,71,65,94,76.67,Data Science
+142,Aadhya Malhotra,Female,89,89,74,84.0,Engineering
+143,Vihaan Chopra,Male,96,62,89,82.33,Research Scientist
+144,Diya Das,Female,83,69,72,74.67,Architecture
+145,Vivaan Mishra,Male,99,70,83,84.0,Research Scientist
+146,Aarav Malhotra,Male,82,99,79,86.67,Architecture
+147,Rohan Mehta,Male,67,74,86,75.67,Robotics Engineer
+148,Kiara Nair,Female,94,97,88,93.0,Robotics Engineer
+149,Diya Joshi,Female,91,64,62,72.33,Defence Services
+150,Diya Yadav,Male,60,88,65,71.0,Data Science
+151,Vihaan Pillai,Female,79,98,87,88.0,IT Professional
+152,Reyansh Ghosh,Female,60,89,78,75.67,Engineering
+153,Kiara Malhotra,Female,64,60,65,63.0,Pilot
+154,Diya Bansal,Male,82,95,73,83.33,Defence Services
+155,Vihaan Patel,Female,97,75,79,83.67,IT Professional
+156,Kiara Tiwari,Female,83,91,63,79.0,Pilot
+157,Meera Sharma,Female,84,72,62,72.67,Robotics Engineer
+158,Diya Sharma,Female,69,78,91,79.33,Entrepreneur
+159,Aditya Joshi,Male,79,63,74,72.0,Architecture
+160,Ira Verma,Male,100,63,89,84.0,Robotics Engineer
+161,Rohan Pillai,Male,86,63,79,76.0,IT Professional
+162,Diya Das,Male,79,63,83,75.0,IT Professional
+163,Krishna Sharma,Male,75,81,82,79.33,Research Scientist
+164,Ishaan Malhotra,Male,65,63,60,62.67,Robotics Engineer
+165,Vivaan Pillai,Female,93,78,62,77.67,Defence Services
+166,Anika Mehta,Male,80,64,71,71.67,Architecture
+167,Diya Malhotra,Male,100,97,69,88.67,IT Professional
+168,Aadhya Sharma,Male,92,78,65,78.33,IT Professional
+169,Aarav Mehta,Male,73,61,93,75.67,IT Professional
+170,Myra Joshi,Female,96,83,95,91.33,Defence Services
+171,Krishna Gupta,Female,91,100,99,96.67,Robotics Engineer
+172,Saanvi Joshi,Male,92,67,78,79.0,Actuarial Science
+173,Diya Malhotra,Male,80,80,85,81.67,IT Professional
+174,Kiara Reddy,Male,89,71,81,80.33,Research Scientist
+175,Ira Kapoor,Male,61,88,70,73.0,Architecture
+176,Diya Yadav,Male,94,99,66,86.33,Pilot
+177,Meera Ghosh,Female,91,64,69,74.67,Robotics Engineer
+178,Ishaan Ghosh,Female,77,77,94,82.67,Robotics Engineer
+179,Rohan Joshi,Female,95,93,64,84.0,IT Professional
+180,Krishna Nair,Male,87,83,87,85.67,Defence Services
+181,Vivaan Reddy,Female,66,66,64,65.33,Engineering
+182,Anika Yadav,Male,80,84,95,86.33,Entrepreneur
+183,Aarav Mishra,Male,93,82,82,85.67,Architecture
+184,Pari Malhotra,Female,84,98,89,90.33,Research Scientist
+185,Aarav Bansal,Male,72,76,100,82.67,Research Scientist
+186,Aadhya Singh,Female,97,100,66,87.67,Actuarial Science
+187,Rohan Yadav,Male,100,66,92,86.0,IT Professional
+188,Meera Sharma,Female,76,83,95,84.67,Robotics Engineer
+189,Meera Sharma,Female,84,99,73,85.33,IT Professional
+190,Pari Verma,Male,90,95,92,92.33,Data Science
+191,Diya Singh,Male,60,88,84,77.33,Actuarial Science
+192,Aarav Tiwari,Male,71,93,92,85.33,Entrepreneur
+193,Aditya Pillai,Female,78,87,70,78.33,Actuarial Science
+194,Aadhya Kumar,Male,88,74,95,85.67,Research Scientist
+195,Vihaan Joshi,Female,64,66,77,69.0,Robotics Engineer
+196,Saanvi Tiwari,Female,75,75,93,81.0,Defence Services
+197,Saanvi Patel,Male,69,83,83,78.33,Pilot
+198,Aarav Verma,Female,82,90,79,83.67,Robotics Engineer
+199,Anika Das,Male,98,80,100,92.67,Engineering
+200,Aadhya Kapoor,Male,82,80,94,85.33,Defence Services
+201,Meera Sharma,Male,81,97,65,81.0,Data Science
+202,Vihaan Singh,Male,93,68,69,76.67,Engineering
+203,Rohan Das,Female,76,62,94,77.33,Data Science
+204,Aadhya Ghosh,Female,86,64,93,81.0,Actuarial Science
+205,Meera Kumar,Male,97,93,97,95.67,Engineering
+206,Myra Singh,Female,68,85,86,79.67,Pilot
+207,Pari Patel,Male,86,68,65,73.0,Architecture
+208,Diya Malhotra,Male,66,65,86,72.33,Data Science
+209,Aarav Joshi,Male,74,100,85,86.33,Engineering
+210,Ishaan Malhotra,Male,72,92,73,79.0,Pilot
+211,Ayaan Yadav,Female,83,85,82,83.33,Architecture
+212,Aadhya Joshi,Female,67,85,68,73.33,Engineering
+213,Rohan Malhotra,Male,98,94,81,91.0,Actuarial Science
+214,Reyansh Kapoor,Female,92,81,82,85.0,Robotics Engineer
+215,Ananya Joshi,Male,71,79,78,76.0,IT Professional
+216,Kiara Chopra,Male,83,77,89,83.0,Data Science
+217,Myra Malhotra,Female,68,90,95,84.33,Pilot
+218,Arjun Nair,Male,83,72,65,73.33,Actuarial Science
+219,Aarav Singh,Female,71,66,92,76.33,Actuarial Science
+220,Ishaan Ghosh,Male,73,61,94,76.0,Research Scientist
+221,Aditya Malhotra,Male,73,89,72,78.0,Actuarial Science
+222,Kiara Bansal,Male,82,76,71,76.33,Data Science
+223,Ayaan Yadav,Male,65,99,69,77.67,Defence Services
+224,Aarav Yadav,Female,91,77,72,80.0,IT Professional
+225,Aditya Chopra,Female,68,64,73,68.33,Research Scientist
+226,Krishna Das,Female,97,66,67,76.67,Defence Services
+227,Pari Kumar,Male,74,99,99,90.67,Robotics Engineer
+228,Ira Nair,Male,69,83,96,82.67,IT Professional
+229,Ayaan Malhotra,Male,88,99,66,84.33,Architecture
+230,Reyansh Kapoor,Male,91,73,72,78.67,IT Professional
+231,Vivaan Verma,Female,61,89,91,80.33,IT Professional
+232,Myra Mishra,Female,77,68,89,78.0,Defence Services
+233,Diya Reddy,Female,88,87,86,87.0,Defence Services
+234,Aadhya Gupta,Male,76,64,91,77.0,Pilot
+235,Ananya Malhotra,Female,88,93,74,85.0,Pilot
+236,Vivaan Kapoor,Male,96,88,78,87.33,Research Scientist
+237,Ananya Joshi,Male,78,87,77,80.67,Research Scientist
+238,Reyansh Kumar,Male,68,71,92,77.0,Entrepreneur
+239,Aadhya Nair,Male,89,86,90,88.33,Data Science
+240,Ayaan Malhotra,Male,74,68,67,69.67,Data Science
+241,Ayaan Reddy,Female,74,78,80,77.33,Data Science
+242,Ananya Mehta,Female,66,80,77,74.33,IT Professional
+243,Aditya Yadav,Female,96,75,66,79.0,Research Scientist
+244,Pari Reddy,Male,76,99,63,79.33,Defence Services
+245,Saanvi Sharma,Female,70,98,92,86.67,Data Science
+246,Ira Kapoor,Female,64,99,88,83.67,IT Professional
+247,Ayaan Ghosh,Male,78,76,72,75.33,Research Scientist
+248,Ira Sharma,Female,84,68,86,79.33,Pilot
+249,Krishna Sharma,Female,61,92,96,83.0,Pilot
+250,Ananya Nair,Male,87,88,61,78.67,Actuarial Science
+251,Reyansh Gupta,Male,93,81,72,82.0,Architecture
+252,Ishaan Bansal,Male,60,74,70,68.0,Engineering
+253,Vihaan Bansal,Female,88,64,63,71.67,Actuarial Science
+254,Reyansh Pillai,Female,95,94,97,95.33,IT Professional
+255,Diya Yadav,Female,78,99,95,90.67,Architecture
+256,Kiara Verma,Male,87,92,99,92.67,Robotics Engineer
+257,Myra Gupta,Male,72,97,69,79.33,Pilot
+258,Ananya Tiwari,Male,84,61,89,78.0,Data Science
+259,Krishna Verma,Male,92,86,67,81.67,IT Professional
+260,Aditya Sharma,Female,62,88,98,82.67,Entrepreneur
+261,Aarav Tiwari,Male,90,79,92,87.0,Defence Services
+262,Myra Joshi,Male,95,83,72,83.33,Actuarial Science
+263,Aadhya Kumar,Male,87,69,95,83.67,Engineering
+264,Rohan Kumar,Male,75,100,75,83.33,Defence Services
+265,Reyansh Das,Female,71,71,89,77.0,Research Scientist
+266,Ira Nair,Female,81,62,72,71.67,IT Professional
+267,Saanvi Malhotra,Male,79,68,88,78.33,Robotics Engineer
+268,Anika Verma,Male,64,80,71,71.67,Architecture
+269,Rohan Pillai,Male,93,67,64,74.67,Robotics Engineer
+270,Arjun Singh,Female,75,71,76,74.0,Architecture
+271,Anika Sharma,Male,96,62,60,72.67,IT Professional
+272,Meera Ghosh,Male,91,93,74,86.0,Data Science
+273,Ira Chopra,Male,65,76,90,77.0,Pilot
+274,Ira Pillai,Male,61,67,97,75.0,Pilot
+275,Aadhya Malhotra,Female,85,85,79,83.0,Actuarial Science
+276,Reyansh Ghosh,Female,90,69,84,81.0,Entrepreneur
+277,Reyansh Malhotra,Male,69,86,61,72.0,Engineering
+278,Aarav Pillai,Male,99,73,66,79.33,Defence Services
+279,Krishna Sharma,Female,88,99,91,92.67,Robotics Engineer
+280,Vihaan Kapoor,Male,76,60,64,66.67,Research Scientist
+281,Meera Chopra,Female,85,90,100,91.67,Actuarial Science
+282,Aadhya Gupta,Female,74,95,73,80.67,Architecture
+283,Myra Mishra,Female,70,89,73,77.33,Entrepreneur
+284,Arjun Tiwari,Female,64,69,100,77.67,IT Professional
+285,Krishna Mishra,Male,64,83,60,69.0,Entrepreneur
+286,Ananya Das,Female,62,78,89,76.33,Architecture
+287,Aditya Chopra,Male,100,74,86,86.67,Pilot
+288,Ishaan Tiwari,Male,96,96,71,87.67,Research Scientist
+289,Meera Malhotra,Male,81,73,86,80.0,Pilot
+290,Krishna Reddy,Male,69,73,69,70.33,Engineering
+291,Aarav Joshi,Male,70,86,83,79.67,IT Professional
+292,Pari Nair,Female,83,61,65,69.67,Pilot
+293,Anika Gupta,Male,77,83,72,77.33,Architecture
+294,Ira Ghosh,Male,71,72,71,71.33,Robotics Engineer
+295,Kiara Gupta,Female,74,99,84,85.67,Entrepreneur
+296,Arjun Mehta,Female,85,91,69,81.67,Architecture
+297,Saanvi Sharma,Male,63,89,71,74.33,Data Science
+298,Aarav Verma,Female,96,91,65,84.0,Architecture
+299,Aarav Joshi,Male,85,98,82,88.33,IT Professional
+300,Pari Kumar,Female,64,75,77,72.0,Engineering
+301,Saanvi Gupta,Female,67,72,60,66.33,Actuarial Science
+302,Ayaan Pillai,Female,84,100,71,85.0,Engineering
+303,Ayaan Reddy,Female,94,72,100,88.67,Entrepreneur
+304,Ananya Mishra,Male,73,75,75,74.33,Actuarial Science
+305,Vihaan Ghosh,Male,70,88,83,80.33,Research Scientist
+306,Kiara Sharma,Female,82,97,87,88.67,Data Science
+307,Reyansh Mehta,Female,100,78,100,92.67,Defence Services
+308,Saanvi Tiwari,Male,84,60,70,71.33,Engineering
+309,Krishna Joshi,Female,75,70,69,71.33,Engineering
+310,Vihaan Singh,Female,79,99,66,81.33,Architecture
+311,Vivaan Chopra,Female,99,80,98,92.33,Engineering
+312,Kiara Mishra,Female,83,68,71,74.0,Robotics Engineer
+313,Ishaan Singh,Female,74,62,80,72.0,Research Scientist
+314,Ananya Yadav,Female,60,85,88,77.67,Research Scientist
+315,Ishaan Mishra,Male,99,61,87,82.33,Defence Services
+316,Diya Mehta,Male,98,67,78,81.0,Engineering
+317,Vivaan Joshi,Male,68,63,84,71.67,Research Scientist
+318,Vihaan Pillai,Male,61,79,75,71.67,Data Science
+319,Ayaan Verma,Male,68,74,63,68.33,Research Scientist
+320,Rohan Malhotra,Female,66,77,79,74.0,Data Science
+321,Myra Kumar,Female,80,69,67,72.0,Engineering
+322,Diya Chopra,Male,88,82,88,86.0,IT Professional
+323,Reyansh Tiwari,Female,76,79,92,82.33,Robotics Engineer
+324,Anika Kapoor,Male,91,74,91,85.33,IT Professional
+325,Arjun Nair,Male,65,88,79,77.33,Entrepreneur
+326,Vihaan Das,Female,91,93,87,90.33,Architecture
+327,Meera Malhotra,Female,88,88,83,86.33,Engineering
+328,Ayaan Malhotra,Female,95,94,67,85.33,Data Science
+329,Krishna Bansal,Female,69,79,68,72.0,Architecture
+330,Rohan Reddy,Female,67,79,81,75.67,Architecture
+331,Myra Joshi,Female,100,95,66,87.0,Pilot
+332,Kiara Pillai,Male,66,89,99,84.67,Architecture
+333,Ira Malhotra,Female,64,100,63,75.67,Entrepreneur
+334,Kiara Yadav,Female,77,76,94,82.33,Entrepreneur
+335,Aarav Verma,Female,92,87,71,83.33,Defence Services
+336,Pari Verma,Male,66,95,83,81.33,Architecture
+337,Rohan Mishra,Female,89,81,67,79.0,Research Scientist
+338,Rohan Kapoor,Female,66,80,75,73.67,Data Science
+339,Vihaan Kumar,Female,71,73,91,78.33,Pilot
+340,Rohan Verma,Female,60,82,68,70.0,Actuarial Science
+341,Vihaan Singh,Female,87,67,64,72.67,Entrepreneur
+342,Diya Nair,Male,91,62,75,76.0,Pilot
+343,Aadhya Gupta,Female,68,93,97,86.0,Defence Services
+344,Saanvi Gupta,Female,89,88,98,91.67,Robotics Engineer
+345,Saanvi Mishra,Female,88,96,70,84.67,Pilot
+346,Pari Sharma,Female,83,77,82,80.67,Defence Services
+347,Vihaan Joshi,Male,68,83,88,79.67,Defence Services
+348,Ishaan Tiwari,Female,84,82,92,86.0,Data Science
+349,Meera Joshi,Female,93,92,82,89.0,Entrepreneur
+350,Reyansh Bansal,Female,74,96,75,81.67,Research Scientist
+351,Myra Reddy,Male,76,71,81,76.0,Defence Services
+352,Saanvi Patel,Female,77,93,86,85.33,Architecture
+353,Saanvi Verma,Female,61,70,71,67.33,Robotics Engineer
+354,Meera Tiwari,Female,69,89,65,74.33,Engineering
+355,Diya Mehta,Male,67,78,61,68.67,Architecture
+356,Reyansh Das,Male,69,81,99,83.0,Engineering
+357,Rohan Singh,Female,94,62,81,79.0,Engineering
+358,Vivaan Gupta,Female,66,95,64,75.0,Defence Services
+359,Anika Gupta,Female,93,99,69,87.0,IT Professional
+360,Myra Chopra,Male,72,66,88,75.33,Robotics Engineer
+361,Aditya Kapoor,Male,87,81,63,77.0,Pilot
+362,Aadhya Kumar,Female,71,65,81,72.33,Robotics Engineer
+363,Meera Kumar,Male,79,63,92,78.0,Entrepreneur
+364,Kiara Gupta,Female,79,63,81,74.33,Data Science
+365,Aadhya Kapoor,Female,100,90,64,84.67,Defence Services
+366,Saanvi Patel,Female,63,99,91,84.33,Architecture
+367,Myra Mishra,Female,72,95,92,86.33,Robotics Engineer
+368,Meera Joshi,Female,90,74,63,75.67,Defence Services
+369,Ananya Das,Female,91,85,84,86.67,Pilot
+370,Myra Mishra,Female,79,97,60,78.67,IT Professional
+371,Ishaan Pillai,Male,74,72,67,71.0,Pilot
+372,Reyansh Reddy,Male,73,88,70,77.0,Actuarial Science
+373,Ira Patel,Female,73,81,85,79.67,Architecture
+374,Aadhya Tiwari,Male,78,93,86,85.67,Research Scientist
+375,Vivaan Patel,Male,88,63,79,76.67,Engineering
+376,Ayaan Mehta,Male,91,62,63,72.0,Defence Services
+377,Diya Mehta,Male,91,89,80,86.67,Robotics Engineer
+378,Rohan Kumar,Female,77,99,85,87.0,Actuarial Science
+379,Myra Kapoor,Male,81,83,71,78.33,Actuarial Science
+380,Vivaan Yadav,Female,71,78,79,76.0,Defence Services
+381,Diya Malhotra,Female,87,75,76,79.33,Architecture
+382,Rohan Bansal,Female,82,77,99,86.0,Architecture
+383,Myra Joshi,Male,89,93,65,82.33,Pilot
+384,Diya Nair,Female,99,84,79,87.33,Architecture
+385,Ayaan Tiwari,Female,98,73,81,84.0,Engineering
+386,Krishna Bansal,Male,60,91,70,73.67,Research Scientist
+387,Kiara Malhotra,Female,78,77,62,72.33,Architecture
+388,Ayaan Singh,Male,78,84,89,83.67,Defence Services
+389,Anika Nair,Male,81,66,85,77.33,Defence Services
+390,Aadhya Chopra,Female,78,94,98,90.0,Pilot
+391,Ayaan Ghosh,Male,94,94,64,84.0,Architecture
+392,Meera Nair,Male,75,69,71,71.67,Data Science
+393,Diya Tiwari,Female,91,72,68,77.0,Pilot
+394,Meera Chopra,Female,68,85,63,72.0,Actuarial Science
+395,Reyansh Pillai,Female,73,69,85,75.67,Engineering
+396,Myra Reddy,Female,73,73,77,74.33,Pilot
+397,Saanvi Gupta,Male,79,69,69,72.33,IT Professional
+398,Aadhya Chopra,Male,68,76,75,73.0,Pilot
+399,Rohan Ghosh,Female,75,98,74,82.33,Engineering
+400,Myra Tiwari,Female,97,81,80,86.0,Robotics Engineer
+401,Pari Gupta,Female,63,69,90,74.0,Defence Services
+402,Kiara Yadav,Male,85,71,91,82.33,Defence Services
+403,Ayaan Joshi,Female,84,71,75,76.67,Entrepreneur
+404,Diya Nair,Female,62,72,67,67.0,Research Scientist
+405,Kiara Chopra,Female,60,74,86,73.33,Defence Services
+406,Aadhya Nair,Female,75,63,93,77.0,Architecture
+407,Krishna Reddy,Male,97,76,68,80.33,Robotics Engineer
+408,Ira Yadav,Male,75,70,82,75.67,IT Professional
+409,Rohan Gupta,Female,75,85,97,85.67,Entrepreneur
+410,Reyansh Chopra,Male,79,65,86,76.67,Actuarial Science
+411,Kiara Chopra,Female,99,99,97,98.33,Actuarial Science
+412,Arjun Das,Female,69,85,62,72.0,Engineering
+413,Pari Reddy,Male,68,60,81,69.67,Engineering
+414,Ira Tiwari,Female,66,70,98,78.0,IT Professional
+415,Ira Chopra,Female,67,76,84,75.67,Research Scientist
+416,Anika Das,Female,90,97,62,83.0,Entrepreneur
+417,Vivaan Reddy,Female,65,92,70,75.67,IT Professional
+418,Ishaan Das,Male,86,93,68,82.33,IT Professional
+419,Anika Patel,Male,84,78,87,83.0,Defence Services
+420,Aadhya Kumar,Male,89,78,64,77.0,Entrepreneur
+421,Vivaan Das,Male,95,79,63,79.0,Entrepreneur
+422,Ananya Chopra,Male,98,98,89,95.0,Defence Services
+423,Krishna Patel,Male,96,60,64,73.33,Robotics Engineer
+424,Ira Kapoor,Male,92,64,89,81.67,Research Scientist
+425,Ananya Malhotra,Female,64,88,90,80.67,Engineering
+426,Meera Verma,Male,96,65,77,79.33,Actuarial Science
+427,Ira Joshi,Female,63,64,91,72.67,Robotics Engineer
+428,Meera Singh,Male,82,66,67,71.67,Architecture
+429,Ira Das,Female,60,94,78,77.33,Defence Services
+430,Aadhya Mishra,Male,67,89,61,72.33,Architecture
+431,Ishaan Mehta,Male,98,88,88,91.33,Architecture
+432,Diya Mehta,Female,79,86,100,88.33,Pilot
+433,Ira Reddy,Female,83,77,61,73.67,Defence Services
+434,Aditya Mehta,Male,76,86,79,80.33,Defence Services
+435,Vihaan Nair,Female,96,86,89,90.33,Data Science
+436,Aditya Tiwari,Male,73,84,95,84.0,Robotics Engineer
+437,Aarav Yadav,Male,63,91,72,75.33,Data Science
+438,Ira Singh,Male,83,100,95,92.67,Entrepreneur
+439,Saanvi Bansal,Male,86,65,75,75.33,Actuarial Science
+440,Meera Gupta,Female,94,81,81,85.33,Defence Services
+441,Ishaan Yadav,Male,77,73,72,74.0,Robotics Engineer
+442,Rohan Joshi,Female,73,79,65,72.33,Pilot
+443,Vivaan Yadav,Female,69,97,80,82.0,IT Professional
+444,Diya Verma,Male,67,63,77,69.0,Research Scientist
+445,Pari Bansal,Female,68,61,63,64.0,Entrepreneur
+446,Ananya Sharma,Female,70,66,95,77.0,Defence Services
+447,Anika Sharma,Male,89,86,88,87.67,IT Professional
+448,Ira Malhotra,Female,62,79,69,70.0,Architecture
+449,Kiara Ghosh,Male,62,84,77,74.33,Data Science
+450,Kiara Kumar,Female,62,68,89,73.0,Pilot
+451,Kiara Mehta,Male,98,66,97,87.0,Pilot
+452,Ananya Das,Male,78,67,79,74.67,Defence Services
+453,Ira Yadav,Male,91,64,76,77.0,Robotics Engineer
+454,Myra Nair,Male,84,74,65,74.33,Research Scientist
+455,Aadhya Patel,Female,99,99,88,95.33,IT Professional
+456,Aadhya Mehta,Male,68,68,84,73.33,Engineering
+457,Myra Pillai,Male,77,100,72,83.0,Entrepreneur
+458,Diya Reddy,Male,85,93,69,82.33,Architecture
+459,Ananya Malhotra,Female,81,91,69,80.33,IT Professional
+460,Rohan Verma,Female,87,66,88,80.33,IT Professional
+461,Aditya Singh,Male,93,77,78,82.67,Research Scientist
+462,Vivaan Patel,Female,74,80,94,82.67,Architecture
+463,Aarav Tiwari,Female,66,64,65,65.0,IT Professional
+464,Krishna Mehta,Male,87,91,73,83.67,Pilot
+465,Diya Malhotra,Female,74,94,70,79.33,Architecture
+466,Aadhya Verma,Male,81,90,63,78.0,Actuarial Science
+467,Aditya Mehta,Male,74,62,78,71.33,Pilot
+468,Ayaan Ghosh,Male,81,62,91,78.0,Engineering
+469,Ayaan Singh,Male,83,81,95,86.33,Pilot
+470,Pari Pillai,Female,63,72,92,75.67,Actuarial Science
+471,Reyansh Singh,Male,91,72,75,79.33,Entrepreneur
+472,Saanvi Tiwari,Male,94,93,75,87.33,Data Science
+473,Ishaan Reddy,Female,75,75,96,82.0,Engineering
+474,Diya Das,Female,92,81,65,79.33,Architecture
+475,Vivaan Mishra,Male,62,90,98,83.33,Robotics Engineer
+476,Vivaan Joshi,Female,67,68,92,75.67,Data Science
+477,Anika Ghosh,Female,74,78,81,77.67,IT Professional
+478,Anika Gupta,Female,85,60,94,79.67,Data Science
+479,Meera Kumar,Male,88,78,85,83.67,Defence Services
+480,Arjun Gupta,Male,78,82,72,77.33,Defence Services
+481,Kiara Pillai,Male,88,81,90,86.33,Architecture
+482,Meera Tiwari,Male,84,76,84,81.33,Research Scientist
+483,Aditya Joshi,Male,69,88,76,77.67,Research Scientist
+484,Arjun Kapoor,Male,69,69,87,75.0,Robotics Engineer
+485,Vihaan Sharma,Female,92,78,94,88.0,Robotics Engineer
+486,Saanvi Ghosh,Female,60,90,60,70.0,Architecture
+487,Ira Yadav,Female,62,62,86,70.0,Engineering
+488,Ayaan Das,Female,83,83,71,79.0,Actuarial Science
+489,Aarav Yadav,Male,77,82,91,83.33,IT Professional
+490,Vihaan Sharma,Female,71,70,70,70.33,Entrepreneur
+491,Arjun Kapoor,Male,93,90,72,85.0,Entrepreneur
+492,Meera Nair,Female,81,76,65,74.0,Defence Services
+493,Anika Gupta,Male,78,88,96,87.33,Defence Services
+494,Meera Kapoor,Female,84,97,94,91.67,Pilot
+495,Vihaan Pillai,Female,99,67,88,84.67,Data Science
+496,Aarav Malhotra,Male,71,73,75,73.0,Architecture
+497,Aadhya Nair,Male,86,76,82,81.33,IT Professional
+498,Vihaan Bansal,Male,80,65,70,71.67,IT Professional
+499,Aditya Kumar,Female,80,65,83,76.0,Pilot
+500,Saanvi Mehta,Male,88,87,72,82.33,Defence Services
+501,Kiara Reddy,Female,71,100,70,80.33,Data Science
+502,Meera Patel,Male,91,63,74,76.0,Data Science
+503,Kiara Reddy,Male,78,72,86,78.67,Actuarial Science
+504,Kiara Kapoor,Female,74,67,76,72.33,Research Scientist
+505,Krishna Kapoor,Female,73,78,97,82.67,Entrepreneur
+506,Ishaan Sharma,Male,73,73,99,81.67,Architecture
+507,Meera Bansal,Male,73,86,73,77.33,IT Professional
+508,Meera Yadav,Female,88,60,76,74.67,Pilot
+509,Aadhya Mishra,Female,97,99,68,88.0,Architecture
+510,Pari Patel,Male,81,93,78,84.0,Engineering
+511,Vihaan Joshi,Male,62,66,60,62.67,Architecture
+512,Arjun Das,Male,68,86,68,74.0,Entrepreneur
+513,Rohan Das,Male,65,94,74,77.67,Actuarial Science
+514,Rohan Bansal,Male,90,69,93,84.0,Pilot
+515,Pari Reddy,Male,91,61,66,72.67,Robotics Engineer
+516,Krishna Mehta,Male,65,70,70,68.33,Entrepreneur
+517,Ira Verma,Female,81,91,90,87.33,Entrepreneur
+518,Vivaan Gupta,Female,81,81,86,82.67,Entrepreneur
+519,Pari Ghosh,Male,73,81,67,73.67,Research Scientist
+520,Aditya Sharma,Female,63,81,84,76.0,Research Scientist
+521,Ananya Das,Male,67,92,81,80.0,Defence Services
+522,Arjun Das,Male,69,66,63,66.0,Pilot
+523,Diya Mehta,Male,91,68,62,73.67,Entrepreneur
+524,Vivaan Singh,Male,86,84,78,82.67,Research Scientist
+525,Kiara Ghosh,Male,96,83,96,91.67,Data Science
+526,Kiara Kapoor,Female,83,62,98,81.0,Pilot
+527,Myra Mehta,Female,75,90,61,75.33,Engineering
+528,Arjun Kumar,Female,70,64,97,77.0,Defence Services
+529,Myra Bansal,Female,75,67,61,67.67,Engineering
+530,Ayaan Das,Male,72,68,89,76.33,Defence Services
+531,Kiara Tiwari,Male,86,76,78,80.0,Pilot
+532,Krishna Kumar,Female,66,63,77,68.67,Data Science
+533,Myra Das,Female,61,98,100,86.33,Research Scientist
+534,Ira Tiwari,Female,61,61,99,73.67,Entrepreneur
+535,Vihaan Verma,Male,71,62,91,74.67,Robotics Engineer
+536,Ishaan Das,Male,91,73,66,76.67,Data Science
+537,Rohan Chopra,Male,96,74,84,84.67,Architecture
+538,Kiara Yadav,Male,80,93,71,81.33,Defence Services
+539,Vivaan Bansal,Male,68,85,71,74.67,Data Science
+540,Ananya Sharma,Female,72,96,74,80.67,IT Professional
+541,Vihaan Das,Male,82,85,91,86.0,Data Science
+542,Vihaan Nair,Female,71,72,92,78.33,Entrepreneur
+543,Ananya Sharma,Male,92,94,75,87.0,Data Science
+544,Pari Malhotra,Male,99,68,62,76.33,Architecture
+545,Diya Mishra,Female,88,69,76,77.67,Entrepreneur
+546,Reyansh Mishra,Female,67,86,60,71.0,Research Scientist
+547,Krishna Kapoor,Female,91,71,93,85.0,Architecture
+548,Myra Mishra,Female,66,62,67,65.0,Data Science
+549,Myra Gupta,Female,68,68,67,67.67,Engineering
+550,Anika Chopra,Female,79,70,67,72.0,Entrepreneur
+551,Saanvi Ghosh,Female,76,91,98,88.33,IT Professional
+552,Anika Das,Male,79,87,74,80.0,Pilot
+553,Ishaan Verma,Female,81,86,66,77.67,IT Professional
+554,Aditya Ghosh,Female,69,98,93,86.67,IT Professional
+555,Myra Malhotra,Male,84,77,89,83.33,Research Scientist
+556,Ananya Mehta,Male,95,79,68,80.67,Research Scientist
+557,Krishna Singh,Male,98,84,81,87.67,Engineering
+558,Pari Kumar,Male,73,84,60,72.33,Defence Services
+559,Meera Gupta,Female,60,63,66,63.0,Entrepreneur
+560,Myra Kumar,Female,73,94,95,87.33,Entrepreneur
+561,Aadhya Ghosh,Female,88,92,82,87.33,Engineering
+562,Arjun Chopra,Female,86,84,72,80.67,Engineering
+563,Ishaan Gupta,Female,77,67,97,80.33,Robotics Engineer
+564,Diya Tiwari,Male,61,92,92,81.67,Research Scientist
+565,Saanvi Ghosh,Female,68,87,80,78.33,IT Professional
+566,Aditya Tiwari,Male,94,98,71,87.67,Robotics Engineer
+567,Ishaan Malhotra,Male,61,85,65,70.33,Actuarial Science
+568,Vihaan Malhotra,Male,68,72,90,76.67,Architecture
+569,Anika Singh,Male,84,91,72,82.33,Research Scientist
+570,Kiara Sharma,Male,89,74,76,79.67,Entrepreneur
+571,Kiara Chopra,Female,68,70,96,78.0,Entrepreneur
+572,Arjun Mehta,Male,91,96,69,85.33,Research Scientist
+573,Reyansh Patel,Male,98,61,99,86.0,Architecture
+574,Saanvi Nair,Male,78,95,72,81.67,Actuarial Science
+575,Reyansh Malhotra,Male,70,94,80,81.33,Architecture
+576,Ayaan Reddy,Male,66,94,98,86.0,Data Science
+577,Aditya Yadav,Male,64,71,78,71.0,Robotics Engineer
+578,Diya Das,Female,73,80,96,83.0,Research Scientist
+579,Pari Patel,Male,60,67,79,68.67,Engineering
+580,Ishaan Joshi,Female,87,60,60,69.0,IT Professional
+581,Pari Singh,Female,79,80,61,73.33,Actuarial Science
+582,Reyansh Sharma,Male,87,96,74,85.67,Pilot
+583,Anika Ghosh,Female,100,73,86,86.33,Pilot
+584,Aarav Kumar,Male,99,99,95,97.67,Defence Services
+585,Reyansh Bansal,Male,78,76,70,74.67,Pilot
+586,Anika Nair,Female,100,65,99,88.0,Research Scientist
+587,Krishna Patel,Male,96,71,74,80.33,Actuarial Science
+588,Ananya Mehta,Male,60,92,79,77.0,Engineering
+589,Aditya Yadav,Female,69,90,76,78.33,Research Scientist
+590,Arjun Malhotra,Female,83,83,83,83.0,Defence Services
+591,Reyansh Patel,Male,73,67,80,73.33,Pilot
+592,Krishna Mishra,Female,77,75,93,81.67,IT Professional
+593,Ayaan Verma,Male,88,74,67,76.33,IT Professional
+594,Ayaan Verma,Male,73,96,68,79.0,Architecture
+595,Ira Kapoor,Male,62,64,75,67.0,Robotics Engineer
+596,Ira Joshi,Female,76,65,76,72.33,Robotics Engineer
+597,Meera Sharma,Male,71,79,62,70.67,Actuarial Science
+598,Arjun Mishra,Female,87,93,63,81.0,Robotics Engineer
+599,Meera Das,Male,85,62,85,77.33,Data Science
+600,Ananya Das,Male,73,85,61,73.0,Actuarial Science
+601,Ira Gupta,Female,72,64,66,67.33,Data Science
+602,Diya Sharma,Male,95,96,63,84.67,Engineering
+603,Krishna Mehta,Male,70,95,77,80.67,Pilot
+604,Ananya Mishra,Male,80,75,63,72.67,Architecture
+605,Krishna Singh,Female,74,89,89,84.0,Entrepreneur
+606,Vivaan Malhotra,Male,86,94,91,90.33,Research Scientist
+607,Arjun Das,Female,61,93,62,72.0,Pilot
+608,Meera Ghosh,Male,100,70,78,82.67,Research Scientist
+609,Kiara Tiwari,Female,84,81,81,82.0,Entrepreneur
+610,Aadhya Kapoor,Female,91,67,75,77.67,Defence Services
+611,Pari Patel,Female,93,95,98,95.33,Pilot
+612,Ananya Ghosh,Male,61,92,85,79.33,Actuarial Science
+613,Reyansh Tiwari,Female,77,86,71,78.0,Architecture
+614,Pari Verma,Male,60,89,81,76.67,Actuarial Science
+615,Aarav Pillai,Female,62,95,79,78.67,Pilot
+616,Ayaan Verma,Female,69,60,95,74.67,Engineering
+617,Rohan Gupta,Female,75,92,74,80.33,Architecture
+618,Pari Gupta,Male,82,100,91,91.0,Pilot
+619,Meera Malhotra,Female,65,65,68,66.0,Entrepreneur
+620,Aditya Mehta,Male,73,69,96,79.33,Robotics Engineer
+621,Vihaan Reddy,Male,96,99,68,87.67,Entrepreneur
+622,Vivaan Mishra,Female,100,72,74,82.0,Defence Services
+623,Diya Tiwari,Female,100,76,60,78.67,IT Professional
+624,Krishna Bansal,Female,90,100,80,90.0,Data Science
+625,Meera Yadav,Female,97,71,79,82.33,Engineering
+626,Aarav Verma,Male,60,94,88,80.67,Engineering
+627,Pari Patel,Female,88,79,73,80.0,Robotics Engineer
+628,Ayaan Gupta,Male,60,73,88,73.67,Robotics Engineer
+629,Rohan Chopra,Female,99,87,77,87.67,Data Science
+630,Diya Malhotra,Male,69,86,60,71.67,Entrepreneur
+631,Vivaan Pillai,Male,91,82,91,88.0,Robotics Engineer
+632,Aditya Reddy,Male,92,87,69,82.67,Defence Services
+633,Pari Yadav,Male,81,88,66,78.33,Engineering
+634,Diya Joshi,Female,69,80,68,72.33,Robotics Engineer
+635,Reyansh Sharma,Male,85,87,91,87.67,Pilot
+636,Rohan Patel,Male,83,73,64,73.33,Actuarial Science
+637,Aarav Reddy,Male,66,65,85,72.0,Defence Services
+638,Myra Das,Male,91,63,96,83.33,Pilot
+639,Saanvi Nair,Female,95,69,90,84.67,Research Scientist
+640,Meera Pillai,Female,98,76,60,78.0,Pilot
+641,Saanvi Pillai,Male,65,92,67,74.67,Robotics Engineer
+642,Ayaan Nair,Female,73,98,66,79.0,Robotics Engineer
+643,Aditya Chopra,Female,91,81,87,86.33,Pilot
+644,Pari Verma,Female,80,87,75,80.67,IT Professional
+645,Reyansh Patel,Female,68,72,71,70.33,Pilot
+646,Pari Tiwari,Female,72,83,74,76.33,Robotics Engineer
+647,Reyansh Kapoor,Female,86,71,78,78.33,Entrepreneur
+648,Ananya Kapoor,Male,83,65,87,78.33,Data Science
+649,Aadhya Yadav,Male,99,91,95,95.0,Architecture
+650,Arjun Pillai,Female,88,84,87,86.33,Engineering
+651,Vihaan Yadav,Male,75,78,84,79.0,Actuarial Science
+652,Rohan Singh,Female,66,70,79,71.67,Actuarial Science
+653,Ayaan Singh,Male,84,98,94,92.0,Pilot
+654,Ananya Chopra,Male,68,87,73,76.0,Robotics Engineer
+655,Diya Mishra,Female,60,97,69,75.33,Architecture
+656,Arjun Yadav,Male,80,61,60,67.0,Defence Services
+657,Diya Tiwari,Female,69,79,81,76.33,Architecture
+658,Aarav Mishra,Male,79,77,86,80.67,Defence Services
+659,Vihaan Sharma,Male,74,96,84,84.67,Robotics Engineer
+660,Ishaan Patel,Female,62,78,83,74.33,Architecture
+661,Krishna Kapoor,Male,86,75,66,75.67,Architecture
+662,Myra Kumar,Female,77,78,99,84.67,Actuarial Science
+663,Ishaan Pillai,Female,95,69,81,81.67,Engineering
+664,Vivaan Gupta,Female,80,82,87,83.0,Research Scientist
+665,Arjun Bansal,Male,65,73,95,77.67,Robotics Engineer
+666,Reyansh Yadav,Male,85,86,81,84.0,Robotics Engineer
+667,Vivaan Malhotra,Male,93,88,68,83.0,Robotics Engineer
+668,Aditya Kumar,Male,94,84,70,82.67,Robotics Engineer
+669,Ira Malhotra,Male,99,88,70,85.67,Pilot
+670,Pari Pillai,Male,86,81,75,80.67,Research Scientist
+671,Aditya Kumar,Female,96,93,66,85.0,Pilot
+672,Anika Pillai,Female,91,67,84,80.67,Actuarial Science
+673,Ananya Bansal,Female,86,100,77,87.67,Data Science
+674,Krishna Das,Female,85,75,70,76.67,Research Scientist
+675,Aarav Nair,Female,74,68,87,76.33,Actuarial Science
+676,Meera Malhotra,Male,94,76,71,80.33,Research Scientist
+677,Kiara Bansal,Male,82,62,89,77.67,Actuarial Science
+678,Vivaan Sharma,Female,81,72,75,76.0,Architecture
+679,Anika Yadav,Male,64,99,97,86.67,Robotics Engineer
+680,Reyansh Verma,Male,91,92,79,87.33,IT Professional
+681,Arjun Tiwari,Male,73,67,75,71.67,Defence Services
+682,Vivaan Kumar,Male,88,90,60,79.33,Architecture
+683,Diya Bansal,Female,95,66,88,83.0,Architecture
+684,Aditya Sharma,Female,78,74,95,82.33,Actuarial Science
+685,Meera Kumar,Male,100,80,75,85.0,Pilot
+686,Ishaan Joshi,Female,88,92,70,83.33,Defence Services
+687,Anika Joshi,Female,90,63,98,83.67,Data Science
+688,Arjun Singh,Female,67,69,64,66.67,Data Science
+689,Vivaan Verma,Male,65,72,61,66.0,Pilot
+690,Ishaan Reddy,Male,99,63,67,76.33,Data Science
+691,Ayaan Yadav,Male,95,73,95,87.67,Engineering
+692,Myra Ghosh,Female,95,61,94,83.33,IT Professional
+693,Ayaan Tiwari,Female,95,73,80,82.67,Actuarial Science
+694,Arjun Chopra,Male,95,81,89,88.33,Defence Services
+695,Diya Malhotra,Male,88,94,76,86.0,Defence Services
+696,Saanvi Mehta,Male,87,94,81,87.33,Architecture
+697,Aditya Tiwari,Male,91,92,83,88.67,Actuarial Science
+698,Pari Singh,Female,94,99,98,97.0,Robotics Engineer
+699,Anika Kumar,Male,60,76,66,67.33,Entrepreneur
+700,Ananya Verma,Male,84,85,88,85.67,Actuarial Science
+701,Ira Sharma,Female,89,68,67,74.67,Robotics Engineer
+702,Myra Das,Female,94,96,61,83.67,Research Scientist
+703,Aarav Verma,Female,74,82,63,73.0,Engineering
+704,Aadhya Yadav,Male,84,64,83,77.0,Engineering
+705,Krishna Mishra,Male,84,67,81,77.33,Architecture
+706,Ayaan Nair,Female,65,67,89,73.67,IT Professional
+707,Aarav Sharma,Female,61,77,83,73.67,Engineering
+708,Ayaan Kumar,Female,90,92,83,88.33,Robotics Engineer
+709,Vivaan Pillai,Female,82,87,82,83.67,Architecture
+710,Ishaan Singh,Female,72,61,81,71.33,Data Science
+711,Meera Sharma,Female,69,78,68,71.67,Actuarial Science
+712,Ishaan Ghosh,Female,88,79,61,76.0,Architecture
+713,Anika Gupta,Male,67,89,82,79.33,Data Science
+714,Ira Nair,Male,69,62,65,65.33,Data Science
+715,Vivaan Tiwari,Female,84,65,85,78.0,Robotics Engineer
+716,Vivaan Joshi,Female,66,84,91,80.33,Robotics Engineer
+717,Pari Chopra,Male,69,96,89,84.67,Engineering
+718,Anika Sharma,Male,74,90,95,86.33,Robotics Engineer
+719,Ananya Verma,Male,80,84,64,76.0,Engineering
+720,Rohan Joshi,Female,97,75,62,78.0,Entrepreneur
+721,Ishaan Das,Male,68,79,95,80.67,Robotics Engineer
+722,Rohan Bansal,Male,93,71,80,81.33,Data Science
+723,Vivaan Ghosh,Male,64,97,75,78.67,Data Science
+724,Arjun Das,Female,71,68,61,66.67,Research Scientist
+725,Krishna Singh,Male,68,76,98,80.67,Robotics Engineer
+726,Aadhya Pillai,Male,95,60,83,79.33,IT Professional
+727,Diya Bansal,Male,99,62,87,82.67,Architecture
+728,Kiara Sharma,Female,79,71,77,75.67,Defence Services
+729,Kiara Patel,Female,66,94,80,80.0,Entrepreneur
+730,Vivaan Chopra,Female,84,64,76,74.67,IT Professional
+731,Aditya Kumar,Male,62,76,79,72.33,Architecture
+732,Anika Tiwari,Male,100,67,69,78.67,Pilot
+733,Myra Gupta,Male,66,79,76,73.67,Engineering
+734,Reyansh Mehta,Female,83,77,98,86.0,Defence Services
+735,Aadhya Nair,Male,96,69,69,78.0,Engineering
+736,Kiara Joshi,Female,60,86,94,80.0,Engineering
+737,Kiara Gupta,Female,76,81,75,77.33,Engineering
+738,Diya Yadav,Male,75,92,84,83.67,Research Scientist
+739,Anika Kumar,Female,64,78,94,78.67,Engineering
+740,Vihaan Kapoor,Male,100,90,86,92.0,Robotics Engineer
+741,Vivaan Nair,Female,91,84,60,78.33,Robotics Engineer
+742,Pari Yadav,Female,80,95,97,90.67,Engineering
+743,Krishna Pillai,Female,98,91,92,93.67,Robotics Engineer
+744,Anika Gupta,Female,86,91,71,82.67,Engineering
+745,Saanvi Tiwari,Male,77,71,97,81.67,Robotics Engineer
+746,Anika Singh,Female,80,94,64,79.33,Engineering
+747,Pari Das,Female,89,99,85,91.0,Actuarial Science
+748,Diya Ghosh,Female,97,89,76,87.33,Pilot
+749,Rohan Malhotra,Male,83,90,78,83.67,Engineering
+750,Vivaan Chopra,Male,82,99,87,89.33,Actuarial Science
+751,Saanvi Mehta,Male,64,95,78,79.0,Defence Services
+752,Myra Das,Male,66,74,97,79.0,Defence Services
+753,Arjun Kumar,Male,74,89,99,87.33,Pilot
+754,Reyansh Joshi,Female,61,63,71,65.0,Architecture
+755,Aadhya Nair,Female,86,86,97,89.67,IT Professional
+756,Aadhya Tiwari,Female,90,79,93,87.33,Entrepreneur
+757,Ira Pillai,Female,71,89,74,78.0,Actuarial Science
+758,Aadhya Joshi,Male,68,60,69,65.67,IT Professional
+759,Aditya Chopra,Female,84,85,88,85.67,Research Scientist
+760,Arjun Gupta,Male,82,89,98,89.67,Engineering
+761,Ira Patel,Female,67,99,72,79.33,Robotics Engineer
+762,Saanvi Mishra,Female,73,95,96,88.0,Pilot
+763,Ayaan Joshi,Female,77,73,74,74.67,IT Professional
+764,Aarav Yadav,Male,73,72,96,80.33,Actuarial Science
+765,Reyansh Gupta,Female,96,96,72,88.0,Entrepreneur
+766,Diya Reddy,Male,62,74,72,69.33,Actuarial Science
+767,Myra Nair,Male,76,90,97,87.67,Engineering
+768,Ayaan Bansal,Female,78,92,85,85.0,Defence Services
+769,Myra Kapoor,Female,99,100,93,97.33,Architecture
+770,Krishna Bansal,Female,89,92,78,86.33,Pilot
+771,Kiara Ghosh,Female,79,81,73,77.67,Engineering
+772,Saanvi Ghosh,Female,78,85,69,77.33,IT Professional
+773,Krishna Gupta,Male,90,91,91,90.67,Actuarial Science
+774,Krishna Kumar,Male,89,72,61,74.0,Defence Services
+775,Diya Sharma,Male,67,91,70,76.0,Robotics Engineer
+776,Krishna Mishra,Female,84,96,71,83.67,Pilot
+777,Arjun Nair,Male,69,98,84,83.67,Engineering
+778,Pari Reddy,Male,62,78,67,69.0,IT Professional
+779,Rohan Malhotra,Female,78,66,96,80.0,Defence Services
+780,Meera Ghosh,Female,77,85,69,77.0,Actuarial Science
+781,Ayaan Das,Female,93,82,100,91.67,Engineering
+782,Saanvi Verma,Male,71,92,87,83.33,Data Science
+783,Reyansh Tiwari,Female,94,90,99,94.33,Research Scientist
+784,Vihaan Malhotra,Female,73,65,84,74.0,Architecture
+785,Krishna Singh,Female,60,69,77,68.67,Defence Services
+786,Aadhya Kapoor,Male,66,92,68,75.33,Pilot
+787,Ananya Verma,Female,85,78,86,83.0,Entrepreneur
+788,Ishaan Sharma,Male,84,64,99,82.33,Robotics Engineer
+789,Ayaan Kumar,Male,69,94,66,76.33,Actuarial Science
+790,Reyansh Singh,Female,93,62,74,76.33,Pilot
+791,Krishna Yadav,Male,62,60,91,71.0,Data Science
+792,Ishaan Reddy,Female,93,71,75,79.67,Entrepreneur
+793,Ananya Malhotra,Female,89,77,93,86.33,Entrepreneur
+794,Ishaan Yadav,Female,87,87,69,81.0,Engineering
+795,Krishna Kumar,Female,99,73,76,82.67,Entrepreneur
+796,Aadhya Reddy,Female,82,70,73,75.0,Data Science
+797,Vivaan Patel,Female,89,85,87,87.0,Robotics Engineer
+798,Diya Ghosh,Female,62,72,100,78.0,IT Professional
+799,Aditya Yadav,Female,91,75,70,78.67,Entrepreneur
+800,Krishna Yadav,Female,63,71,79,71.0,Defence Services
+801,Ira Pillai,Male,77,61,76,71.33,Research Scientist
+802,Diya Singh,Female,76,92,70,79.33,Robotics Engineer
+803,Ira Gupta,Female,90,62,62,71.33,Pilot
+804,Kiara Malhotra,Male,89,77,72,79.33,Pilot
+805,Vivaan Joshi,Female,64,98,77,79.67,Data Science
+806,Krishna Chopra,Male,100,89,64,84.33,Data Science
+807,Anika Joshi,Female,98,82,98,92.67,Data Science
+808,Myra Kumar,Female,90,75,96,87.0,Actuarial Science
+809,Myra Mehta,Male,79,72,78,76.33,Robotics Engineer
+810,Aarav Nair,Male,84,81,85,83.33,IT Professional
+811,Kiara Sharma,Male,82,62,100,81.33,Data Science
+812,Ishaan Reddy,Female,82,63,96,80.33,Defence Services
+813,Kiara Yadav,Female,93,61,100,84.67,Architecture
+814,Arjun Pillai,Female,73,99,64,78.67,Pilot
+815,Ishaan Kumar,Male,67,83,98,82.67,Entrepreneur
+816,Krishna Bansal,Male,100,97,85,94.0,Engineering
+817,Ananya Ghosh,Female,84,66,93,81.0,Robotics Engineer
+818,Aarav Gupta,Male,65,82,99,82.0,Entrepreneur
+819,Aditya Reddy,Female,62,64,68,64.67,Robotics Engineer
+820,Arjun Mehta,Male,85,98,95,92.67,Robotics Engineer
+821,Aditya Gupta,Male,96,71,93,86.67,Architecture
+822,Krishna Joshi,Female,96,93,77,88.67,Actuarial Science
+823,Vivaan Kumar,Male,86,71,89,82.0,Research Scientist
+824,Aarav Ghosh,Female,63,68,74,68.33,Defence Services
+825,Aadhya Joshi,Female,96,62,78,78.67,Engineering
+826,Vihaan Verma,Female,100,73,87,86.67,Entrepreneur
+827,Vihaan Singh,Female,93,87,80,86.67,Robotics Engineer
+828,Saanvi Gupta,Female,66,98,86,83.33,Entrepreneur
+829,Vihaan Reddy,Female,85,77,65,75.67,Research Scientist
+830,Aadhya Chopra,Female,97,67,96,86.67,Robotics Engineer
+831,Ayaan Mishra,Female,66,79,78,74.33,Robotics Engineer
+832,Kiara Malhotra,Male,67,64,68,66.33,Research Scientist
+833,Reyansh Gupta,Male,89,94,83,88.67,IT Professional
+834,Anika Pillai,Female,86,93,65,81.33,Robotics Engineer
+835,Ira Verma,Male,88,74,62,74.67,IT Professional
+836,Pari Mishra,Male,81,87,99,89.0,Architecture
+837,Ananya Yadav,Male,81,69,92,80.67,Research Scientist
+838,Aadhya Sharma,Female,95,84,60,79.67,Entrepreneur
+839,Ayaan Mehta,Female,67,86,98,83.67,Pilot
+840,Vihaan Chopra,Female,64,74,94,77.33,Engineering
+841,Diya Bansal,Male,93,79,73,81.67,Engineering
+842,Ishaan Mishra,Female,77,83,69,76.33,Pilot
+843,Ananya Yadav,Female,69,75,88,77.33,Defence Services
+844,Aditya Das,Female,92,64,66,74.0,Data Science
+845,Rohan Chopra,Male,74,74,65,71.0,Actuarial Science
+846,Anika Chopra,Female,68,63,98,76.33,Entrepreneur
+847,Rohan Mishra,Male,96,60,91,82.33,Robotics Engineer
+848,Ishaan Yadav,Male,62,75,80,72.33,Architecture
+849,Ayaan Mishra,Female,93,81,82,85.33,Defence Services
+850,Diya Verma,Male,80,71,64,71.67,Defence Services
+851,Myra Reddy,Male,96,77,99,90.67,Pilot
+852,Vihaan Kumar,Male,63,64,64,63.67,Data Science
+853,Arjun Pillai,Female,83,98,94,91.67,Actuarial Science
+854,Ishaan Yadav,Female,61,66,100,75.67,Defence Services
+855,Pari Singh,Female,97,87,73,85.67,Entrepreneur
+856,Ishaan Yadav,Male,85,81,97,87.67,Entrepreneur
+857,Aarav Chopra,Male,95,99,95,96.33,IT Professional
+858,Vihaan Singh,Male,83,60,81,74.67,Entrepreneur
+859,Rohan Verma,Male,88,95,86,89.67,Data Science
+860,Aadhya Patel,Male,100,63,98,87.0,Pilot
+861,Rohan Das,Male,88,99,69,85.33,Data Science
+862,Ishaan Mehta,Female,90,76,72,79.33,Engineering
+863,Meera Pillai,Male,87,78,72,79.0,Robotics Engineer
+864,Arjun Mishra,Female,71,61,87,73.0,Research Scientist
+865,Kiara Pillai,Female,80,67,92,79.67,Pilot
+866,Meera Nair,Female,91,97,94,94.0,Architecture
+867,Saanvi Malhotra,Male,87,67,100,84.67,Actuarial Science
+868,Aarav Chopra,Male,85,100,77,87.33,Actuarial Science
+869,Ananya Tiwari,Female,74,67,60,67.0,Research Scientist
+870,Reyansh Kapoor,Male,96,68,73,79.0,Research Scientist
+871,Arjun Verma,Male,70,97,88,85.0,Research Scientist
+872,Aditya Yadav,Female,72,68,80,73.33,Research Scientist
+873,Saanvi Gupta,Male,99,81,98,92.67,Architecture
+874,Aadhya Das,Female,79,82,66,75.67,IT Professional
+875,Aditya Chopra,Male,98,93,100,97.0,Data Science
+876,Pari Gupta,Female,71,94,99,88.0,Pilot
+877,Rohan Pillai,Male,99,63,70,77.33,IT Professional
+878,Arjun Mishra,Male,85,67,66,72.67,Defence Services
+879,Ananya Mehta,Female,67,67,63,65.67,Research Scientist
+880,Ayaan Gupta,Male,74,94,85,84.33,Research Scientist
+881,Diya Singh,Female,65,92,63,73.33,Entrepreneur
+882,Aadhya Patel,Male,87,67,80,78.0,Robotics Engineer
+883,Pari Malhotra,Female,73,66,100,79.67,Pilot
+884,Meera Bansal,Male,74,84,79,79.0,Engineering
+885,Arjun Mehta,Male,86,99,68,84.33,IT Professional
+886,Ishaan Malhotra,Female,66,72,64,67.33,Defence Services
+887,Aditya Joshi,Female,83,63,71,72.33,Research Scientist
+888,Kiara Malhotra,Male,98,74,79,83.67,IT Professional
+889,Vihaan Mehta,Male,99,95,82,92.0,Pilot
+890,Vihaan Yadav,Female,84,87,73,81.33,Actuarial Science
+891,Arjun Bansal,Female,89,79,96,88.0,Actuarial Science
+892,Reyansh Malhotra,Female,75,76,95,82.0,Engineering
+893,Anika Sharma,Female,66,89,74,76.33,IT Professional
+894,Saanvi Yadav,Female,64,77,98,79.67,Engineering
+895,Rohan Patel,Female,91,98,74,87.67,Entrepreneur
+896,Vihaan Malhotra,Male,97,88,94,93.0,Architecture
+897,Myra Mishra,Female,85,98,63,82.0,Engineering
+898,Meera Gupta,Female,65,79,95,79.67,Data Science
+899,Ishaan Das,Female,80,68,79,75.67,Architecture
+900,Vihaan Verma,Female,97,67,67,77.0,Pilot
+901,Meera Reddy,Female,75,89,82,82.0,Robotics Engineer
+902,Saanvi Singh,Male,95,73,96,88.0,Engineering
+903,Aadhya Bansal,Female,86,60,97,81.0,Entrepreneur
+904,Anika Mishra,Female,80,91,60,77.0,Pilot
+905,Krishna Kapoor,Female,87,95,100,94.0,Data Science
+906,Saanvi Das,Male,91,60,89,80.0,Actuarial Science
+907,Anika Patel,Male,62,81,73,72.0,Architecture
+908,Vihaan Verma,Male,69,61,68,66.0,Entrepreneur
+909,Pari Bansal,Female,74,84,69,75.67,Data Science
+910,Rohan Mishra,Female,81,77,100,86.0,Research Scientist
+911,Rohan Bansal,Male,62,66,80,69.33,Research Scientist
+912,Ayaan Malhotra,Male,78,87,78,81.0,Robotics Engineer
+913,Arjun Kumar,Female,61,72,75,69.33,Pilot
+914,Vihaan Singh,Male,82,87,61,76.67,Actuarial Science
+915,Saanvi Gupta,Female,93,83,81,85.67,Defence Services
+916,Meera Das,Male,88,99,61,82.67,Engineering
+917,Vihaan Yadav,Female,90,75,70,78.33,Engineering
+918,Arjun Mehta,Female,85,81,85,83.67,Robotics Engineer
+919,Krishna Yadav,Male,99,64,85,82.67,Entrepreneur
+920,Vihaan Mehta,Female,91,90,94,91.67,Architecture
+921,Rohan Bansal,Female,82,71,94,82.33,IT Professional
+922,Vivaan Yadav,Female,89,60,66,71.67,Pilot
+923,Aditya Reddy,Female,60,84,89,77.67,Research Scientist
+924,Arjun Verma,Female,71,75,64,70.0,Entrepreneur
+925,Saanvi Yadav,Female,84,94,72,83.33,Research Scientist
+926,Rohan Malhotra,Female,77,99,96,90.67,Entrepreneur
+927,Reyansh Ghosh,Male,79,89,95,87.67,Data Science
+928,Rohan Nair,Female,65,83,96,81.33,Entrepreneur
+929,Diya Yadav,Male,71,75,73,73.0,Actuarial Science
+930,Vihaan Das,Female,82,98,81,87.0,Architecture
+931,Ira Malhotra,Male,95,66,85,82.0,IT Professional
+932,Arjun Pillai,Male,61,69,66,65.33,IT Professional
+933,Ananya Ghosh,Female,82,96,60,79.33,Engineering
+934,Meera Kapoor,Female,71,92,68,77.0,Architecture
+935,Arjun Mehta,Female,71,72,80,74.33,Data Science
+936,Rohan Tiwari,Male,87,80,94,87.0,Robotics Engineer
+937,Rohan Pillai,Female,80,74,63,72.33,Data Science
+938,Aadhya Singh,Male,99,86,72,85.67,Engineering
+939,Pari Mishra,Female,78,67,62,69.0,Defence Services
+940,Ayaan Kumar,Female,100,82,82,88.0,Entrepreneur
+941,Aarav Kumar,Male,61,80,78,73.0,Actuarial Science
+942,Diya Patel,Male,66,71,95,77.33,Architecture
+943,Aadhya Yadav,Male,78,63,70,70.33,Entrepreneur
+944,Ira Pillai,Female,87,66,87,80.0,Actuarial Science
+945,Arjun Kapoor,Female,78,99,64,80.33,IT Professional
+946,Ayaan Sharma,Female,98,60,84,80.67,Architecture
+947,Reyansh Nair,Male,85,96,80,87.0,Robotics Engineer
+948,Aadhya Pillai,Female,69,78,81,76.0,Actuarial Science
+949,Ira Joshi,Female,94,98,60,84.0,IT Professional
+950,Diya Reddy,Male,99,63,76,79.33,Engineering
+951,Aarav Mehta,Female,94,92,77,87.67,Entrepreneur
+952,Vihaan Mishra,Male,65,92,78,78.33,Actuarial Science
+953,Vivaan Kumar,Female,87,91,66,81.33,Actuarial Science
+954,Arjun Pillai,Male,86,82,62,76.67,Data Science
+955,Diya Tiwari,Male,72,88,85,81.67,Engineering
+956,Pari Yadav,Female,64,69,89,74.0,Engineering
+957,Arjun Chopra,Male,93,78,66,79.0,IT Professional
+958,Aarav Sharma,Male,62,62,77,67.0,Research Scientist
+959,Ayaan Das,Male,73,77,64,71.33,Defence Services
+960,Myra Ghosh,Female,74,100,82,85.33,Defence Services
+961,Vivaan Gupta,Male,84,75,97,85.33,IT Professional
+962,Kiara Mishra,Male,60,69,100,76.33,IT Professional
+963,Diya Kumar,Male,61,90,60,70.33,Actuarial Science
+964,Vivaan Joshi,Female,76,83,83,80.67,Engineering
+965,Pari Verma,Male,67,71,98,78.67,Defence Services
+966,Reyansh Kumar,Male,97,73,68,79.33,Engineering
+967,Aarav Sharma,Female,67,82,74,74.33,Actuarial Science
+968,Diya Bansal,Female,74,81,65,73.33,Entrepreneur
+969,Ananya Reddy,Female,93,76,99,89.33,Entrepreneur
+970,Ira Patel,Male,87,98,77,87.33,Pilot
+971,Arjun Mehta,Male,89,88,93,90.0,Robotics Engineer
+972,Ira Bansal,Male,93,86,86,88.33,Architecture
+973,Pari Sharma,Female,63,89,63,71.67,IT Professional
+974,Diya Verma,Male,84,95,75,84.67,Research Scientist
+975,Reyansh Singh,Female,65,60,61,62.0,Entrepreneur
+976,Krishna Ghosh,Male,82,60,88,76.67,Robotics Engineer
+977,Reyansh Kumar,Female,69,87,99,85.0,Defence Services
+978,Meera Patel,Male,73,83,64,73.33,Pilot
+979,Saanvi Verma,Female,78,68,64,70.0,Entrepreneur
+980,Kiara Das,Male,100,68,60,76.0,Data Science
+981,Vihaan Nair,Female,62,85,93,80.0,Pilot
+982,Vihaan Kumar,Female,74,71,88,77.67,Data Science
+983,Aadhya Patel,Male,80,88,64,77.33,Data Science
+984,Aadhya Yadav,Male,73,61,80,71.33,Architecture
+985,Aadhya Nair,Female,83,80,67,76.67,Architecture
+986,Krishna Yadav,Male,79,73,90,80.67,IT Professional
+987,Vihaan Bansal,Male,82,62,83,75.67,IT Professional
+988,Rohan Malhotra,Male,61,76,60,65.67,IT Professional
+989,Ayaan Singh,Male,61,85,90,78.67,IT Professional
+990,Ayaan Singh,Female,90,68,62,73.33,Entrepreneur
+991,Aditya Mishra,Male,63,72,84,73.0,IT Professional
+992,Aditya Yadav,Male,82,82,93,85.67,Defence Services
+993,Vihaan Kapoor,Female,78,68,60,68.67,Defence Services
+994,Ananya Patel,Female,89,71,95,85.0,Data Science
+995,Aarav Gupta,Female,81,80,82,81.0,IT Professional
+996,Anika Mishra,Male,79,61,87,75.67,Research Scientist
+997,Pari Sharma,Male,71,76,73,73.33,Robotics Engineer
+998,Rohan Chopra,Male,92,72,86,83.33,Robotics Engineer
+999,Meera Yadav,Male,94,67,63,74.67,Research Scientist
+1000,Reyansh Tiwari,Female,96,96,90,94.0,Architecture

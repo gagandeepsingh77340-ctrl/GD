@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Counselling | Professional Guidance</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #f5f9ff;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        /* Header Styles */
+        header {
+            background: linear-gradient(135deg, #1a3a8f 0%, #2d5cc2 100%);
+            color: white;
+            padding: 1.2rem 0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .logo i {
+            font-size: 1.8rem;
+            color: #6ee7ff;
+        }
+        
+        .logo h1 {
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: color 0.3s;
+            padding: 0.5rem 0;
+            position: relative;
+        }
+        
+        nav a:hover {
+            color: #6ee7ff;
+        }
+        
+        nav a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 3px;
+            background: #6ee7ff;
+            bottom: 0;
+            left: 0;
+            transition: width 0.3s;
+        }
+        
+        nav a:hover::after {
+            width: 100%;
+        }
+        
+        /* Main Content Area */
+        .main-content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .background-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            opacity: 0.15;
+            z-index: -1;
+        }
+        
+        /* Smart Counselling Container */
+        .counseling-container {
+            background: rgba(255, 255, 255, 0.92);
+            border-radius: 20px;
+            padding: 3.5rem 4rem;
+            text-align: center;
+            max-width: 800px;
+            width: 100%;
+            box-shadow: 0 15px 40px rgba(26, 58, 143, 0.15);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            backdrop-filter: blur(5px);
+            animation: fadeIn 1s ease-out;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .counseling-container h2 {
+            font-size: 3.2rem;
+            color: #1a3a8f;
+            margin-bottom: 0.5rem;
+            font-weight: 800;
+            letter-spacing: 1px;
+        }
+        
+        .counseling-container .subtitle {
+            font-size: 1.4rem;
+            color: #2d5cc2;
+            margin-bottom: 2.5rem;
+            font-weight: 500;
+        }
+        
+        .highlight {
+            color: #ff6b6b;
+            font-weight: 700;
+        }
+        
+        .description {
+            font-size: 1.2rem;
+            color: #555;
+            margin-bottom: 3rem;
+            line-height: 1.8;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        /* Updated Button/Link Styles */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: linear-gradient(to right, #1a3a8f, #2d5cc2);
+            color: white;
+            border: none;
+            padding: 1.2rem 3rem;
+            font-size: 1.3rem;
+            font-weight: 700;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 20px rgba(26, 58, 143, 0.3);
+            letter-spacing: 0.5px;
+            text-decoration: none;
+            text-align: center;
+            justify-content: center;
+        }
+        
+        .btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(26, 58, 143, 0.4);
+            background: linear-gradient(to right, #2d5cc2, #3a6ae8);
+            color: white;
+        }
+        
+        .btn:active {
+            transform: translateY(-2px);
+        }
+        
+        .btn i {
+            font-size: 1.4rem;
+        }
+        
+        /* Footer Styles */
+        footer {
+            background: #1a1a2e;
+            color: #eee;
+            padding: 2.5rem 0 1.5rem;
+        }
+        
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .footer-section {
+            flex: 1;
+            min-width: 250px;
+        }
+        
+        .footer-section h3 {
+            font-size: 1.4rem;
+            margin-bottom: 1.2rem;
+            color: #6ee7ff;
+            position: relative;
+            padding-bottom: 0.5rem;
+        }
+        
+        .footer-section h3::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 40px;
+            height: 3px;
+            background: #2d5cc2;
+        }
+        
+        .footer-section p, .footer-section a {
+            color: #bbb;
+            margin-bottom: 0.8rem;
+            display: block;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-section a:hover {
+            color: #6ee7ff;
+        }
+        
+        .social-icons {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .social-icons a {
+            background: #2d5cc2;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+        }
+        
+        .social-icons a:hover {
+            background: #6ee7ff;
+            transform: translateY(-5px);
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 1.5rem;
+            border-top: 1px solid #333;
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            nav ul {
+                gap: 1.5rem;
+            }
+            
+            .counseling-container {
+                padding: 2.5rem 2rem;
+            }
+            
+            .counseling-container h2 {
+                font-size: 2.5rem;
+            }
+            
+            .counseling-container .subtitle {
+                font-size: 1.2rem;
+            }
+            
+            .description {
+                font-size: 1.1rem;
+            }
+            
+            .footer-content {
+                flex-direction: column;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            nav ul {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 1rem;
+            }
+            
+            .counseling-container h2 {
+                font-size: 2rem;
+            }
+            
+            .counseling-container .subtitle {
+                font-size: 1rem;
+            }
+            
+            .btn {
+                padding: 1rem 2rem;
+                font-size: 1.1rem;
+            }
+        }
+
+        /* css for chatbot starts from here */
+#chat-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #007bff;
+  color: white;
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+#chatbot-box {
+  display: none;
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  width: 300px;
+  height: 400px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  flex-direction: column;
+  z-index: 9999;
+}
+
+#chat-header {
+  background: #007bff;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+}
+
+#chat-body {
+  height: 300px;
+  overflow-y: auto;
+  padding: 10px;
+  font-size: 14px;
+}
+
+#chat-input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <i class="fas fa-brain"></i>
+                <h1>MySmartCounsellingSupport</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#"><i class="fas fa-users"></i> Services</a></li>
+                    <li><a href="#"><i class="fas fa-user-md"></i> Counselors</a></li>
+                    <li><a href="#"><i class="fas fa-calendar-alt"></i> Appointments</a></li>
+                    <li><a href="#"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <div class="background-image"></div>
+        
+        <div class="counseling-container">
+            <h2>Smart Counselling</h2>
+            <p class="subtitle">Professional Guidance for a <span class="highlight">Brighter Future</span></p>
+            
+            <p class="description">
+                My Smart Counselling is an intelligent, student-support system designed to help learners choose the right academic stream and future career path.
+            </p>
+            
+            <!-- Updated Button with Link -->
+            <a href="counselling.html" class="btn">
+                <i class="fas fa-rocket"></i> Get Started
+            </a>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Smart Counselling</h3>
+                    <p>Providing accessible, professional mental health support through innovative technology and certified counselors.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="#"><i class="fas fa-chevron-right"></i> Home</a>
+                    <a href="counselling.html"><i class="fas fa-chevron-right"></i> Get Started</a>
+                    <a href="#"><i class="fas fa-chevron-right"></i> Our Services</a>
+                    <a href="#"><i class="fas fa-chevron-right"></i> Counselor Directory</a>
+                    <a href="#"><i class="fas fa-chevron-right"></i> Privacy Policy</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Wellness Street, Mental Health City</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@smartcounselling.com</p>
+                    <p><i class="fas fa-clock"></i> Mon-Fri: 9am-8pm, Sat: 10am-4pm</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Smart Counselling. All rights reserved. | Designed with <i class="fas fa-heart" style="color:#ff6b6b;"></i> for mental wellness</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Add smooth scrolling for navigation links
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                alert(`Navigating to ${this.textContent.trim()} section.`);
+            });
+        });
+        
+        // Add visual feedback for the Get Started button
+        const getStartedBtn = document.querySelector('.btn');
+        getStartedBtn.addEventListener('mouseenter', function() {
+            this.style.transform = 'translateY(-5px)';
+            this.style.boxShadow = '0 12px 25px rgba(26, 58, 143, 0.4)';
+        });
+        
+        getStartedBtn.addEventListener('mouseleave', function() {
+            this.style.transform = 'translateY(0)';
+            this.style.boxShadow = '0 8px 20px rgba(26, 58, 143, 0.3)';
+        });
+        
+        // Optional: Add a click animation effect
+        getStartedBtn.addEventListener('click', function() {
+            // Add a quick animation
+            this.style.transform = 'scale(0.98)';
+            setTimeout(() => {
+                this.style.transform = 'scale(1)';
+            }, 150);
+        });
+        // js for chatbot starts from here
+ </script>
+
+    <!-- chatbot html starts from here -->
+     <!-- Chat Toggle Button -->
+<div id="chat-toggle">💬</div>
+
+<!-- Chatbox -->
+<div id="chatbot-box">
+  <div id="chat-header">AI Counselor</div>
+  <div id="chat-body"></div>
+  <input id="chat-input" placeholder="Ask about career..." />
+</div>
+<script>
+const input = document.getElementById("chat-input");
+// chat-ui.js
+const body = document.getElementById("chat-body");
+document.addEventListener("DOMContentLoaded", function () {
+  const toggle = document.getElementById("chat-toggle");
+  const box = document.getElementById("chatbot-box");
+
+  toggle.onclick = () => {
+    box.style.display = box.style.display === "flex" ? "none" : "flex";
+  };
+});
+
+input.addEventListener("keypress", async function(e) {
+  if (e.key === "Enter") {
+    console.log("Enter pressed");  // DEBUG
+
+    const msg = input.value;
+    input.value = "";
+
+    console.log("Message:", msg);  // DEBUG
+
+    const res = await fetch("/chatbot/", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ message: msg }),
+    });
+
+    const data = await res.json();
+
+    console.log("Response:", data);  // DEBUG 
+     body.innerHTML += `<div><b>AI:</b> ${data.reply}</div>`;
+
+    body.scrollTop = body.scrollHeight;
+  }
+});
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,1001 @@
+Student_ID,Name,Gender,Physics,Chemistry,Biology,Average_Score,Future_Career
+1,Diya Kapoor,Male,68,86,87,80.33,Nurse
+2,Vivaan Gupta,Male,67,77,63,69.0,Biotechnologist
+3,Diya Chopra,Male,100,64,86,83.33,Biotechnologist
+4,Kiara Das,Female,66,66,77,69.67,Dentist
+5,Myra Singh,Male,97,85,60,80.67,Biotechnologist
+6,Ishaan Reddy,Male,61,88,99,82.67,Doctor
+7,Ananya Kumar,Female,100,88,95,94.33,Pharmacist
+8,Pari Kapoor,Female,95,97,74,88.67,Environmental Scientist
+9,Diya Mehta,Male,66,94,99,86.33,Pharmacist
+10,Krishna Reddy,Male,66,64,68,66.0,Pharmacist
+11,Aditya Chopra,Male,99,99,100,99.33,Veterinarian
+12,Aadhya Pillai,Male,90,74,82,82.0,Veterinarian
+13,Pari Kumar,Male,79,60,72,70.33,Nurse
+14,Diya Nair,Female,99,81,93,91.0,Veterinarian
+15,Vivaan Mishra,Female,100,65,100,88.33,Dentist
+16,Anika Ghosh,Male,97,96,75,89.33,Nutritionist
+17,Ananya Tiwari,Male,80,82,97,86.33,Doctor
+18,Aarav Yadav,Male,80,96,79,85.0,Nurse
+19,Diya Sharma,Female,77,68,83,76.0,Pharmacist
+20,Ananya Nair,Male,85,99,91,91.67,Physiotherapist
+21,Pari Kumar,Male,71,89,60,73.33,Veterinarian
+22,Anika Das,Female,88,65,63,72.0,Research Scientist
+23,Rohan Kapoor,Female,73,64,74,70.33,Environmental Scientist
+24,Reyansh Mishra,Female,61,70,63,64.67,Physiotherapist
+25,Diya Mishra,Female,65,87,63,71.67,Pharmacist
+26,Diya Kapoor,Male,83,64,77,74.67,Physiotherapist
+27,Aditya Verma,Female,78,74,66,72.67,Doctor
+28,Aarav Joshi,Male,86,80,65,77.0,Environmental Scientist
+29,Saanvi Kapoor,Female,88,91,81,86.67,Environmental Scientist
+30,Aarav Tiwari,Female,92,72,69,77.67,Veterinarian
+31,Rohan Joshi,Male,91,99,71,87.0,Research Scientist
+32,Myra Yadav,Male,66,93,93,84.0,Doctor
+33,Vihaan Yadav,Male,95,88,85,89.33,Dentist
+34,Diya Patel,Male,87,82,61,76.67,Veterinarian
+35,Saanvi Singh,Female,77,78,70,75.0,Dentist
+36,Diya Kumar,Female,76,96,75,82.33,Pharmacist
+37,Ayaan Bansal,Male,92,86,97,91.67,Environmental Scientist
+38,Ayaan Malhotra,Female,94,95,65,84.67,Veterinarian
+39,Arjun Nair,Male,77,81,76,78.0,Nutritionist
+40,Rohan Mishra,Male,97,61,61,73.0,Nutritionist
+41,Vivaan Joshi,Female,87,64,85,78.67,Research Scientist
+42,Rohan Ghosh,Female,76,84,76,78.67,Physiotherapist
+43,Pari Kapoor,Male,90,96,85,90.33,Veterinarian
+44,Vihaan Joshi,Female,93,92,66,83.67,Physiotherapist
+45,Aarav Ghosh,Female,94,80,98,90.67,Veterinarian
+46,Diya Malhotra,Female,71,75,88,78.0,Dentist
+47,Arjun Kapoor,Female,74,64,93,77.0,Biotechnologist
+48,Kiara Mehta,Male,67,70,91,76.0,Doctor
+49,Aadhya Verma,Male,65,89,83,79.0,Research Scientist
+50,Aadhya Joshi,Male,81,83,93,85.67,Physiotherapist
+51,Ishaan Verma,Female,60,94,82,78.67,Physiotherapist
+52,Pari Verma,Female,81,79,78,79.33,Pharmacist
+53,Myra Mishra,Female,90,64,64,72.67,Dentist
+54,Vivaan Malhotra,Female,84,66,90,80.0,Environmental Scientist
+55,Vihaan Gupta,Female,95,82,77,84.67,Doctor
+56,Ira Sharma,Female,79,91,95,88.33,Environmental Scientist
+57,Aarav Ghosh,Male,92,74,93,86.33,Nurse
+58,Meera Mehta,Male,88,100,62,83.33,Nutritionist
+59,Aadhya Das,Female,62,65,89,72.0,Nurse
+60,Aditya Patel,Female,61,69,98,76.0,Nutritionist
+61,Aditya Bansal,Female,84,93,95,90.67,Veterinarian
+62,Pari Nair,Male,73,90,63,75.33,Research Scientist
+63,Myra Tiwari,Male,94,74,90,86.0,Biotechnologist
+64,Vivaan Verma,Male,84,72,86,80.67,Doctor
+65,Pari Yadav,Male,66,85,84,78.33,Pharmacist
+66,Krishna Nair,Female,65,80,96,80.33,Environmental Scientist
+67,Saanvi Bansal,Female,79,84,86,83.0,Physiotherapist
+68,Pari Kumar,Female,78,98,71,82.33,Dentist
+69,Ayaan Reddy,Female,87,86,65,79.33,Environmental Scientist
+70,Saanvi Kumar,Female,85,100,75,86.67,Environmental Scientist
+71,Kiara Ghosh,Female,80,86,83,83.0,Research Scientist
+72,Kiara Verma,Male,81,72,85,79.33,Doctor
+73,Pari Verma,Female,63,87,67,72.33,Nutritionist
+74,Ayaan Yadav,Male,81,95,88,88.0,Doctor
+75,Aarav Patel,Female,78,88,95,87.0,Biotechnologist
+76,Reyansh Patel,Female,81,84,75,80.0,Nurse
+77,Rohan Singh,Female,92,68,77,79.0,Veterinarian
+78,Ishaan Ghosh,Female,86,84,94,88.0,Nutritionist
+79,Diya Mehta,Female,87,79,65,77.0,Doctor
+80,Aarav Sharma,Male,87,99,67,84.33,Nurse
+81,Pari Bansal,Male,78,61,62,67.0,Environmental Scientist
+82,Aditya Gupta,Female,71,96,90,85.67,Doctor
+83,Aadhya Patel,Female,73,78,94,81.67,Physiotherapist
+84,Ishaan Nair,Female,72,67,68,69.0,Nutritionist
+85,Arjun Mishra,Male,74,68,96,79.33,Doctor
+86,Meera Kapoor,Male,78,98,94,90.0,Nutritionist
+87,Ishaan Verma,Male,71,72,96,79.67,Biotechnologist
+88,Ananya Mehta,Male,89,72,67,76.0,Biotechnologist
+89,Kiara Sharma,Male,99,74,94,89.0,Biotechnologist
+90,Aditya Patel,Male,62,66,93,73.67,Dentist
+91,Aarav Singh,Male,99,88,66,84.33,Nutritionist
+92,Pari Joshi,Female,96,96,96,96.0,Veterinarian
+93,Krishna Chopra,Male,68,68,81,72.33,Research Scientist
+94,Reyansh Ghosh,Male,88,64,84,78.67,Research Scientist
+95,Ishaan Mishra,Male,95,87,63,81.67,Physiotherapist
+96,Pari Chopra,Male,95,69,85,83.0,Pharmacist
+97,Reyansh Kapoor,Male,68,96,91,85.0,Environmental Scientist
+98,Vihaan Mehta,Female,66,89,77,77.33,Nutritionist
+99,Ira Yadav,Male,72,77,77,75.33,Physiotherapist
+100,Reyansh Bansal,Female,71,65,62,66.0,Dentist
+101,Arjun Mehta,Female,78,94,96,89.33,Nutritionist
+102,Myra Mehta,Male,94,71,92,85.67,Veterinarian
+103,Ayaan Ghosh,Male,85,72,74,77.0,Veterinarian
+104,Meera Singh,Male,77,88,71,78.67,Dentist
+105,Rohan Joshi,Female,65,61,61,62.33,Veterinarian
+106,Reyansh Singh,Female,70,62,93,75.0,Physiotherapist
+107,Ananya Ghosh,Female,71,65,73,69.67,Biotechnologist
+108,Vihaan Mishra,Female,82,89,71,80.67,Veterinarian
+109,Vihaan Joshi,Female,99,87,97,94.33,Veterinarian
+110,Ananya Malhotra,Male,89,63,63,71.67,Physiotherapist
+111,Ananya Patel,Female,60,68,100,76.0,Nutritionist
+112,Rohan Yadav,Female,81,84,83,82.67,Nutritionist
+113,Ananya Ghosh,Male,90,88,79,85.67,Dentist
+114,Ayaan Mishra,Male,100,94,96,96.67,Dentist
+115,Anika Singh,Female,74,85,62,73.67,Dentist
+116,Krishna Pillai,Female,94,64,98,85.33,Doctor
+117,Aarav Chopra,Male,71,93,71,78.33,Veterinarian
+118,Meera Verma,Female,60,61,75,65.33,Doctor
+119,Reyansh Sharma,Male,67,73,90,76.67,Nutritionist
+120,Rohan Bansal,Female,85,78,79,80.67,Pharmacist
+121,Ira Yadav,Male,65,67,80,70.67,Physiotherapist
+122,Ishaan Kumar,Male,82,76,72,76.67,Environmental Scientist
+123,Myra Kumar,Female,81,80,70,77.0,Dentist
+124,Aditya Gupta,Female,97,79,82,86.0,Biotechnologist
+125,Anika Tiwari,Female,98,73,76,82.33,Nutritionist
+126,Ayaan Malhotra,Male,92,73,75,80.0,Biotechnologist
+127,Ira Ghosh,Male,82,61,79,74.0,Dentist
+128,Diya Tiwari,Male,70,71,77,72.67,Dentist
+129,Anika Reddy,Male,100,90,74,88.0,Nurse
+130,Reyansh Nair,Female,81,96,91,89.33,Pharmacist
+131,Arjun Patel,Female,88,75,68,77.0,Research Scientist
+132,Ishaan Chopra,Female,68,84,94,82.0,Nutritionist
+133,Krishna Das,Female,94,97,77,89.33,Nutritionist
+134,Rohan Joshi,Male,61,71,65,65.67,Nutritionist
+135,Aditya Reddy,Male,90,92,78,86.67,Doctor
+136,Saanvi Singh,Male,85,83,97,88.33,Pharmacist
+137,Aditya Gupta,Male,64,91,86,80.33,Pharmacist
+138,Pari Sharma,Female,86,79,79,81.33,Veterinarian
+139,Reyansh Tiwari,Female,100,96,90,95.33,Biotechnologist
+140,Myra Joshi,Female,70,82,88,80.0,Dentist
+141,Krishna Malhotra,Male,66,89,81,78.67,Dentist
+142,Meera Mishra,Female,95,69,85,83.0,Doctor
+143,Rohan Gupta,Female,80,60,65,68.33,Nutritionist
+144,Ananya Sharma,Female,87,83,65,78.33,Biotechnologist
+145,Anika Verma,Female,79,85,62,75.33,Biotechnologist
+146,Anika Joshi,Female,64,79,77,73.33,Dentist
+147,Myra Pillai,Male,82,79,98,86.33,Research Scientist
+148,Saanvi Pillai,Female,81,62,78,73.67,Nutritionist
+149,Ayaan Ghosh,Female,96,73,67,78.67,Biotechnologist
+150,Vivaan Chopra,Female,82,81,82,81.67,Doctor
+151,Ira Kapoor,Female,96,72,91,86.33,Environmental Scientist
+152,Pari Nair,Female,84,95,87,88.67,Environmental Scientist
+153,Krishna Mehta,Male,61,79,72,70.67,Veterinarian
+154,Meera Yadav,Male,87,99,72,86.0,Pharmacist
+155,Vihaan Chopra,Female,76,70,68,71.33,Pharmacist
+156,Reyansh Gupta,Male,98,97,63,86.0,Research Scientist
+157,Ira Bansal,Male,88,91,69,82.67,Environmental Scientist
+158,Vihaan Pillai,Male,87,84,79,83.33,Environmental Scientist
+159,Ishaan Yadav,Male,64,98,75,79.0,Dentist
+160,Kiara Yadav,Male,71,78,60,69.67,Dentist
+161,Aarav Mishra,Male,91,79,68,79.33,Physiotherapist
+162,Arjun Bansal,Male,83,74,91,82.67,Biotechnologist
+163,Krishna Singh,Female,68,83,68,73.0,Biotechnologist
+164,Anika Kumar,Female,84,62,81,75.67,Environmental Scientist
+165,Kiara Bansal,Male,87,71,64,74.0,Veterinarian
+166,Ananya Kumar,Male,92,80,67,79.67,Veterinarian
+167,Aditya Ghosh,Male,74,73,61,69.33,Research Scientist
+168,Ayaan Mishra,Male,94,64,88,82.0,Research Scientist
+169,Saanvi Reddy,Male,73,96,64,77.67,Nutritionist
+170,Meera Kumar,Female,99,94,61,84.67,Biotechnologist
+171,Saanvi Verma,Female,74,84,78,78.67,Nurse
+172,Rohan Kumar,Female,77,100,63,80.0,Dentist
+173,Diya Yadav,Male,94,98,80,90.67,Pharmacist
+174,Ananya Pillai,Female,87,65,89,80.33,Physiotherapist
+175,Aadhya Das,Male,75,97,81,84.33,Veterinarian
+176,Reyansh Kapoor,Female,61,85,75,73.67,Environmental Scientist
+177,Diya Chopra,Male,71,100,93,88.0,Nutritionist
+178,Ayaan Patel,Female,61,91,61,71.0,Nutritionist
+179,Rohan Das,Male,95,75,86,85.33,Dentist
+180,Ishaan Nair,Female,99,77,87,87.67,Dentist
+181,Diya Nair,Male,99,96,98,97.67,Dentist
+182,Saanvi Reddy,Male,75,92,63,76.67,Research Scientist
+183,Arjun Joshi,Male,86,74,90,83.33,Doctor
+184,Aadhya Pillai,Male,88,99,71,86.0,Research Scientist
+185,Aadhya Bansal,Male,70,99,82,83.67,Dentist
+186,Rohan Mehta,Male,71,93,83,82.33,Environmental Scientist
+187,Ira Verma,Female,80,66,83,76.33,Pharmacist
+188,Ananya Reddy,Male,93,63,85,80.33,Veterinarian
+189,Ira Nair,Male,96,92,95,94.33,Physiotherapist
+190,Vihaan Singh,Female,73,65,89,75.67,Pharmacist
+191,Arjun Gupta,Female,71,84,69,74.67,Veterinarian
+192,Saanvi Yadav,Male,97,79,68,81.33,Veterinarian
+193,Vivaan Bansal,Male,81,60,72,71.0,Pharmacist
+194,Kiara Tiwari,Female,70,65,93,76.0,Veterinarian
+195,Reyansh Yadav,Male,69,92,90,83.67,Biotechnologist
+196,Reyansh Yadav,Female,71,98,71,80.0,Physiotherapist
+197,Diya Mishra,Female,85,72,87,81.33,Research Scientist
+198,Myra Chopra,Male,75,76,77,76.0,Nurse
+199,Anika Singh,Male,73,92,68,77.67,Research Scientist
+200,Ayaan Pillai,Male,98,84,87,89.67,Biotechnologist
+201,Ananya Singh,Male,77,76,80,77.67,Dentist
+202,Rohan Mishra,Male,79,97,65,80.33,Environmental Scientist
+203,Anika Joshi,Male,100,73,90,87.67,Dentist
+204,Pari Sharma,Female,73,79,87,79.67,Pharmacist
+205,Aditya Joshi,Male,85,81,60,75.33,Nutritionist
+206,Kiara Gupta,Female,84,68,62,71.33,Nurse
+207,Pari Tiwari,Male,92,98,77,89.0,Doctor
+208,Vivaan Reddy,Male,93,100,85,92.67,Veterinarian
+209,Pari Malhotra,Male,62,87,87,78.67,Pharmacist
+210,Aarav Reddy,Male,91,68,79,79.33,Veterinarian
+211,Vihaan Chopra,Male,98,100,88,95.33,Environmental Scientist
+212,Arjun Pillai,Male,70,93,86,83.0,Nutritionist
+213,Ira Patel,Male,69,75,86,76.67,Biotechnologist
+214,Reyansh Pillai,Female,68,61,68,65.67,Nurse
+215,Aadhya Singh,Male,100,72,71,81.0,Biotechnologist
+216,Aditya Nair,Male,65,64,85,71.33,Research Scientist
+217,Ira Joshi,Female,81,82,98,87.0,Biotechnologist
+218,Aditya Joshi,Female,100,75,87,87.33,Physiotherapist
+219,Krishna Nair,Male,94,99,82,91.67,Dentist
+220,Rohan Kapoor,Female,67,68,91,75.33,Dentist
+221,Aditya Verma,Male,70,69,90,76.33,Research Scientist
+222,Meera Bansal,Female,79,75,90,81.33,Physiotherapist
+223,Rohan Mehta,Male,79,69,98,82.0,Dentist
+224,Ira Gupta,Female,87,79,96,87.33,Veterinarian
+225,Ayaan Patel,Male,74,69,76,73.0,Nutritionist
+226,Ayaan Mehta,Male,74,88,88,83.33,Nurse
+227,Ira Sharma,Male,71,65,61,65.67,Doctor
+228,Vivaan Singh,Male,75,84,95,84.67,Biotechnologist
+229,Reyansh Bansal,Female,64,76,63,67.67,Doctor
+230,Rohan Joshi,Female,68,79,95,80.67,Dentist
+231,Ira Singh,Female,82,65,63,70.0,Dentist
+232,Krishna Joshi,Female,100,96,82,92.67,Research Scientist
+233,Ayaan Malhotra,Female,78,71,73,74.0,Environmental Scientist
+234,Ayaan Sharma,Female,68,64,60,64.0,Doctor
+235,Vihaan Tiwari,Female,95,87,81,87.67,Veterinarian
+236,Ayaan Das,Male,81,90,61,77.33,Veterinarian
+237,Aarav Malhotra,Female,67,64,87,72.67,Veterinarian
+238,Aditya Malhotra,Male,61,100,70,77.0,Veterinarian
+239,Aditya Gupta,Female,64,66,82,70.67,Physiotherapist
+240,Diya Patel,Male,71,98,89,86.0,Doctor
+241,Ishaan Yadav,Female,88,92,90,90.0,Nutritionist
+242,Aadhya Tiwari,Male,62,90,72,74.67,Nutritionist
+243,Reyansh Gupta,Female,88,84,86,86.0,Dentist
+244,Myra Reddy,Female,70,62,79,70.33,Doctor
+245,Aadhya Verma,Female,88,68,96,84.0,Nutritionist
+246,Kiara Verma,Male,77,76,66,73.0,Doctor
+247,Krishna Bansal,Male,60,79,61,66.67,Doctor
+248,Ananya Reddy,Male,69,66,95,76.67,Nutritionist
+249,Aditya Patel,Female,81,80,99,86.67,Dentist
+250,Vihaan Das,Female,96,90,60,82.0,Doctor
+251,Krishna Kumar,Female,79,61,77,72.33,Doctor
+252,Vivaan Kapoor,Female,68,74,68,70.0,Environmental Scientist
+253,Vihaan Verma,Female,88,100,83,90.33,Physiotherapist
+254,Arjun Kapoor,Male,63,69,72,68.0,Nutritionist
+255,Ayaan Kapoor,Female,82,82,75,79.67,Pharmacist
+256,Diya Mehta,Male,68,96,91,85.0,Environmental Scientist
+257,Aditya Yadav,Male,91,67,74,77.33,Physiotherapist
+258,Saanvi Mishra,Female,74,94,77,81.67,Environmental Scientist
+259,Saanvi Malhotra,Female,74,77,70,73.67,Environmental Scientist
+260,Ishaan Gupta,Male,81,91,99,90.33,Research Scientist
+261,Reyansh Verma,Male,76,98,77,83.67,Nurse
+262,Ayaan Das,Male,97,89,95,93.67,Dentist
+263,Anika Bansal,Male,87,66,61,71.33,Biotechnologist
+264,Aarav Mehta,Female,74,85,75,78.0,Doctor
+265,Ayaan Nair,Male,78,89,89,85.33,Environmental Scientist
+266,Aarav Singh,Female,85,87,81,84.33,Pharmacist
+267,Anika Patel,Male,60,87,69,72.0,Research Scientist
+268,Aditya Kapoor,Male,61,98,68,75.67,Physiotherapist
+269,Kiara Gupta,Male,72,79,81,77.33,Biotechnologist
+270,Ishaan Mishra,Male,69,79,91,79.67,Biotechnologist
+271,Vihaan Joshi,Male,63,71,93,75.67,Veterinarian
+272,Myra Das,Female,95,81,81,85.67,Veterinarian
+273,Kiara Kumar,Female,63,94,80,79.0,Biotechnologist
+274,Ayaan Tiwari,Female,60,90,70,73.33,Veterinarian
+275,Ayaan Mehta,Male,90,69,81,80.0,Doctor
+276,Ananya Pillai,Female,90,79,81,83.33,Doctor
+277,Vihaan Yadav,Male,72,97,71,80.0,Research Scientist
+278,Reyansh Mishra,Male,94,80,60,78.0,Environmental Scientist
+279,Aarav Gupta,Male,70,61,67,66.0,Dentist
+280,Pari Tiwari,Female,79,64,91,78.0,Nurse
+281,Ira Pillai,Male,75,86,73,78.0,Biotechnologist
+282,Myra Nair,Male,87,95,65,82.33,Nutritionist
+283,Arjun Kumar,Female,74,75,87,78.67,Veterinarian
+284,Aditya Reddy,Male,62,62,97,73.67,Doctor
+285,Ayaan Malhotra,Female,77,61,60,66.0,Pharmacist
+286,Arjun Chopra,Female,92,75,90,85.67,Pharmacist
+287,Ayaan Reddy,Male,94,99,84,92.33,Biotechnologist
+288,Vivaan Tiwari,Female,94,72,95,87.0,Research Scientist
+289,Diya Kumar,Female,84,97,67,82.67,Research Scientist
+290,Ananya Yadav,Female,83,69,65,72.33,Nurse
+291,Reyansh Bansal,Male,82,80,87,83.0,Environmental Scientist
+292,Ananya Yadav,Female,80,69,82,77.0,Veterinarian
+293,Meera Kumar,Female,64,80,71,71.67,Environmental Scientist
+294,Ayaan Verma,Male,69,74,98,80.33,Veterinarian
+295,Arjun Reddy,Female,71,87,63,73.67,Dentist
+296,Ayaan Joshi,Female,75,82,74,77.0,Biotechnologist
+297,Vivaan Sharma,Male,90,81,96,89.0,Nurse
+298,Vivaan Reddy,Male,63,76,68,69.0,Nutritionist
+299,Aditya Chopra,Female,100,65,66,77.0,Biotechnologist
+300,Ishaan Malhotra,Male,90,63,99,84.0,Pharmacist
+301,Rohan Pillai,Male,81,78,64,74.33,Pharmacist
+302,Reyansh Ghosh,Male,76,79,84,79.67,Nurse
+303,Ishaan Patel,Male,79,70,69,72.67,Doctor
+304,Reyansh Ghosh,Male,60,77,62,66.33,Pharmacist
+305,Myra Mehta,Male,67,60,85,70.67,Nutritionist
+306,Pari Verma,Male,90,70,84,81.33,Physiotherapist
+307,Ishaan Patel,Male,69,98,60,75.67,Doctor
+308,Vivaan Mishra,Female,87,93,80,86.67,Dentist
+309,Vivaan Yadav,Female,67,63,63,64.33,Research Scientist
+310,Aditya Sharma,Male,98,89,67,84.67,Dentist
+311,Aarav Mehta,Male,97,93,87,92.33,Nurse
+312,Saanvi Yadav,Male,81,87,89,85.67,Nutritionist
+313,Ayaan Mehta,Male,96,65,69,76.67,Pharmacist
+314,Myra Malhotra,Male,88,80,83,83.67,Veterinarian
+315,Reyansh Mehta,Female,74,93,81,82.67,Doctor
+316,Vihaan Gupta,Female,74,71,84,76.33,Environmental Scientist
+317,Aditya Verma,Female,81,66,98,81.67,Veterinarian
+318,Kiara Pillai,Female,67,88,60,71.67,Dentist
+319,Ayaan Reddy,Female,94,79,68,80.33,Pharmacist
+320,Aditya Mishra,Female,76,88,79,81.0,Research Scientist
+321,Saanvi Sharma,Female,98,61,64,74.33,Doctor
+322,Vivaan Mehta,Female,67,84,73,74.67,Biotechnologist
+323,Kiara Tiwari,Female,98,88,67,84.33,Doctor
+324,Ira Gupta,Female,93,80,97,90.0,Pharmacist
+325,Ayaan Singh,Female,69,93,79,80.33,Veterinarian
+326,Anika Reddy,Female,88,75,82,81.67,Research Scientist
+327,Meera Verma,Male,63,89,72,74.67,Research Scientist
+328,Ayaan Bansal,Male,84,98,93,91.67,Nurse
+329,Saanvi Yadav,Female,67,73,71,70.33,Nurse
+330,Pari Kapoor,Female,65,89,95,83.0,Physiotherapist
+331,Vivaan Chopra,Female,63,65,78,68.67,Dentist
+332,Ira Kumar,Male,68,70,69,69.0,Nutritionist
+333,Krishna Chopra,Female,98,62,61,73.67,Physiotherapist
+334,Pari Bansal,Male,83,100,60,81.0,Pharmacist
+335,Ananya Mishra,Female,94,61,84,79.67,Nurse
+336,Vivaan Sharma,Male,68,65,65,66.0,Physiotherapist
+337,Reyansh Mishra,Female,95,62,84,80.33,Veterinarian
+338,Pari Patel,Female,84,84,84,84.0,Nurse
+339,Aditya Mehta,Male,72,83,67,74.0,Veterinarian
+340,Anika Bansal,Male,94,70,78,80.67,Pharmacist
+341,Anika Nair,Female,90,90,80,86.67,Veterinarian
+342,Pari Das,Male,90,84,66,80.0,Nutritionist
+343,Arjun Singh,Male,96,74,85,85.0,Environmental Scientist
+344,Diya Malhotra,Male,65,92,79,78.67,Doctor
+345,Anika Yadav,Male,74,64,62,66.67,Research Scientist
+346,Diya Bansal,Male,92,64,64,73.33,Dentist
+347,Aarav Kumar,Male,83,93,64,80.0,Doctor
+348,Saanvi Reddy,Female,93,93,85,90.33,Biotechnologist
+349,Vivaan Reddy,Female,84,84,84,84.0,Research Scientist
+350,Krishna Pillai,Male,82,96,80,86.0,Pharmacist
+351,Ishaan Mehta,Male,85,98,99,94.0,Doctor
+352,Aarav Reddy,Female,98,97,90,95.0,Nurse
+353,Myra Malhotra,Female,77,85,89,83.67,Biotechnologist
+354,Pari Patel,Male,83,69,62,71.33,Environmental Scientist
+355,Aarav Kapoor,Female,99,84,89,90.67,Doctor
+356,Kiara Das,Female,78,67,77,74.0,Dentist
+357,Myra Joshi,Male,70,93,81,81.33,Research Scientist
+358,Ira Tiwari,Female,71,75,68,71.33,Research Scientist
+359,Kiara Malhotra,Male,67,61,82,70.0,Research Scientist
+360,Kiara Yadav,Male,96,68,89,84.33,Environmental Scientist
+361,Ananya Sharma,Female,60,64,65,63.0,Doctor
+362,Meera Bansal,Female,94,69,99,87.33,Nutritionist
+363,Myra Pillai,Female,71,79,82,77.33,Biotechnologist
+364,Arjun Tiwari,Female,64,74,81,73.0,Veterinarian
+365,Arjun Das,Female,91,96,79,88.67,Nutritionist
+366,Reyansh Gupta,Female,89,68,67,74.67,Doctor
+367,Rohan Ghosh,Female,69,95,67,77.0,Nutritionist
+368,Meera Bansal,Male,84,63,94,80.33,Veterinarian
+369,Ishaan Nair,Male,78,75,87,80.0,Nutritionist
+370,Diya Das,Female,71,65,93,76.33,Dentist
+371,Kiara Verma,Male,81,90,97,89.33,Veterinarian
+372,Vivaan Malhotra,Male,68,61,73,67.33,Doctor
+373,Anika Pillai,Male,72,73,83,76.0,Doctor
+374,Arjun Gupta,Male,64,76,92,77.33,Pharmacist
+375,Saanvi Gupta,Female,74,88,100,87.33,Nurse
+376,Ananya Ghosh,Male,75,90,67,77.33,Doctor
+377,Meera Tiwari,Female,73,66,61,66.67,Pharmacist
+378,Ayaan Tiwari,Female,70,74,96,80.0,Nurse
+379,Myra Pillai,Male,86,68,61,71.67,Biotechnologist
+380,Aditya Joshi,Male,78,76,64,72.67,Doctor
+381,Myra Sharma,Male,98,94,99,97.0,Veterinarian
+382,Ira Gupta,Female,75,86,87,82.67,Environmental Scientist
+383,Vihaan Verma,Male,80,68,65,71.0,Nurse
+384,Anika Verma,Female,91,87,71,83.0,Nutritionist
+385,Rohan Malhotra,Female,96,66,62,74.67,Research Scientist
+386,Pari Chopra,Male,67,66,77,70.0,Research Scientist
+387,Reyansh Reddy,Male,64,99,62,75.0,Research Scientist
+388,Pari Reddy,Female,66,61,79,68.67,Dentist
+389,Aadhya Malhotra,Male,76,97,99,90.67,Dentist
+390,Aadhya Verma,Male,71,78,77,75.33,Nutritionist
+391,Ayaan Bansal,Male,94,87,87,89.33,Environmental Scientist
+392,Myra Kapoor,Male,78,72,92,80.67,Doctor
+393,Aditya Chopra,Male,100,68,63,77.0,Dentist
+394,Rohan Tiwari,Male,61,86,69,72.0,Nutritionist
+395,Diya Kapoor,Male,84,92,86,87.33,Doctor
+396,Anika Reddy,Female,74,88,75,79.0,Pharmacist
+397,Rohan Ghosh,Female,90,65,93,82.67,Veterinarian
+398,Vihaan Singh,Male,99,99,79,92.33,Doctor
+399,Aarav Tiwari,Male,67,89,88,81.33,Nurse
+400,Saanvi Gupta,Female,100,71,72,81.0,Pharmacist
+401,Ananya Gupta,Female,95,62,96,84.33,Dentist
+402,Vivaan Das,Female,97,82,80,86.33,Physiotherapist
+403,Saanvi Tiwari,Female,71,74,97,80.67,Dentist
+404,Ishaan Kumar,Male,95,91,62,82.67,Research Scientist
+405,Ishaan Tiwari,Male,84,99,60,81.0,Nurse
+406,Ananya Reddy,Male,60,98,99,85.67,Doctor
+407,Saanvi Sharma,Male,71,94,68,77.67,Dentist
+408,Vihaan Mehta,Male,74,75,68,72.33,Doctor
+409,Vivaan Yadav,Male,62,79,91,77.33,Environmental Scientist
+410,Aarav Ghosh,Female,64,90,67,73.67,Environmental Scientist
+411,Vivaan Chopra,Male,79,64,72,71.67,Doctor
+412,Myra Joshi,Female,75,97,81,84.33,Nurse
+413,Pari Patel,Female,96,75,79,83.33,Doctor
+414,Aarav Das,Female,71,79,86,78.67,Pharmacist
+415,Vihaan Singh,Female,67,88,88,81.0,Dentist
+416,Anika Mishra,Male,62,91,100,84.33,Research Scientist
+417,Pari Kumar,Male,73,100,65,79.33,Dentist
+418,Ananya Patel,Female,99,84,84,89.0,Doctor
+419,Aadhya Joshi,Male,89,93,100,94.0,Research Scientist
+420,Myra Bansal,Male,83,76,84,81.0,Doctor
+421,Myra Patel,Male,88,78,100,88.67,Biotechnologist
+422,Reyansh Malhotra,Male,88,93,90,90.33,Research Scientist
+423,Aarav Chopra,Female,75,77,85,79.0,Dentist
+424,Ananya Verma,Male,77,91,84,84.0,Physiotherapist
+425,Diya Joshi,Female,93,78,97,89.33,Doctor
+426,Pari Tiwari,Female,89,72,93,84.67,Nutritionist
+427,Diya Kapoor,Female,90,71,85,82.0,Dentist
+428,Vivaan Joshi,Female,87,94,100,93.67,Dentist
+429,Ayaan Reddy,Female,96,93,71,86.67,Biotechnologist
+430,Ira Yadav,Male,90,62,72,74.67,Biotechnologist
+431,Ananya Nair,Female,100,90,77,89.0,Doctor
+432,Diya Bansal,Male,97,98,93,96.0,Physiotherapist
+433,Kiara Kumar,Male,90,82,86,86.0,Physiotherapist
+434,Reyansh Kapoor,Female,90,85,80,85.0,Physiotherapist
+435,Ayaan Kumar,Male,66,87,76,76.33,Environmental Scientist
+436,Meera Yadav,Female,64,98,73,78.33,Biotechnologist
+437,Myra Joshi,Female,79,80,93,84.0,Environmental Scientist
+438,Vihaan Verma,Male,74,66,63,67.67,Pharmacist
+439,Arjun Yadav,Male,67,77,76,73.33,Biotechnologist
+440,Ira Bansal,Female,69,60,92,73.67,Biotechnologist
+441,Myra Mishra,Male,66,100,72,79.33,Nurse
+442,Aditya Verma,Male,72,99,71,80.67,Physiotherapist
+443,Rohan Reddy,Male,66,85,73,74.67,Pharmacist
+444,Reyansh Pillai,Male,61,61,64,62.0,Nutritionist
+445,Vivaan Tiwari,Female,94,80,67,80.33,Dentist
+446,Kiara Sharma,Male,60,68,75,67.67,Nurse
+447,Aadhya Das,Female,93,100,70,87.67,Physiotherapist
+448,Reyansh Verma,Female,90,79,78,82.33,Research Scientist
+449,Rohan Sharma,Female,89,85,73,82.33,Research Scientist
+450,Pari Yadav,Male,74,62,91,75.67,Environmental Scientist
+451,Ishaan Kumar,Male,76,70,67,71.0,Physiotherapist
+452,Ishaan Verma,Female,74,82,79,78.33,Doctor
+453,Kiara Patel,Female,86,73,78,79.0,Environmental Scientist
+454,Myra Ghosh,Female,92,90,86,89.33,Research Scientist
+455,Meera Pillai,Male,90,98,71,86.33,Veterinarian
+456,Vivaan Bansal,Female,98,87,75,86.67,Dentist
+457,Kiara Nair,Male,87,83,87,85.67,Nurse
+458,Reyansh Bansal,Male,76,64,63,67.67,Veterinarian
+459,Kiara Ghosh,Male,76,65,64,68.33,Environmental Scientist
+460,Saanvi Yadav,Male,74,78,96,82.67,Pharmacist
+461,Arjun Das,Male,92,86,64,80.67,Research Scientist
+462,Aarav Sharma,Female,93,81,92,88.67,Doctor
+463,Aarav Verma,Male,84,86,75,81.67,Dentist
+464,Ananya Patel,Female,85,65,72,74.0,Doctor
+465,Pari Reddy,Male,71,84,79,78.0,Pharmacist
+466,Reyansh Reddy,Female,99,83,98,93.33,Environmental Scientist
+467,Meera Patel,Female,67,76,87,76.67,Research Scientist
+468,Vivaan Joshi,Female,90,78,97,88.33,Nutritionist
+469,Arjun Kumar,Male,94,85,90,89.67,Pharmacist
+470,Reyansh Sharma,Male,97,65,68,76.67,Dentist
+471,Arjun Kumar,Female,77,87,89,84.33,Physiotherapist
+472,Aarav Malhotra,Female,81,66,92,79.67,Dentist
+473,Ananya Patel,Female,65,80,72,72.33,Pharmacist
+474,Aditya Singh,Female,82,68,75,75.0,Physiotherapist
+475,Ayaan Singh,Female,92,95,96,94.33,Physiotherapist
+476,Reyansh Tiwari,Male,84,87,68,79.67,Nutritionist
+477,Aditya Mehta,Female,68,93,78,79.67,Biotechnologist
+478,Saanvi Sharma,Male,79,88,84,83.67,Dentist
+479,Myra Joshi,Male,88,97,74,86.33,Pharmacist
+480,Reyansh Ghosh,Female,79,89,92,86.67,Nutritionist
+481,Ishaan Patel,Female,88,80,68,78.67,Research Scientist
+482,Ayaan Kumar,Female,81,93,71,81.67,Pharmacist
+483,Aadhya Chopra,Female,68,70,71,69.67,Pharmacist
+484,Vivaan Kumar,Female,69,79,71,73.0,Pharmacist
+485,Vihaan Joshi,Female,89,79,81,83.0,Research Scientist
+486,Anika Gupta,Female,85,84,87,85.33,Research Scientist
+487,Vihaan Sharma,Female,86,81,85,84.0,Veterinarian
+488,Aarav Sharma,Female,75,75,91,80.33,Nurse
+489,Krishna Nair,Male,84,63,87,78.0,Environmental Scientist
+490,Ayaan Yadav,Male,97,73,84,84.67,Dentist
+491,Saanvi Chopra,Female,90,92,74,85.33,Nutritionist
+492,Rohan Mehta,Male,69,88,72,76.33,Doctor
+493,Ira Mehta,Male,73,79,60,70.67,Environmental Scientist
+494,Ananya Joshi,Female,65,91,75,77.0,Nurse
+495,Diya Singh,Male,80,93,87,86.67,Doctor
+496,Anika Mehta,Male,77,85,79,80.33,Research Scientist
+497,Reyansh Malhotra,Male,77,87,78,80.67,Physiotherapist
+498,Myra Reddy,Male,78,89,81,82.67,Research Scientist
+499,Kiara Pillai,Male,76,82,66,74.67,Environmental Scientist
+500,Ananya Sharma,Male,87,81,77,81.67,Veterinarian
+501,Ishaan Chopra,Female,71,86,77,78.0,Veterinarian
+502,Aadhya Patel,Female,73,63,66,67.33,Nutritionist
+503,Vihaan Reddy,Female,96,60,69,75.0,Nutritionist
+504,Diya Yadav,Female,77,66,72,71.67,Veterinarian
+505,Myra Malhotra,Female,73,73,85,77.0,Nutritionist
+506,Meera Mehta,Female,80,66,95,80.33,Dentist
+507,Diya Kapoor,Male,77,97,61,78.33,Doctor
+508,Krishna Pillai,Male,94,87,69,83.33,Biotechnologist
+509,Reyansh Patel,Male,63,73,94,76.67,Pharmacist
+510,Reyansh Sharma,Male,88,92,61,80.33,Environmental Scientist
+511,Vihaan Nair,Male,72,80,80,77.33,Nutritionist
+512,Kiara Das,Female,74,100,87,87.0,Physiotherapist
+513,Reyansh Ghosh,Male,76,70,89,78.33,Doctor
+514,Vivaan Verma,Female,85,98,86,89.67,Environmental Scientist
+515,Meera Kapoor,Male,96,63,83,80.67,Dentist
+516,Kiara Patel,Male,68,68,60,65.33,Nutritionist
+517,Ira Pillai,Female,92,74,63,76.33,Research Scientist
+518,Myra Ghosh,Female,74,62,70,68.67,Veterinarian
+519,Aadhya Singh,Male,94,91,64,83.0,Dentist
+520,Anika Ghosh,Male,63,94,96,84.33,Biotechnologist
+521,Aditya Sharma,Male,70,96,95,87.0,Veterinarian
+522,Ira Patel,Male,66,61,85,70.67,Research Scientist
+523,Myra Patel,Male,64,99,94,85.67,Biotechnologist
+524,Aditya Joshi,Female,60,96,84,80.0,Doctor
+525,Meera Singh,Male,66,63,61,63.33,Nutritionist
+526,Kiara Kapoor,Female,95,62,87,81.33,Nutritionist
+527,Aadhya Verma,Male,100,66,76,80.67,Nutritionist
+528,Vivaan Reddy,Female,69,81,92,80.67,Environmental Scientist
+529,Arjun Kapoor,Male,77,67,78,74.0,Nutritionist
+530,Ayaan Kumar,Male,68,94,90,84.0,Environmental Scientist
+531,Reyansh Pillai,Female,61,89,96,82.0,Nurse
+532,Meera Nair,Female,97,97,79,91.0,Nurse
+533,Vivaan Sharma,Female,87,85,83,85.0,Dentist
+534,Arjun Malhotra,Male,65,72,100,79.0,Veterinarian
+535,Meera Nair,Female,81,88,92,87.0,Research Scientist
+536,Pari Chopra,Male,88,68,74,76.67,Physiotherapist
+537,Saanvi Das,Male,78,83,80,80.33,Doctor
+538,Pari Singh,Male,65,84,64,71.0,Biotechnologist
+539,Arjun Singh,Male,63,83,91,79.0,Environmental Scientist
+540,Kiara Mishra,Female,71,96,96,87.67,Doctor
+541,Krishna Malhotra,Male,70,71,94,78.33,Environmental Scientist
+542,Myra Bansal,Female,96,62,60,72.67,Physiotherapist
+543,Pari Verma,Male,86,70,93,83.0,Nurse
+544,Diya Mishra,Female,69,84,93,82.0,Nutritionist
+545,Saanvi Mishra,Male,80,85,77,80.67,Research Scientist
+546,Aarav Joshi,Male,72,67,94,77.67,Doctor
+547,Aditya Yadav,Male,69,95,77,80.33,Pharmacist
+548,Aditya Joshi,Female,64,89,70,74.33,Nutritionist
+549,Ananya Joshi,Male,78,93,97,89.33,Physiotherapist
+550,Meera Ghosh,Male,96,86,80,87.33,Physiotherapist
+551,Pari Das,Male,78,69,90,79.0,Veterinarian
+552,Kiara Ghosh,Male,84,76,89,83.0,Physiotherapist
+553,Arjun Yadav,Male,73,90,82,81.67,Nurse
+554,Arjun Verma,Male,81,93,82,85.33,Doctor
+555,Ishaan Malhotra,Female,97,79,66,80.67,Environmental Scientist
+556,Anika Mishra,Male,64,66,99,76.33,Dentist
+557,Ananya Reddy,Male,87,80,97,88.0,Nurse
+558,Reyansh Bansal,Female,71,67,81,73.0,Veterinarian
+559,Kiara Das,Female,96,73,68,79.0,Research Scientist
+560,Ira Nair,Male,62,78,62,67.33,Biotechnologist
+561,Rohan Joshi,Male,67,74,76,72.33,Biotechnologist
+562,Myra Chopra,Female,70,91,61,74.0,Veterinarian
+563,Rohan Verma,Female,90,78,73,80.33,Biotechnologist
+564,Rohan Tiwari,Male,88,71,71,76.67,Nurse
+565,Meera Mishra,Female,68,88,78,78.0,Physiotherapist
+566,Reyansh Patel,Female,72,82,64,72.67,Dentist
+567,Anika Chopra,Female,91,73,70,78.0,Environmental Scientist
+568,Arjun Kumar,Female,72,90,99,87.0,Doctor
+569,Diya Tiwari,Female,96,66,68,76.67,Nurse
+570,Aditya Bansal,Male,80,88,92,86.67,Dentist
+571,Meera Tiwari,Male,91,95,75,87.0,Nurse
+572,Ira Patel,Male,75,86,100,87.0,Nutritionist
+573,Vihaan Yadav,Male,83,86,66,78.33,Nutritionist
+574,Reyansh Nair,Male,94,66,62,74.0,Physiotherapist
+575,Meera Ghosh,Male,81,76,78,78.33,Pharmacist
+576,Pari Reddy,Female,93,70,87,83.33,Dentist
+577,Myra Malhotra,Male,99,96,60,85.0,Doctor
+578,Ira Tiwari,Female,62,79,64,68.33,Nurse
+579,Rohan Bansal,Male,77,99,78,84.67,Dentist
+580,Kiara Mehta,Female,100,63,69,77.33,Biotechnologist
+581,Ira Verma,Female,64,88,98,83.33,Doctor
+582,Aditya Verma,Male,87,72,83,80.67,Pharmacist
+583,Aditya Verma,Female,97,91,92,93.33,Biotechnologist
+584,Rohan Reddy,Female,63,90,89,80.67,Doctor
+585,Krishna Singh,Female,88,80,84,84.0,Physiotherapist
+586,Anika Reddy,Male,87,94,99,93.33,Research Scientist
+587,Myra Bansal,Female,65,90,73,76.0,Dentist
+588,Aadhya Tiwari,Female,98,60,87,81.67,Nurse
+589,Kiara Tiwari,Female,63,63,86,70.67,Nurse
+590,Rohan Patel,Female,88,70,81,79.67,Biotechnologist
+591,Meera Mehta,Male,67,97,99,87.67,Biotechnologist
+592,Ira Mehta,Female,89,61,70,73.33,Nurse
+593,Reyansh Singh,Female,71,94,78,81.0,Research Scientist
+594,Anika Bansal,Female,61,66,76,67.67,Nutritionist
+595,Aarav Gupta,Female,100,60,90,83.33,Veterinarian
+596,Arjun Joshi,Female,77,61,89,75.67,Biotechnologist
+597,Reyansh Ghosh,Male,73,76,63,70.67,Biotechnologist
+598,Anika Kumar,Male,99,66,69,78.0,Doctor
+599,Krishna Malhotra,Female,69,95,66,76.67,Pharmacist
+600,Vihaan Joshi,Female,90,79,66,78.33,Research Scientist
+601,Ishaan Das,Male,73,88,87,82.67,Veterinarian
+602,Ira Mehta,Male,73,90,91,84.67,Research Scientist
+603,Diya Yadav,Female,66,82,70,72.67,Nurse
+604,Ayaan Gupta,Male,70,89,79,79.33,Doctor
+605,Myra Bansal,Male,94,64,83,80.33,Dentist
+606,Krishna Patel,Male,99,86,60,81.67,Nutritionist
+607,Aditya Mishra,Male,88,62,85,78.33,Research Scientist
+608,Krishna Ghosh,Female,63,67,78,69.33,Physiotherapist
+609,Ayaan Yadav,Female,65,74,67,68.67,Physiotherapist
+610,Pari Gupta,Female,79,88,97,88.0,Doctor
+611,Krishna Verma,Male,64,100,93,85.67,Physiotherapist
+612,Anika Kumar,Female,75,95,78,82.67,Research Scientist
+613,Ananya Joshi,Male,63,99,86,82.67,Environmental Scientist
+614,Ayaan Tiwari,Male,91,99,89,93.0,Veterinarian
+615,Arjun Gupta,Male,84,77,69,76.67,Nurse
+616,Myra Sharma,Male,93,68,98,86.33,Doctor
+617,Ishaan Singh,Male,98,68,80,82.0,Physiotherapist
+618,Vivaan Chopra,Female,77,84,63,74.67,Pharmacist
+619,Myra Nair,Male,67,64,90,73.67,Biotechnologist
+620,Vivaan Mehta,Male,83,83,67,77.67,Research Scientist
+621,Ira Pillai,Male,85,61,77,74.33,Physiotherapist
+622,Ayaan Joshi,Male,81,93,71,81.67,Physiotherapist
+623,Ayaan Mishra,Male,75,70,66,70.33,Research Scientist
+624,Anika Singh,Male,84,78,87,83.0,Doctor
+625,Pari Reddy,Male,80,100,89,89.67,Research Scientist
+626,Vivaan Kapoor,Male,84,100,66,83.33,Biotechnologist
+627,Anika Tiwari,Male,79,89,89,85.67,Biotechnologist
+628,Ira Bansal,Male,68,94,99,87.0,Dentist
+629,Vivaan Tiwari,Female,97,74,96,89.0,Nutritionist
+630,Krishna Chopra,Male,68,84,95,82.33,Doctor
+631,Kiara Malhotra,Male,96,98,86,93.33,Research Scientist
+632,Pari Das,Female,74,80,70,74.67,Biotechnologist
+633,Reyansh Chopra,Male,85,79,92,85.33,Nurse
+634,Ayaan Verma,Female,81,86,62,76.33,Pharmacist
+635,Aarav Bansal,Female,85,63,95,81.0,Nurse
+636,Vivaan Yadav,Female,84,97,80,87.0,Doctor
+637,Aarav Bansal,Male,64,92,76,77.33,Nurse
+638,Saanvi Bansal,Female,62,71,73,68.67,Environmental Scientist
+639,Vivaan Reddy,Male,96,89,95,93.33,Dentist
+640,Vivaan Mishra,Female,94,64,91,83.0,Pharmacist
+641,Aarav Singh,Female,93,77,85,85.0,Doctor
+642,Pari Gupta,Male,65,91,83,79.67,Environmental Scientist
+643,Krishna Das,Female,73,77,73,74.33,Nutritionist
+644,Ishaan Yadav,Male,86,60,81,75.67,Veterinarian
+645,Pari Patel,Male,92,78,88,86.0,Nurse
+646,Ira Kapoor,Male,96,63,69,76.0,Nurse
+647,Aadhya Singh,Male,68,75,61,68.0,Research Scientist
+648,Ishaan Mehta,Male,72,88,70,76.67,Pharmacist
+649,Ira Das,Male,63,80,96,79.67,Biotechnologist
+650,Ishaan Singh,Male,73,76,85,78.0,Research Scientist
+651,Ishaan Bansal,Male,88,96,73,85.67,Physiotherapist
+652,Ira Patel,Female,65,76,84,75.0,Pharmacist
+653,Saanvi Kapoor,Female,62,68,94,74.67,Pharmacist
+654,Ira Singh,Male,87,87,87,87.0,Environmental Scientist
+655,Krishna Reddy,Female,98,68,97,87.67,Nurse
+656,Ira Das,Male,92,71,74,79.0,Nutritionist
+657,Vihaan Das,Male,74,65,97,78.67,Nutritionist
+658,Saanvi Mehta,Male,75,61,73,69.67,Nutritionist
+659,Pari Kapoor,Female,95,73,72,80.0,Doctor
+660,Anika Tiwari,Male,89,98,91,92.67,Environmental Scientist
+661,Aarav Yadav,Female,92,61,73,75.33,Dentist
+662,Ayaan Gupta,Female,60,73,68,67.0,Pharmacist
+663,Rohan Gupta,Female,64,92,96,84.0,Physiotherapist
+664,Vihaan Mehta,Female,65,96,94,85.0,Research Scientist
+665,Rohan Chopra,Male,92,62,83,79.0,Doctor
+666,Ayaan Tiwari,Male,98,89,63,83.33,Dentist
+667,Ananya Verma,Male,94,99,93,95.33,Research Scientist
+668,Krishna Ghosh,Male,93,87,74,84.67,Research Scientist
+669,Vihaan Yadav,Male,95,85,65,81.67,Physiotherapist
+670,Myra Bansal,Male,78,92,71,80.33,Nutritionist
+671,Krishna Malhotra,Male,78,85,67,76.67,Environmental Scientist
+672,Saanvi Patel,Female,66,75,98,79.67,Physiotherapist
+673,Aditya Reddy,Female,63,71,76,70.0,Doctor
+674,Rohan Das,Male,99,65,87,83.67,Nurse
+675,Aarav Kapoor,Female,68,80,81,76.33,Environmental Scientist
+676,Vivaan Nair,Male,100,67,75,80.67,Pharmacist
+677,Aadhya Patel,Female,60,83,78,73.67,Dentist
+678,Saanvi Yadav,Male,69,75,74,72.67,Environmental Scientist
+679,Krishna Sharma,Male,85,75,73,77.67,Veterinarian
+680,Reyansh Sharma,Female,83,91,100,91.33,Research Scientist
+681,Aditya Singh,Female,69,76,91,78.67,Nurse
+682,Anika Gupta,Female,85,100,61,82.0,Research Scientist
+683,Krishna Chopra,Male,66,100,91,85.67,Physiotherapist
+684,Aarav Singh,Male,74,100,67,80.33,Nurse
+685,Aarav Yadav,Female,63,70,68,67.0,Environmental Scientist
+686,Pari Patel,Male,62,99,68,76.33,Veterinarian
+687,Pari Singh,Male,98,84,65,82.33,Nutritionist
+688,Saanvi Verma,Female,97,86,75,86.0,Research Scientist
+689,Vihaan Chopra,Male,96,74,77,82.33,Physiotherapist
+690,Myra Gupta,Male,69,95,71,78.33,Doctor
+691,Aditya Mehta,Female,61,92,80,77.67,Pharmacist
+692,Aditya Kumar,Female,82,72,83,79.0,Nutritionist
+693,Diya Nair,Female,88,79,94,87.0,Veterinarian
+694,Saanvi Sharma,Male,91,95,92,92.67,Dentist
+695,Aditya Pillai,Female,63,63,87,71.0,Doctor
+696,Kiara Kapoor,Female,81,89,67,79.0,Nutritionist
+697,Aditya Kapoor,Female,79,78,64,73.67,Dentist
+698,Vihaan Patel,Male,67,100,100,89.0,Biotechnologist
+699,Kiara Reddy,Female,68,87,83,79.33,Pharmacist
+700,Diya Pillai,Male,88,98,98,94.67,Nurse
+701,Ayaan Yadav,Female,85,74,95,84.67,Nurse
+702,Vihaan Kumar,Male,79,95,77,83.67,Nutritionist
+703,Krishna Patel,Male,88,82,60,76.67,Veterinarian
+704,Arjun Mishra,Female,74,68,62,68.0,Nurse
+705,Aditya Nair,Male,78,82,99,86.33,Doctor
+706,Anika Das,Male,75,76,73,74.67,Pharmacist
+707,Arjun Kumar,Female,87,91,67,81.67,Pharmacist
+708,Pari Reddy,Female,82,74,83,79.67,Pharmacist
+709,Rohan Bansal,Male,69,63,86,72.67,Biotechnologist
+710,Krishna Tiwari,Male,62,95,82,79.67,Nurse
+711,Ananya Kapoor,Female,62,73,93,76.0,Biotechnologist
+712,Myra Nair,Female,70,93,91,84.67,Dentist
+713,Aarav Sharma,Male,71,61,97,76.33,Dentist
+714,Saanvi Kapoor,Female,97,82,91,90.0,Environmental Scientist
+715,Ishaan Kumar,Female,60,61,100,73.67,Nutritionist
+716,Krishna Verma,Female,84,63,63,70.0,Dentist
+717,Anika Chopra,Male,66,92,97,85.0,Nutritionist
+718,Saanvi Mishra,Female,93,62,74,76.33,Nutritionist
+719,Anika Das,Female,66,87,80,77.67,Dentist
+720,Kiara Pillai,Male,76,84,85,81.67,Environmental Scientist
+721,Diya Bansal,Female,73,70,70,71.0,Nutritionist
+722,Krishna Tiwari,Male,62,76,67,68.33,Dentist
+723,Ananya Kumar,Female,74,75,73,74.0,Dentist
+724,Aadhya Joshi,Female,76,76,81,77.67,Physiotherapist
+725,Anika Mishra,Female,70,93,95,86.0,Doctor
+726,Ananya Kapoor,Female,72,73,90,78.33,Veterinarian
+727,Reyansh Mehta,Male,79,61,98,79.33,Doctor
+728,Saanvi Kumar,Male,93,70,87,83.33,Biotechnologist
+729,Myra Patel,Female,63,66,87,72.0,Biotechnologist
+730,Anika Malhotra,Male,69,78,61,69.33,Pharmacist
+731,Vivaan Nair,Male,88,74,81,81.0,Research Scientist
+732,Anika Kumar,Male,61,92,72,75.0,Nutritionist
+733,Arjun Patel,Female,70,87,70,75.67,Veterinarian
+734,Ayaan Bansal,Female,62,61,70,64.33,Doctor
+735,Saanvi Yadav,Female,67,60,79,68.67,Environmental Scientist
+736,Ayaan Mehta,Female,97,96,67,86.67,Environmental Scientist
+737,Aarav Pillai,Female,92,92,67,83.67,Pharmacist
+738,Krishna Tiwari,Female,70,90,95,85.0,Dentist
+739,Aarav Mishra,Male,65,62,75,67.33,Biotechnologist
+740,Ayaan Sharma,Male,61,60,98,73.0,Nurse
+741,Krishna Sharma,Male,62,69,70,67.0,Nutritionist
+742,Arjun Singh,Male,78,90,67,78.33,Environmental Scientist
+743,Aadhya Ghosh,Male,81,80,79,80.0,Dentist
+744,Saanvi Ghosh,Female,74,69,100,81.0,Dentist
+745,Reyansh Mishra,Female,96,74,84,84.67,Dentist
+746,Reyansh Kumar,Male,72,91,90,84.33,Nurse
+747,Diya Verma,Male,85,99,64,82.67,Doctor
+748,Ananya Bansal,Male,90,93,89,90.67,Physiotherapist
+749,Reyansh Mishra,Female,85,95,66,82.0,Research Scientist
+750,Ananya Singh,Female,88,73,77,79.33,Nutritionist
+751,Krishna Yadav,Female,93,89,71,84.33,Physiotherapist
+752,Ira Kumar,Female,69,96,78,81.0,Environmental Scientist
+753,Ananya Tiwari,Female,66,72,60,66.0,Dentist
+754,Ananya Pillai,Male,62,88,67,72.33,Nurse
+755,Krishna Gupta,Female,97,98,71,88.67,Dentist
+756,Ira Tiwari,Female,97,82,85,88.0,Research Scientist
+757,Aditya Mehta,Male,90,63,96,83.0,Research Scientist
+758,Aditya Chopra,Female,92,94,68,84.67,Nutritionist
+759,Meera Patel,Male,77,70,61,69.33,Dentist
+760,Diya Tiwari,Male,69,99,65,77.67,Nurse
+761,Rohan Pillai,Female,79,87,93,86.33,Environmental Scientist
+762,Diya Reddy,Female,83,70,93,82.0,Nurse
+763,Saanvi Nair,Male,89,60,93,80.67,Environmental Scientist
+764,Aditya Patel,Male,85,86,68,79.67,Veterinarian
+765,Krishna Ghosh,Male,92,78,95,88.33,Doctor
+766,Reyansh Kumar,Male,87,91,86,88.0,Physiotherapist
+767,Ayaan Sharma,Female,87,80,64,77.0,Environmental Scientist
+768,Saanvi Reddy,Female,78,88,90,85.33,Biotechnologist
+769,Meera Malhotra,Male,77,84,60,73.67,Nutritionist
+770,Vivaan Reddy,Female,81,61,100,80.67,Nurse
+771,Meera Ghosh,Male,89,75,92,85.33,Biotechnologist
+772,Diya Pillai,Male,75,64,89,76.0,Environmental Scientist
+773,Kiara Mishra,Male,80,61,68,69.67,Veterinarian
+774,Vivaan Patel,Male,85,69,82,78.67,Nutritionist
+775,Aarav Mehta,Female,85,92,61,79.33,Nutritionist
+776,Diya Ghosh,Male,70,97,73,80.0,Physiotherapist
+777,Ishaan Chopra,Male,75,96,64,78.33,Nurse
+778,Ishaan Gupta,Male,87,95,61,81.0,Dentist
+779,Arjun Malhotra,Male,65,82,73,73.33,Research Scientist
+780,Kiara Pillai,Female,87,76,99,87.33,Research Scientist
+781,Diya Das,Male,74,93,97,88.0,Dentist
+782,Rohan Mishra,Female,84,65,92,80.33,Nurse
+783,Aadhya Mehta,Male,68,89,92,83.0,Nurse
+784,Saanvi Singh,Female,81,62,84,75.67,Physiotherapist
+785,Saanvi Chopra,Male,62,89,71,74.0,Biotechnologist
+786,Ananya Tiwari,Female,66,98,86,83.33,Pharmacist
+787,Ira Reddy,Male,71,85,95,83.67,Veterinarian
+788,Pari Verma,Female,79,74,99,84.0,Pharmacist
+789,Anika Joshi,Female,86,85,79,83.33,Veterinarian
+790,Anika Mehta,Male,86,74,90,83.33,Environmental Scientist
+791,Vivaan Bansal,Male,60,60,92,70.67,Dentist
+792,Reyansh Das,Female,93,73,86,84.0,Research Scientist
+793,Ishaan Yadav,Male,92,82,61,78.33,Nutritionist
+794,Kiara Mehta,Male,72,68,98,79.33,Biotechnologist
+795,Vihaan Bansal,Female,89,97,66,84.0,Biotechnologist
+796,Arjun Sharma,Female,78,83,69,76.67,Dentist
+797,Ananya Pillai,Female,96,88,89,91.0,Nurse
+798,Reyansh Nair,Male,61,84,100,81.67,Environmental Scientist
+799,Rohan Gupta,Female,90,82,71,81.0,Dentist
+800,Myra Reddy,Male,93,92,81,88.67,Nurse
+801,Aditya Joshi,Male,67,65,74,68.67,Environmental Scientist
+802,Saanvi Gupta,Female,61,91,61,71.0,Research Scientist
+803,Ayaan Gupta,Male,66,65,84,71.67,Research Scientist
+804,Ira Mehta,Male,90,91,71,84.0,Doctor
+805,Rohan Malhotra,Female,83,60,97,80.0,Pharmacist
+806,Arjun Singh,Female,64,89,68,73.67,Pharmacist
+807,Aarav Kapoor,Female,66,76,71,71.0,Pharmacist
+808,Anika Mehta,Male,65,79,97,80.33,Nutritionist
+809,Arjun Pillai,Female,86,87,87,86.67,Nurse
+810,Myra Sharma,Female,76,92,62,76.67,Environmental Scientist
+811,Aarav Pillai,Male,82,98,69,83.0,Nutritionist
+812,Saanvi Singh,Male,88,92,60,80.0,Nutritionist
+813,Ira Chopra,Male,80,67,70,72.33,Environmental Scientist
+814,Reyansh Reddy,Male,62,60,69,63.67,Nutritionist
+815,Pari Nair,Male,65,80,77,74.0,Nutritionist
+816,Ananya Bansal,Male,78,60,80,72.67,Physiotherapist
+817,Pari Gupta,Female,72,73,76,73.67,Environmental Scientist
+818,Saanvi Kapoor,Male,88,78,73,79.67,Biotechnologist
+819,Ananya Reddy,Male,78,96,65,79.67,Nutritionist
+820,Ishaan Bansal,Male,92,83,90,88.33,Biotechnologist
+821,Vivaan Gupta,Female,88,84,94,88.67,Doctor
+822,Kiara Bansal,Male,75,94,93,87.33,Biotechnologist
+823,Saanvi Verma,Female,94,64,60,72.67,Pharmacist
+824,Ishaan Singh,Male,65,81,74,73.33,Doctor
+825,Pari Joshi,Female,64,91,88,81.0,Doctor
+826,Reyansh Singh,Male,95,76,63,78.0,Biotechnologist
+827,Diya Bansal,Female,65,69,67,67.0,Dentist
+828,Ishaan Mehta,Male,91,70,99,86.67,Dentist
+829,Kiara Nair,Male,100,70,67,79.0,Veterinarian
+830,Aditya Malhotra,Female,97,75,88,86.67,Physiotherapist
+831,Pari Kapoor,Female,70,90,95,85.0,Physiotherapist
+832,Ishaan Tiwari,Female,94,88,95,92.33,Dentist
+833,Ira Malhotra,Female,80,66,82,76.0,Doctor
+834,Aarav Mishra,Male,80,92,64,78.67,Doctor
+835,Vihaan Kumar,Female,62,90,65,72.33,Nurse
+836,Aditya Gupta,Female,61,80,60,67.0,Veterinarian
+837,Ayaan Mehta,Male,68,65,95,76.0,Veterinarian
+838,Aadhya Ghosh,Female,71,82,79,77.33,Environmental Scientist
+839,Ishaan Mishra,Male,70,89,68,75.67,Biotechnologist
+840,Myra Verma,Female,61,90,96,82.33,Physiotherapist
+841,Pari Kapoor,Female,96,66,87,83.0,Pharmacist
+842,Krishna Kapoor,Female,88,87,94,89.67,Research Scientist
+843,Arjun Yadav,Female,77,80,94,83.67,Biotechnologist
+844,Aadhya Mishra,Female,76,80,70,75.33,Nurse
+845,Myra Das,Male,94,68,65,75.67,Dentist
+846,Vihaan Joshi,Male,98,87,98,94.33,Nurse
+847,Meera Malhotra,Female,63,88,73,74.67,Environmental Scientist
+848,Arjun Yadav,Male,70,87,82,79.67,Nurse
+849,Rohan Mehta,Male,73,98,100,90.33,Nurse
+850,Rohan Malhotra,Female,67,98,71,78.67,Nurse
+851,Aditya Tiwari,Female,98,100,75,91.0,Research Scientist
+852,Rohan Singh,Female,99,84,70,84.33,Environmental Scientist
+853,Ishaan Kapoor,Male,65,98,84,82.33,Research Scientist
+854,Krishna Tiwari,Male,83,82,67,77.33,Dentist
+855,Vivaan Nair,Male,77,66,71,71.33,Nutritionist
+856,Ishaan Gupta,Male,99,61,90,83.33,Environmental Scientist
+857,Aarav Kapoor,Male,94,66,88,82.67,Nurse
+858,Pari Bansal,Male,89,94,72,85.0,Pharmacist
+859,Ananya Kapoor,Male,80,97,98,91.67,Biotechnologist
+860,Ayaan Nair,Male,93,91,98,94.0,Biotechnologist
+861,Myra Nair,Female,79,91,68,79.33,Nutritionist
+862,Pari Singh,Male,89,63,100,84.0,Veterinarian
+863,Myra Patel,Male,66,95,68,76.33,Environmental Scientist
+864,Kiara Yadav,Male,64,75,77,72.0,Environmental Scientist
+865,Diya Ghosh,Male,74,98,85,85.67,Nurse
+866,Ayaan Verma,Female,85,64,67,72.0,Environmental Scientist
+867,Ira Mishra,Male,69,83,65,72.33,Pharmacist
+868,Rohan Tiwari,Female,76,80,78,78.0,Physiotherapist
+869,Reyansh Patel,Male,82,80,81,81.0,Veterinarian
+870,Aarav Yadav,Female,63,65,97,75.0,Nutritionist
+871,Vivaan Reddy,Female,83,75,98,85.33,Biotechnologist
+872,Myra Kumar,Female,68,66,90,74.67,Dentist
+873,Aadhya Mehta,Female,95,98,65,86.0,Veterinarian
+874,Reyansh Kapoor,Female,88,60,66,71.33,Environmental Scientist
+875,Saanvi Singh,Male,84,89,91,88.0,Physiotherapist
+876,Pari Gupta,Male,98,66,68,77.33,Nutritionist
+877,Aadhya Patel,Male,80,69,68,72.33,Research Scientist
+878,Ishaan Sharma,Male,74,74,87,78.33,Nutritionist
+879,Saanvi Chopra,Female,91,92,64,82.33,Doctor
+880,Diya Joshi,Female,97,87,96,93.33,Research Scientist
+881,Aarav Mehta,Female,67,96,82,81.67,Nurse
+882,Meera Singh,Male,72,94,66,77.33,Physiotherapist
+883,Diya Das,Female,85,71,80,78.67,Research Scientist
+884,Ayaan Patel,Female,65,95,81,80.33,Nutritionist
+885,Rohan Pillai,Female,97,80,96,91.0,Nurse
+886,Krishna Chopra,Female,92,85,67,81.33,Physiotherapist
+887,Rohan Tiwari,Male,91,67,73,77.0,Nutritionist
+888,Ayaan Tiwari,Male,89,62,81,77.33,Doctor
+889,Diya Kumar,Female,100,88,83,90.33,Environmental Scientist
+890,Vivaan Chopra,Male,78,90,70,79.33,Environmental Scientist
+891,Kiara Mishra,Female,97,87,69,84.33,Environmental Scientist
+892,Vivaan Kumar,Male,75,89,82,82.0,Environmental Scientist
+893,Vivaan Pillai,Male,89,67,68,74.67,Doctor
+894,Vihaan Sharma,Female,69,91,81,80.33,Doctor
+895,Ayaan Tiwari,Female,87,83,91,87.0,Pharmacist
+896,Aarav Bansal,Female,71,84,89,81.33,Environmental Scientist
+897,Ananya Kumar,Female,80,81,72,77.67,Pharmacist
+898,Aadhya Das,Female,75,98,66,79.67,Environmental Scientist
+899,Ishaan Sharma,Male,79,74,84,79.0,Veterinarian
+900,Saanvi Joshi,Female,73,67,79,73.0,Research Scientist
+901,Rohan Kapoor,Female,60,61,97,72.67,Veterinarian
+902,Anika Das,Male,95,89,81,88.33,Environmental Scientist
+903,Krishna Chopra,Male,88,84,94,88.67,Biotechnologist
+904,Anika Mishra,Female,68,94,76,79.33,Veterinarian
+905,Ayaan Kumar,Female,62,80,70,70.67,Research Scientist
+906,Saanvi Nair,Male,76,76,78,76.67,Biotechnologist
+907,Vivaan Mehta,Male,71,98,62,77.0,Physiotherapist
+908,Arjun Bansal,Male,61,85,65,70.33,Environmental Scientist
+909,Aditya Verma,Female,100,65,78,81.0,Biotechnologist
+910,Kiara Chopra,Male,88,82,78,82.67,Doctor
+911,Ira Chopra,Female,88,93,80,87.0,Doctor
+912,Ira Singh,Male,77,83,85,81.67,Doctor
+913,Anika Ghosh,Male,85,99,80,88.0,Physiotherapist
+914,Aadhya Verma,Male,68,90,86,81.33,Research Scientist
+915,Ayaan Patel,Male,91,87,79,85.67,Research Scientist
+916,Aditya Kumar,Female,99,71,63,77.67,Nurse
+917,Rohan Ghosh,Female,66,96,61,74.33,Nurse
+918,Aarav Pillai,Female,80,68,79,75.67,Doctor
+919,Ayaan Verma,Female,87,63,89,79.67,Environmental Scientist
+920,Ananya Kapoor,Female,69,87,82,79.33,Biotechnologist
+921,Saanvi Mishra,Female,73,60,79,70.67,Nutritionist
+922,Krishna Singh,Female,63,70,80,71.0,Dentist
+923,Vivaan Chopra,Female,98,78,92,89.33,Doctor
+924,Vihaan Das,Female,96,92,86,91.33,Environmental Scientist
+925,Saanvi Bansal,Male,95,73,99,89.0,Veterinarian
+926,Krishna Mehta,Female,100,87,91,92.67,Veterinarian
+927,Ananya Gupta,Female,99,66,78,81.0,Pharmacist
+928,Krishna Kapoor,Female,88,99,67,84.67,Nurse
+929,Kiara Bansal,Female,70,62,98,76.67,Nurse
+930,Arjun Pillai,Male,85,91,75,83.67,Physiotherapist
+931,Ananya Kumar,Female,85,68,91,81.33,Veterinarian
+932,Krishna Sharma,Female,84,91,70,81.67,Dentist
+933,Ayaan Gupta,Male,98,83,78,86.33,Environmental Scientist
+934,Saanvi Mishra,Female,99,64,89,84.0,Pharmacist
+935,Myra Mehta,Male,70,76,96,80.67,Research Scientist
+936,Anika Kapoor,Female,65,77,62,68.0,Veterinarian
+937,Krishna Patel,Male,75,73,66,71.33,Biotechnologist
+938,Aarav Reddy,Male,82,90,69,80.33,Nurse
+939,Meera Tiwari,Male,65,75,100,80.0,Veterinarian
+940,Meera Verma,Male,81,86,70,79.0,Research Scientist
+941,Aarav Tiwari,Male,71,84,70,75.0,Research Scientist
+942,Aditya Verma,Male,67,75,61,67.67,Nurse
+943,Ishaan Tiwari,Male,62,60,73,65.0,Research Scientist
+944,Vihaan Kumar,Female,87,90,86,87.67,Physiotherapist
+945,Aadhya Gupta,Female,86,96,93,91.67,Dentist
+946,Meera Bansal,Female,71,92,63,75.33,Nutritionist
+947,Aadhya Pillai,Female,81,89,100,90.0,Veterinarian
+948,Anika Patel,Female,96,100,88,94.67,Pharmacist
+949,Pari Sharma,Male,60,89,71,73.33,Doctor
+950,Ananya Singh,Female,76,90,68,78.0,Research Scientist
+951,Meera Chopra,Female,65,79,75,73.0,Doctor
+952,Meera Pillai,Male,64,83,81,76.0,Nutritionist
+953,Vihaan Mishra,Male,90,78,94,87.33,Physiotherapist
+954,Myra Mishra,Female,88,61,90,79.67,Physiotherapist
+955,Aditya Pillai,Female,62,94,62,72.67,Pharmacist
+956,Ananya Yadav,Male,70,91,81,80.67,Veterinarian
+957,Ira Malhotra,Male,73,62,67,67.33,Nutritionist
+958,Arjun Pillai,Female,94,100,82,92.0,Pharmacist
+959,Ira Gupta,Female,99,85,66,83.33,Doctor
+960,Pari Ghosh,Female,68,78,98,81.33,Nurse
+961,Anika Kapoor,Male,82,83,76,80.33,Dentist
+962,Saanvi Bansal,Male,96,80,93,89.67,Nutritionist
+963,Rohan Sharma,Female,80,90,96,88.67,Environmental Scientist
+964,Myra Mehta,Male,63,81,82,75.33,Physiotherapist
+965,Rohan Gupta,Male,85,91,96,90.67,Pharmacist
+966,Arjun Das,Male,61,70,94,75.0,Research Scientist
+967,Aarav Bansal,Female,94,93,92,93.0,Dentist
+968,Diya Yadav,Female,65,95,79,79.67,Biotechnologist
+969,Aadhya Tiwari,Male,88,60,67,71.67,Biotechnologist
+970,Aarav Reddy,Female,64,84,61,69.67,Dentist
+971,Vihaan Pillai,Male,97,76,60,77.67,Nurse
+972,Rohan Mehta,Male,84,63,60,69.0,Biotechnologist
+973,Ishaan Mehta,Male,87,71,67,75.0,Pharmacist
+974,Kiara Pillai,Male,99,79,92,90.0,Physiotherapist
+975,Kiara Reddy,Male,68,64,97,76.33,Physiotherapist
+976,Ayaan Reddy,Male,77,92,88,85.67,Biotechnologist
+977,Arjun Yadav,Female,69,84,88,80.33,Nurse
+978,Vihaan Joshi,Female,99,79,80,86.0,Doctor
+979,Pari Yadav,Female,88,99,77,88.0,Research Scientist
+980,Aarav Verma,Female,80,63,78,73.67,Research Scientist
+981,Vihaan Reddy,Female,66,90,72,76.0,Nutritionist
+982,Krishna Bansal,Male,94,63,91,82.67,Research Scientist
+983,Myra Sharma,Female,90,99,98,95.67,Pharmacist
+984,Rohan Bansal,Female,81,69,97,82.33,Dentist
+985,Aarav Tiwari,Male,94,61,91,82.0,Dentist
+986,Saanvi Mehta,Male,99,71,71,80.33,Environmental Scientist
+987,Rohan Malhotra,Female,75,63,69,69.0,Physiotherapist
+988,Kiara Sharma,Male,68,94,69,77.0,Doctor
+989,Reyansh Chopra,Male,69,80,85,78.0,Physiotherapist
+990,Ananya Singh,Female,67,91,63,73.67,Veterinarian
+991,Vihaan Pillai,Male,61,99,71,77.0,Research Scientist
+992,Anika Bansal,Male,91,78,67,78.67,Pharmacist
+993,Pari Pillai,Male,91,96,81,89.33,Biotechnologist
+994,Aadhya Chopra,Female,60,66,68,64.67,Dentist
+995,Myra Yadav,Male,66,79,88,77.67,Dentist
+996,Vihaan Sharma,Male,99,91,81,90.33,Environmental Scientist
+997,Pari Bansal,Male,90,82,77,83.0,Veterinarian
+998,Ishaan Joshi,Female,93,98,93,94.67,Environmental Scientist
+999,Saanvi Chopra,Female,99,95,62,85.33,Physiotherapist
+1000,Ananya Reddy,Female,66,88,69,74.33,Doctor

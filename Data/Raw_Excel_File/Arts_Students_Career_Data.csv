@@ -1,0 +1,1001 @@
+Student_ID,Name,Gender,History,Political_Science,English,Average_Score,Future_Career
+1,Krishna Mehta,Female,88,71,86,81.67,Historian
+2,Rohan Singh,Female,91,88,93,90.67,Historian
+3,Ira Yadav,Female,68,98,68,78.0,Sociologist
+4,Ishaan Mehta,Male,77,83,80,80.0,Psychologist
+5,Aditya Sharma,Female,98,63,76,79.0,Sociologist
+6,Aadhya Nair,Female,88,73,71,77.33,Writer
+7,Ayaan Patel,Male,68,77,62,69.0,Journalist
+8,Rohan Patel,Male,60,88,93,80.33,Psychologist
+9,Saanvi Patel,Male,68,86,90,81.33,Graphic Designer
+10,Meera Kumar,Male,95,93,94,94.0,Lawyer
+11,Aadhya Patel,Male,98,76,74,82.67,Fashion Designer
+12,Kiara Ghosh,Female,66,97,96,86.33,Sociologist
+13,Ananya Kapoor,Male,83,93,83,86.33,Sociologist
+14,Aarav Chopra,Male,88,78,66,77.33,Sociologist
+15,Ananya Mehta,Female,98,71,83,84.0,Historian
+16,Vihaan Verma,Male,77,83,63,74.33,Fashion Designer
+17,Diya Sharma,Female,67,67,77,70.33,Fashion Designer
+18,Aadhya Pillai,Female,78,65,75,72.67,Fashion Designer
+19,Ayaan Singh,Female,84,70,99,84.33,Lawyer
+20,Kiara Gupta,Female,72,92,100,88.0,Psychologist
+21,Ananya Reddy,Female,68,98,96,87.33,Fashion Designer
+22,Reyansh Kapoor,Male,71,86,66,74.33,Writer
+23,Arjun Kapoor,Male,90,81,82,84.33,Sociologist
+24,Ananya Reddy,Male,71,66,74,70.33,Teacher
+25,Saanvi Das,Male,70,72,61,67.67,Writer
+26,Aarav Singh,Female,82,77,66,75.0,Teacher
+27,Myra Yadav,Male,86,73,92,83.67,Journalist
+28,Meera Nair,Male,98,71,83,84.0,Sociologist
+29,Saanvi Ghosh,Female,72,99,73,81.33,Journalist
+30,Reyansh Kapoor,Male,98,65,73,78.67,Political Analyst
+31,Saanvi Malhotra,Male,62,74,100,78.67,Sociologist
+32,Ayaan Ghosh,Female,60,89,92,80.33,Sociologist
+33,Ira Mehta,Female,81,77,78,78.67,Sociologist
+34,Arjun Patel,Female,69,72,92,77.67,Journalist
+35,Ayaan Nair,Female,72,66,63,67.0,Political Analyst
+36,Ishaan Patel,Female,68,99,93,86.67,Sociologist
+37,Arjun Das,Female,81,90,69,80.0,Writer
+38,Anika Pillai,Male,94,61,89,81.33,Writer
+39,Vihaan Mishra,Male,73,84,60,72.33,Sociologist
+40,Ira Das,Male,61,82,81,74.67,Fashion Designer
+41,Vihaan Kumar,Male,75,90,80,81.67,Psychologist
+42,Vivaan Nair,Female,68,70,74,70.67,Historian
+43,Vivaan Mehta,Female,69,88,81,79.33,Historian
+44,Aadhya Nair,Female,67,90,80,79.0,Psychologist
+45,Arjun Pillai,Male,81,77,72,76.67,Teacher
+46,Aadhya Das,Male,93,69,91,84.33,Political Analyst
+47,Aditya Reddy,Female,89,99,67,85.0,Psychologist
+48,Ananya Reddy,Male,65,66,95,75.33,Graphic Designer
+49,Kiara Chopra,Female,63,67,86,72.0,Psychologist
+50,Diya Bansal,Male,93,93,68,84.67,Teacher
+51,Kiara Das,Male,91,77,73,80.33,Fashion Designer
+52,Ishaan Yadav,Female,73,84,87,81.33,Lawyer
+53,Reyansh Reddy,Female,99,63,62,74.67,Lawyer
+54,Aarav Joshi,Female,88,72,92,84.0,Writer
+55,Kiara Sharma,Female,82,90,76,82.67,Journalist
+56,Ishaan Joshi,Male,72,93,66,77.0,Graphic Designer
+57,Ayaan Gupta,Male,63,65,93,73.67,Teacher
+58,Aditya Gupta,Female,61,91,78,76.67,Historian
+59,Aarav Joshi,Female,90,65,68,74.33,Political Analyst
+60,Ayaan Das,Female,83,77,90,83.33,Political Analyst
+61,Ananya Sharma,Male,75,60,62,65.67,Sociologist
+62,Arjun Mehta,Female,80,75,92,82.33,Lawyer
+63,Ayaan Joshi,Female,97,78,77,84.0,Psychologist
+64,Meera Mehta,Female,61,77,85,74.33,Sociologist
+65,Rohan Joshi,Male,61,63,81,68.33,Fashion Designer
+66,Ishaan Pillai,Male,88,83,80,83.67,Lawyer
+67,Aarav Reddy,Female,79,93,86,86.0,Teacher
+68,Ananya Bansal,Male,96,62,97,85.0,Political Analyst
+69,Aarav Chopra,Male,83,63,99,81.67,Fashion Designer
+70,Arjun Nair,Female,76,95,67,79.33,Writer
+71,Ishaan Patel,Male,61,69,80,70.0,Graphic Designer
+72,Myra Patel,Female,74,84,99,85.67,Fashion Designer
+73,Krishna Joshi,Female,98,60,82,80.0,Writer
+74,Krishna Patel,Male,82,63,86,77.0,Psychologist
+75,Ananya Singh,Male,83,100,71,84.67,Writer
+76,Reyansh Nair,Female,92,90,82,88.0,Journalist
+77,Diya Verma,Male,78,100,91,89.67,Psychologist
+78,Rohan Kumar,Male,93,93,87,91.0,Teacher
+79,Ishaan Chopra,Male,90,67,67,74.67,Psychologist
+80,Ananya Patel,Female,86,79,79,81.33,Graphic Designer
+81,Meera Joshi,Male,82,98,69,83.0,Journalist
+82,Ananya Kapoor,Male,76,68,61,68.33,Political Analyst
+83,Ayaan Kumar,Female,84,65,96,81.67,Graphic Designer
+84,Aditya Mehta,Male,68,77,75,73.33,Graphic Designer
+85,Vihaan Bansal,Female,100,84,69,84.33,Graphic Designer
+86,Ishaan Chopra,Female,66,89,94,83.0,Fashion Designer
+87,Vihaan Patel,Female,63,62,91,72.0,Journalist
+88,Aditya Pillai,Female,76,100,91,89.0,Sociologist
+89,Ayaan Ghosh,Female,60,81,89,76.67,Journalist
+90,Reyansh Pillai,Female,66,97,87,83.33,Fashion Designer
+91,Meera Chopra,Male,70,90,93,84.33,Graphic Designer
+92,Krishna Tiwari,Male,77,77,77,77.0,Writer
+93,Meera Malhotra,Female,72,66,87,75.0,Sociologist
+94,Aadhya Reddy,Female,81,95,91,89.0,Writer
+95,Aadhya Patel,Male,99,67,89,85.0,Writer
+96,Vivaan Joshi,Male,90,88,89,89.0,Fashion Designer
+97,Aditya Sharma,Male,86,100,87,91.0,Journalist
+98,Aditya Patel,Male,100,80,79,86.33,Sociologist
+99,Meera Reddy,Female,75,69,94,79.33,Journalist
+100,Aditya Das,Male,66,60,82,69.33,Journalist
+101,Rohan Singh,Female,78,100,95,91.0,Psychologist
+102,Krishna Bansal,Female,100,88,64,84.0,Psychologist
+103,Aarav Ghosh,Female,76,71,65,70.67,Historian
+104,Anika Pillai,Female,66,100,92,86.0,Graphic Designer
+105,Saanvi Yadav,Male,74,87,100,87.0,Journalist
+106,Myra Verma,Male,62,95,71,76.0,Journalist
+107,Ishaan Joshi,Female,69,92,93,84.67,Teacher
+108,Kiara Chopra,Male,98,62,63,74.33,Graphic Designer
+109,Diya Malhotra,Female,74,61,78,71.0,Psychologist
+110,Myra Chopra,Female,73,64,85,74.0,Journalist
+111,Vihaan Patel,Male,72,79,81,77.33,Political Analyst
+112,Myra Reddy,Female,75,72,74,73.67,Lawyer
+113,Meera Chopra,Male,72,89,67,76.0,Political Analyst
+114,Reyansh Das,Male,97,85,72,84.67,Teacher
+115,Diya Sharma,Female,72,82,78,77.33,Fashion Designer
+116,Aadhya Patel,Male,93,71,75,79.67,Fashion Designer
+117,Reyansh Kumar,Female,67,64,80,70.33,Lawyer
+118,Aadhya Malhotra,Male,79,75,69,74.33,Journalist
+119,Saanvi Verma,Male,93,82,61,78.67,Graphic Designer
+120,Diya Ghosh,Male,91,74,84,83.0,Journalist
+121,Aditya Kapoor,Male,66,63,72,67.0,Fashion Designer
+122,Aarav Reddy,Female,79,96,85,86.67,Writer
+123,Meera Mishra,Male,82,69,100,83.67,Political Analyst
+124,Vihaan Pillai,Female,62,85,65,70.67,Political Analyst
+125,Krishna Patel,Female,77,73,99,83.0,Graphic Designer
+126,Aditya Joshi,Male,90,70,91,83.67,Psychologist
+127,Ananya Chopra,Male,82,65,91,79.33,Teacher
+128,Rohan Chopra,Male,91,98,84,91.0,Historian
+129,Kiara Pillai,Female,70,67,73,70.0,Writer
+130,Ira Ghosh,Female,67,92,68,75.67,Lawyer
+131,Aarav Mishra,Female,73,83,72,76.0,Psychologist
+132,Aarav Sharma,Female,79,67,73,73.0,Sociologist
+133,Arjun Joshi,Female,75,98,100,91.0,Lawyer
+134,Ananya Gupta,Male,67,72,68,69.0,Journalist
+135,Ayaan Malhotra,Female,64,96,74,78.0,Sociologist
+136,Vihaan Chopra,Male,85,90,79,84.67,Journalist
+137,Diya Mishra,Male,95,95,91,93.67,Sociologist
+138,Ananya Das,Male,71,61,61,64.33,Journalist
+139,Vivaan Malhotra,Male,79,74,72,75.0,Sociologist
+140,Diya Sharma,Male,82,84,82,82.67,Fashion Designer
+141,Reyansh Mehta,Male,82,78,84,81.33,Fashion Designer
+142,Ira Chopra,Female,90,77,90,85.67,Political Analyst
+143,Ira Chopra,Male,87,98,80,88.33,Fashion Designer
+144,Pari Verma,Female,71,80,63,71.33,Fashion Designer
+145,Saanvi Pillai,Female,100,68,88,85.33,Historian
+146,Krishna Malhotra,Male,69,90,74,77.67,Political Analyst
+147,Vivaan Verma,Female,81,79,88,82.67,Lawyer
+148,Aarav Singh,Female,72,77,80,76.33,Graphic Designer
+149,Anika Ghosh,Female,79,76,82,79.0,Sociologist
+150,Aditya Patel,Female,79,70,84,77.67,Graphic Designer
+151,Krishna Joshi,Male,72,69,95,78.67,Teacher
+152,Vihaan Kapoor,Female,67,96,81,81.33,Sociologist
+153,Meera Nair,Male,64,77,75,72.0,Journalist
+154,Ishaan Gupta,Male,92,81,76,83.0,Psychologist
+155,Pari Patel,Male,69,68,91,76.0,Journalist
+156,Aditya Yadav,Female,97,65,90,84.0,Fashion Designer
+157,Ishaan Kapoor,Male,60,62,97,73.0,Graphic Designer
+158,Ishaan Joshi,Male,64,94,64,74.0,Graphic Designer
+159,Kiara Patel,Male,67,97,88,84.0,Teacher
+160,Arjun Mishra,Female,64,87,79,76.67,Sociologist
+161,Pari Yadav,Female,99,70,78,82.33,Graphic Designer
+162,Aarav Mehta,Male,65,90,85,80.0,Graphic Designer
+163,Aadhya Nair,Male,64,69,100,77.67,Lawyer
+164,Vihaan Patel,Female,98,95,75,89.33,Teacher
+165,Rohan Mehta,Female,99,81,100,93.33,Psychologist
+166,Vihaan Joshi,Female,68,79,96,81.0,Journalist
+167,Vivaan Malhotra,Male,83,78,96,85.67,Historian
+168,Aditya Mehta,Female,66,95,74,78.33,Teacher
+169,Aditya Verma,Female,87,71,86,81.33,Sociologist
+170,Vivaan Pillai,Male,63,72,86,73.67,Historian
+171,Reyansh Gupta,Female,90,97,67,84.67,Political Analyst
+172,Anika Pillai,Female,92,64,80,78.67,Fashion Designer
+173,Ishaan Yadav,Male,83,61,76,73.33,Lawyer
+174,Vivaan Das,Male,77,63,62,67.33,Historian
+175,Aditya Mehta,Male,99,68,88,85.0,Teacher
+176,Ayaan Sharma,Male,98,93,93,94.67,Teacher
+177,Aadhya Sharma,Male,77,99,75,83.67,Psychologist
+178,Saanvi Yadav,Female,96,76,99,90.33,Lawyer
+179,Myra Joshi,Female,100,64,71,78.33,Historian
+180,Pari Bansal,Female,70,78,96,81.33,Fashion Designer
+181,Ananya Ghosh,Male,65,60,89,71.33,Journalist
+182,Aarav Das,Male,60,98,79,79.0,Historian
+183,Saanvi Mehta,Male,78,94,60,77.33,Historian
+184,Diya Kapoor,Female,67,69,89,75.0,Historian
+185,Aarav Sharma,Female,64,70,61,65.0,Journalist
+186,Ishaan Singh,Female,78,93,99,90.0,Fashion Designer
+187,Aadhya Gupta,Female,71,66,72,69.67,Lawyer
+188,Krishna Tiwari,Female,99,88,85,90.67,Writer
+189,Ira Nair,Male,88,65,79,77.33,Lawyer
+190,Saanvi Bansal,Male,85,60,70,71.67,Writer
+191,Vivaan Kumar,Male,72,87,91,83.33,Fashion Designer
+192,Ananya Yadav,Male,74,73,74,73.67,Sociologist
+193,Aadhya Singh,Female,62,66,90,72.67,Writer
+194,Vivaan Kapoor,Female,80,76,68,74.67,Teacher
+195,Reyansh Bansal,Female,92,77,61,76.67,Teacher
+196,Kiara Nair,Female,80,95,61,78.67,Teacher
+197,Vihaan Joshi,Male,80,62,90,77.33,Sociologist
+198,Meera Kapoor,Female,66,84,100,83.33,Lawyer
+199,Aadhya Patel,Male,88,76,76,80.0,Teacher
+200,Kiara Ghosh,Male,80,73,65,72.67,Fashion Designer
+201,Pari Reddy,Female,71,61,90,74.0,Political Analyst
+202,Krishna Das,Female,93,72,100,88.33,Fashion Designer
+203,Vihaan Bansal,Male,73,96,83,84.0,Writer
+204,Rohan Yadav,Male,96,78,66,80.0,Writer
+205,Rohan Reddy,Female,76,75,90,80.33,Teacher
+206,Vihaan Yadav,Male,94,93,86,91.0,Psychologist
+207,Aadhya Patel,Female,98,65,63,75.33,Psychologist
+208,Ishaan Gupta,Female,98,71,95,88.0,Lawyer
+209,Rohan Reddy,Female,80,63,70,71.0,Fashion Designer
+210,Aarav Mehta,Male,62,66,73,67.0,Lawyer
+211,Vivaan Singh,Male,74,83,71,76.0,Lawyer
+212,Vihaan Joshi,Male,74,98,67,79.67,Psychologist
+213,Ira Mishra,Male,83,86,65,78.0,Historian
+214,Vivaan Tiwari,Male,85,69,99,84.33,Historian
+215,Krishna Kapoor,Male,86,85,83,84.67,Journalist
+216,Ananya Pillai,Male,73,63,87,74.33,Psychologist
+217,Aarav Joshi,Male,73,91,63,75.67,Political Analyst
+218,Myra Singh,Female,91,60,72,74.33,Writer
+219,Pari Singh,Female,88,71,70,76.33,Graphic Designer
+220,Myra Mishra,Male,98,79,96,91.0,Graphic Designer
+221,Anika Mishra,Male,99,89,98,95.33,Political Analyst
+222,Rohan Yadav,Male,98,83,63,81.33,Journalist
+223,Ira Bansal,Female,98,94,85,92.33,Sociologist
+224,Diya Bansal,Male,80,88,97,88.33,Political Analyst
+225,Meera Yadav,Male,93,84,92,89.67,Writer
+226,Meera Pillai,Female,74,87,64,75.0,Sociologist
+227,Myra Sharma,Female,82,69,86,79.0,Sociologist
+228,Vihaan Ghosh,Male,91,67,100,86.0,Historian
+229,Saanvi Malhotra,Male,89,90,65,81.33,Fashion Designer
+230,Aadhya Yadav,Female,78,68,83,76.33,Historian
+231,Myra Tiwari,Female,93,80,83,85.33,Journalist
+232,Saanvi Chopra,Female,81,94,81,85.33,Fashion Designer
+233,Aditya Bansal,Female,83,96,74,84.33,Psychologist
+234,Kiara Verma,Female,83,77,63,74.33,Graphic Designer
+235,Ishaan Yadav,Male,95,72,89,85.33,Historian
+236,Vivaan Yadav,Male,72,83,77,77.33,Graphic Designer
+237,Anika Tiwari,Male,67,62,98,75.67,Graphic Designer
+238,Krishna Nair,Male,72,86,95,84.33,Psychologist
+239,Vihaan Nair,Female,84,86,95,88.33,Journalist
+240,Aditya Mehta,Male,81,65,77,74.33,Journalist
+241,Aarav Tiwari,Female,78,87,83,82.67,Psychologist
+242,Ishaan Kumar,Female,82,88,98,89.33,Historian
+243,Ishaan Joshi,Male,92,69,90,83.67,Journalist
+244,Aarav Nair,Female,97,83,74,84.67,Lawyer
+245,Vivaan Joshi,Female,71,86,93,83.33,Teacher
+246,Pari Chopra,Male,73,66,76,71.67,Journalist
+247,Ishaan Tiwari,Male,95,100,73,89.33,Political Analyst
+248,Ira Patel,Male,68,91,87,82.0,Fashion Designer
+249,Aadhya Nair,Female,100,63,97,86.67,Teacher
+250,Krishna Kapoor,Female,69,95,98,87.33,Lawyer
+251,Ananya Kapoor,Female,67,76,92,78.33,Political Analyst
+252,Pari Mehta,Male,90,72,73,78.33,Sociologist
+253,Diya Singh,Female,84,81,86,83.67,Psychologist
+254,Vivaan Singh,Male,80,90,93,87.67,Graphic Designer
+255,Ayaan Tiwari,Female,71,78,64,71.0,Lawyer
+256,Ayaan Reddy,Female,63,86,61,70.0,Journalist
+257,Reyansh Sharma,Male,63,69,75,69.0,Lawyer
+258,Ayaan Tiwari,Male,76,94,97,89.0,Teacher
+259,Anika Tiwari,Female,76,76,76,76.0,Writer
+260,Rohan Sharma,Female,69,71,61,67.0,Sociologist
+261,Krishna Malhotra,Female,79,74,84,79.0,Fashion Designer
+262,Anika Tiwari,Male,75,68,73,72.0,Historian
+263,Reyansh Chopra,Female,76,88,62,75.33,Fashion Designer
+264,Meera Chopra,Female,67,69,100,78.67,Teacher
+265,Myra Patel,Female,63,67,72,67.33,Journalist
+266,Anika Verma,Male,79,100,83,87.33,Fashion Designer
+267,Kiara Mishra,Male,77,61,94,77.33,Historian
+268,Aadhya Singh,Male,88,94,61,81.0,Teacher
+269,Arjun Mishra,Male,94,91,82,89.0,Graphic Designer
+270,Arjun Chopra,Female,73,72,85,76.67,Sociologist
+271,Anika Joshi,Male,95,62,76,77.67,Journalist
+272,Vivaan Pillai,Male,67,70,91,76.0,Fashion Designer
+273,Aditya Mishra,Male,68,90,73,77.0,Journalist
+274,Ananya Mehta,Male,88,61,85,78.0,Historian
+275,Rohan Verma,Male,91,97,89,92.33,Teacher
+276,Diya Kumar,Female,87,70,72,76.33,Fashion Designer
+277,Ira Gupta,Male,60,91,76,75.67,Historian
+278,Aditya Singh,Male,81,68,93,80.67,Teacher
+279,Saanvi Kumar,Female,85,69,67,73.67,Journalist
+280,Kiara Yadav,Male,77,64,84,75.0,Journalist
+281,Ira Gupta,Female,99,74,64,79.0,Fashion Designer
+282,Meera Das,Male,88,73,72,77.67,Writer
+283,Reyansh Das,Female,73,68,71,70.67,Teacher
+284,Vivaan Patel,Female,87,98,74,86.33,Teacher
+285,Ira Pillai,Female,81,77,74,77.33,Sociologist
+286,Aarav Bansal,Female,65,69,74,69.33,Lawyer
+287,Rohan Das,Female,93,76,84,84.33,Teacher
+288,Ishaan Ghosh,Female,70,97,84,83.67,Journalist
+289,Aarav Gupta,Male,91,65,70,75.33,Political Analyst
+290,Aarav Yadav,Female,65,89,69,74.33,Teacher
+291,Ananya Verma,Male,93,87,97,92.33,Sociologist
+292,Vivaan Singh,Male,83,72,94,83.0,Journalist
+293,Kiara Yadav,Male,83,96,79,86.0,Political Analyst
+294,Kiara Das,Male,88,87,67,80.67,Writer
+295,Ananya Tiwari,Female,79,77,94,83.33,Journalist
+296,Saanvi Bansal,Female,92,69,61,74.0,Fashion Designer
+297,Aditya Malhotra,Female,61,100,63,74.67,Sociologist
+298,Vivaan Tiwari,Male,78,68,64,70.0,Fashion Designer
+299,Ishaan Malhotra,Male,89,98,68,85.0,Journalist
+300,Ishaan Mishra,Female,94,95,97,95.33,Political Analyst
+301,Reyansh Pillai,Female,81,80,98,86.33,Graphic Designer
+302,Rohan Bansal,Male,84,88,76,82.67,Journalist
+303,Diya Kumar,Male,98,65,77,80.0,Political Analyst
+304,Pari Kumar,Female,77,100,87,88.0,Political Analyst
+305,Ananya Singh,Female,84,69,98,83.67,Political Analyst
+306,Kiara Gupta,Male,93,65,95,84.33,Graphic Designer
+307,Anika Reddy,Male,69,92,67,76.0,Teacher
+308,Reyansh Malhotra,Female,84,76,68,76.0,Teacher
+309,Vivaan Pillai,Female,97,66,66,76.33,Historian
+310,Myra Pillai,Male,81,77,60,72.67,Writer
+311,Pari Tiwari,Male,81,69,65,71.67,Graphic Designer
+312,Aditya Malhotra,Male,95,94,62,83.67,Political Analyst
+313,Ira Gupta,Male,76,78,82,78.67,Sociologist
+314,Kiara Verma,Female,78,96,71,81.67,Writer
+315,Meera Verma,Female,74,69,84,75.67,Journalist
+316,Diya Tiwari,Female,67,67,95,76.33,Writer
+317,Aditya Mishra,Male,88,60,81,76.33,Sociologist
+318,Saanvi Ghosh,Male,97,79,67,81.0,Psychologist
+319,Diya Mehta,Male,95,81,77,84.33,Sociologist
+320,Rohan Malhotra,Female,95,97,86,92.67,Psychologist
+321,Ananya Ghosh,Female,85,77,67,76.33,Sociologist
+322,Ayaan Reddy,Male,71,68,62,67.0,Lawyer
+323,Vihaan Das,Female,64,81,83,76.0,Political Analyst
+324,Vivaan Gupta,Female,83,64,63,70.0,Historian
+325,Vihaan Joshi,Male,64,70,77,70.33,Journalist
+326,Ira Mehta,Male,66,79,94,79.67,Political Analyst
+327,Reyansh Sharma,Female,100,86,70,85.33,Writer
+328,Myra Mishra,Female,68,79,84,77.0,Writer
+329,Myra Mishra,Female,83,78,78,79.67,Journalist
+330,Aadhya Das,Female,62,84,88,78.0,Psychologist
+331,Pari Ghosh,Female,77,66,63,68.67,Writer
+332,Aadhya Patel,Female,64,74,98,78.67,Lawyer
+333,Anika Pillai,Male,93,97,79,89.67,Sociologist
+334,Anika Chopra,Female,88,93,86,89.0,Journalist
+335,Myra Ghosh,Male,73,73,92,79.33,Lawyer
+336,Ananya Pillai,Female,72,75,69,72.0,Sociologist
+337,Vihaan Verma,Female,83,80,65,76.0,Lawyer
+338,Aarav Reddy,Male,82,71,68,73.67,Psychologist
+339,Vivaan Kumar,Male,69,94,72,78.33,Graphic Designer
+340,Arjun Ghosh,Female,78,66,72,72.0,Graphic Designer
+341,Ananya Gupta,Male,99,99,75,91.0,Sociologist
+342,Pari Kapoor,Male,65,69,79,71.0,Lawyer
+343,Krishna Ghosh,Female,81,76,72,76.33,Sociologist
+344,Aadhya Mehta,Male,60,77,69,68.67,Journalist
+345,Rohan Joshi,Male,61,89,87,79.0,Graphic Designer
+346,Aditya Tiwari,Male,73,70,88,77.0,Teacher
+347,Diya Ghosh,Male,70,96,81,82.33,Graphic Designer
+348,Krishna Patel,Female,93,63,75,77.0,Graphic Designer
+349,Anika Malhotra,Male,77,70,93,80.0,Sociologist
+350,Krishna Pillai,Male,88,68,79,78.33,Teacher
+351,Aadhya Sharma,Male,80,94,68,80.67,Writer
+352,Ananya Pillai,Female,96,70,91,85.67,Lawyer
+353,Meera Mehta,Male,93,89,65,82.33,Journalist
+354,Ishaan Reddy,Female,75,75,82,77.33,Fashion Designer
+355,Anika Singh,Female,70,91,83,81.33,Teacher
+356,Pari Gupta,Female,61,82,100,81.0,Political Analyst
+357,Rohan Joshi,Male,81,86,98,88.33,Psychologist
+358,Vihaan Mehta,Male,64,67,61,64.0,Sociologist
+359,Vihaan Sharma,Male,77,75,95,82.33,Fashion Designer
+360,Meera Das,Female,85,63,73,73.67,Journalist
+361,Pari Ghosh,Male,62,82,98,80.67,Teacher
+362,Ishaan Bansal,Female,66,60,100,75.33,Journalist
+363,Krishna Verma,Female,100,81,100,93.67,Psychologist
+364,Pari Das,Male,86,74,93,84.33,Historian
+365,Ishaan Mehta,Male,68,66,71,68.33,Graphic Designer
+366,Aadhya Mehta,Male,72,62,93,75.67,Lawyer
+367,Ira Chopra,Female,88,67,65,73.33,Teacher
+368,Anika Yadav,Female,94,79,85,86.0,Teacher
+369,Ira Reddy,Male,97,68,97,87.33,Lawyer
+370,Aadhya Nair,Male,97,76,80,84.33,Writer
+371,Myra Malhotra,Male,70,86,67,74.33,Lawyer
+372,Vihaan Malhotra,Male,72,70,79,73.67,Teacher
+373,Meera Patel,Male,88,72,83,81.0,Sociologist
+374,Arjun Gupta,Male,96,97,91,94.67,Political Analyst
+375,Ishaan Mishra,Female,90,90,67,82.33,Writer
+376,Ira Sharma,Male,78,82,77,79.0,Writer
+377,Meera Mehta,Male,68,80,68,72.0,Historian
+378,Anika Yadav,Male,67,65,64,65.33,Graphic Designer
+379,Diya Bansal,Female,98,61,79,79.33,Psychologist
+380,Ananya Mishra,Male,100,81,73,84.67,Writer
+381,Ananya Gupta,Male,66,86,74,75.33,Sociologist
+382,Diya Joshi,Male,77,84,60,73.67,Psychologist
+383,Rohan Kumar,Male,89,79,89,85.67,Graphic Designer
+384,Arjun Yadav,Male,100,66,71,79.0,Psychologist
+385,Pari Yadav,Male,64,96,88,82.67,Sociologist
+386,Reyansh Chopra,Female,81,82,88,83.67,Writer
+387,Kiara Tiwari,Male,67,88,75,76.67,Fashion Designer
+388,Saanvi Mehta,Male,62,95,95,84.0,Journalist
+389,Vihaan Das,Female,94,93,97,94.67,Psychologist
+390,Krishna Pillai,Male,99,71,90,86.67,Journalist
+391,Vihaan Reddy,Male,78,77,91,82.0,Historian
+392,Reyansh Kumar,Male,94,60,82,78.67,Sociologist
+393,Meera Reddy,Female,82,100,94,92.0,Lawyer
+394,Rohan Malhotra,Male,97,73,61,77.0,Journalist
+395,Saanvi Tiwari,Male,60,83,81,74.67,Fashion Designer
+396,Anika Patel,Male,82,94,93,89.67,Political Analyst
+397,Krishna Patel,Female,86,86,63,78.33,Writer
+398,Diya Verma,Male,67,99,71,79.0,Journalist
+399,Arjun Tiwari,Male,86,76,100,87.33,Writer
+400,Krishna Mishra,Female,73,65,83,73.67,Historian
+401,Ananya Kapoor,Male,68,93,84,81.67,Writer
+402,Vivaan Yadav,Female,62,83,63,69.33,Historian
+403,Diya Tiwari,Female,70,83,85,79.33,Historian
+404,Myra Bansal,Female,86,91,97,91.33,Writer
+405,Vihaan Malhotra,Female,62,92,71,75.0,Psychologist
+406,Rohan Malhotra,Female,83,66,78,75.67,Sociologist
+407,Aarav Kapoor,Male,61,65,73,66.33,Sociologist
+408,Ananya Singh,Male,73,62,79,71.33,Sociologist
+409,Anika Yadav,Male,62,98,72,77.33,Political Analyst
+410,Saanvi Bansal,Male,89,77,70,78.67,Historian
+411,Aditya Verma,Male,68,63,78,69.67,Psychologist
+412,Ira Patel,Male,89,76,64,76.33,Psychologist
+413,Rohan Sharma,Male,71,100,72,81.0,Fashion Designer
+414,Ishaan Mehta,Female,84,73,99,85.33,Lawyer
+415,Aditya Sharma,Male,80,99,82,87.0,Fashion Designer
+416,Pari Mishra,Male,75,80,97,84.0,Teacher
+417,Kiara Verma,Female,85,89,65,79.67,Lawyer
+418,Aarav Chopra,Female,89,74,89,84.0,Teacher
+419,Saanvi Tiwari,Male,78,70,72,73.33,Psychologist
+420,Saanvi Chopra,Female,66,81,79,75.33,Journalist
+421,Vihaan Tiwari,Male,88,76,96,86.67,Fashion Designer
+422,Anika Mishra,Male,86,74,82,80.67,Writer
+423,Rohan Kapoor,Male,73,75,67,71.67,Writer
+424,Ayaan Sharma,Female,80,100,100,93.33,Lawyer
+425,Saanvi Verma,Female,65,86,63,71.33,Journalist
+426,Ishaan Pillai,Female,88,79,83,83.33,Graphic Designer
+427,Myra Joshi,Male,77,64,64,68.33,Writer
+428,Kiara Nair,Male,60,83,89,77.33,Lawyer
+429,Diya Yadav,Male,99,81,79,86.33,Journalist
+430,Aditya Sharma,Female,76,94,61,77.0,Historian
+431,Reyansh Pillai,Male,76,97,69,80.67,Lawyer
+432,Saanvi Singh,Female,98,90,89,92.33,Sociologist
+433,Rohan Tiwari,Male,90,97,60,82.33,Writer
+434,Vivaan Ghosh,Female,72,61,71,68.0,Graphic Designer
+435,Arjun Patel,Female,74,89,96,86.33,Psychologist
+436,Reyansh Nair,Female,75,74,71,73.33,Journalist
+437,Krishna Tiwari,Male,82,99,88,89.67,Historian
+438,Vivaan Mehta,Male,60,95,98,84.33,Teacher
+439,Vihaan Bansal,Female,98,88,96,94.0,Graphic Designer
+440,Arjun Gupta,Female,81,60,61,67.33,Historian
+441,Arjun Patel,Male,71,96,78,81.67,Teacher
+442,Anika Kapoor,Male,83,90,99,90.67,Sociologist
+443,Ishaan Mishra,Male,85,85,64,78.0,Psychologist
+444,Anika Nair,Female,65,79,69,71.0,Teacher
+445,Aditya Bansal,Male,88,98,60,82.0,Journalist
+446,Meera Singh,Male,73,76,90,79.67,Political Analyst
+447,Myra Gupta,Female,96,82,72,83.33,Political Analyst
+448,Myra Yadav,Male,60,68,95,74.33,Lawyer
+449,Aditya Tiwari,Male,91,91,72,84.67,Sociologist
+450,Myra Bansal,Female,86,67,89,80.67,Historian
+451,Saanvi Gupta,Female,97,98,72,89.0,Sociologist
+452,Ishaan Singh,Male,97,77,70,81.33,Lawyer
+453,Aarav Nair,Male,60,73,70,67.67,Graphic Designer
+454,Ayaan Malhotra,Male,70,64,78,70.67,Historian
+455,Vihaan Sharma,Male,74,94,84,84.0,Graphic Designer
+456,Arjun Yadav,Male,100,96,96,97.33,Psychologist
+457,Aarav Patel,Female,71,80,94,81.67,Political Analyst
+458,Aarav Reddy,Male,61,89,98,82.67,Graphic Designer
+459,Vivaan Pillai,Female,100,94,88,94.0,Psychologist
+460,Saanvi Pillai,Male,61,72,70,67.67,Teacher
+461,Aditya Singh,Male,100,100,63,87.67,Graphic Designer
+462,Ira Bansal,Female,79,82,77,79.33,Psychologist
+463,Myra Mehta,Male,96,83,81,86.67,Historian
+464,Meera Mishra,Male,61,77,63,67.0,Fashion Designer
+465,Reyansh Pillai,Male,68,99,90,85.67,Sociologist
+466,Aditya Bansal,Male,80,88,60,76.0,Journalist
+467,Arjun Joshi,Male,74,63,89,75.33,Journalist
+468,Arjun Pillai,Female,94,97,92,94.33,Graphic Designer
+469,Aadhya Gupta,Male,92,81,100,91.0,Psychologist
+470,Aditya Tiwari,Female,96,60,97,84.33,Journalist
+471,Kiara Das,Female,100,64,82,82.0,Teacher
+472,Rohan Mehta,Female,65,83,69,72.33,Political Analyst
+473,Ayaan Patel,Female,95,65,68,76.0,Teacher
+474,Diya Tiwari,Female,90,83,64,79.0,Journalist
+475,Anika Ghosh,Male,68,64,91,74.33,Psychologist
+476,Aarav Ghosh,Male,94,100,73,89.0,Graphic Designer
+477,Ananya Singh,Male,92,60,73,75.0,Lawyer
+478,Vihaan Ghosh,Male,61,84,61,68.67,Psychologist
+479,Vihaan Verma,Female,88,60,100,82.67,Writer
+480,Diya Das,Female,75,69,88,77.33,Writer
+481,Vihaan Joshi,Female,98,90,68,85.33,Journalist
+482,Pari Reddy,Male,98,97,64,86.33,Fashion Designer
+483,Diya Mehta,Female,64,65,66,65.0,Teacher
+484,Ayaan Ghosh,Female,82,78,80,80.0,Writer
+485,Krishna Das,Female,76,65,68,69.67,Historian
+486,Ananya Mishra,Female,82,92,80,84.67,Journalist
+487,Aditya Kapoor,Male,76,71,80,75.67,Sociologist
+488,Aadhya Joshi,Male,74,76,88,79.33,Sociologist
+489,Aditya Verma,Male,88,94,87,89.67,Sociologist
+490,Ayaan Ghosh,Male,94,98,74,88.67,Political Analyst
+491,Aditya Joshi,Male,99,91,93,94.33,Political Analyst
+492,Ananya Singh,Female,64,92,92,82.67,Writer
+493,Rohan Mehta,Male,65,64,71,66.67,Journalist
+494,Ayaan Patel,Female,70,88,90,82.67,Graphic Designer
+495,Pari Nair,Male,61,69,94,74.67,Graphic Designer
+496,Ishaan Patel,Female,71,98,73,80.67,Teacher
+497,Aditya Malhotra,Male,85,77,94,85.33,Psychologist
+498,Vihaan Bansal,Male,66,92,64,74.0,Teacher
+499,Ishaan Nair,Male,76,68,94,79.33,Lawyer
+500,Ishaan Sharma,Female,81,73,65,73.0,Lawyer
+501,Vivaan Chopra,Male,77,81,86,81.33,Fashion Designer
+502,Diya Malhotra,Male,75,80,71,75.33,Graphic Designer
+503,Krishna Das,Female,86,69,77,77.33,Sociologist
+504,Aarav Das,Female,73,93,77,81.0,Historian
+505,Pari Sharma,Female,69,63,82,71.33,Graphic Designer
+506,Vivaan Ghosh,Female,86,75,73,78.0,Political Analyst
+507,Aarav Bansal,Female,80,79,75,78.0,Writer
+508,Reyansh Verma,Male,60,99,97,85.33,Writer
+509,Myra Patel,Female,65,99,100,88.0,Historian
+510,Meera Nair,Male,78,66,78,74.0,Lawyer
+511,Aadhya Verma,Male,100,82,99,93.67,Political Analyst
+512,Meera Chopra,Female,66,71,63,66.67,Historian
+513,Saanvi Singh,Male,95,65,63,74.33,Writer
+514,Pari Nair,Female,67,86,99,84.0,Historian
+515,Ayaan Joshi,Female,85,76,93,84.67,Teacher
+516,Aarav Verma,Male,89,96,64,83.0,Political Analyst
+517,Ananya Yadav,Female,60,88,88,78.67,Psychologist
+518,Ananya Nair,Male,80,60,82,74.0,Graphic Designer
+519,Ishaan Singh,Female,93,95,76,88.0,Psychologist
+520,Kiara Malhotra,Male,61,79,75,71.67,Teacher
+521,Kiara Chopra,Male,72,90,83,81.67,Fashion Designer
+522,Rohan Bansal,Male,74,69,60,67.67,Graphic Designer
+523,Ira Tiwari,Male,73,86,63,74.0,Psychologist
+524,Rohan Gupta,Female,81,64,65,70.0,Historian
+525,Aditya Das,Male,100,78,70,82.67,Writer
+526,Krishna Reddy,Male,77,72,86,78.33,Psychologist
+527,Saanvi Yadav,Female,84,87,99,90.0,Lawyer
+528,Saanvi Ghosh,Male,93,65,92,83.33,Fashion Designer
+529,Ira Das,Female,87,80,69,78.67,Journalist
+530,Vivaan Pillai,Female,76,82,92,83.33,Writer
+531,Vivaan Gupta,Female,89,89,66,81.33,Political Analyst
+532,Ishaan Kumar,Male,82,98,100,93.33,Psychologist
+533,Ananya Bansal,Female,72,61,79,70.67,Teacher
+534,Ayaan Joshi,Female,96,71,99,88.67,Teacher
+535,Saanvi Yadav,Female,84,100,97,93.67,Psychologist
+536,Anika Mishra,Male,85,63,67,71.67,Historian
+537,Rohan Gupta,Female,79,60,91,76.67,Historian
+538,Reyansh Bansal,Male,73,63,87,74.33,Fashion Designer
+539,Aadhya Kapoor,Female,86,79,79,81.33,Fashion Designer
+540,Ananya Malhotra,Male,81,83,96,86.67,Sociologist
+541,Arjun Reddy,Male,98,84,76,86.0,Writer
+542,Ira Malhotra,Male,60,82,75,72.33,Teacher
+543,Rohan Yadav,Male,74,99,91,88.0,Psychologist
+544,Aadhya Nair,Female,91,65,91,82.33,Lawyer
+545,Reyansh Ghosh,Male,90,82,79,83.67,Writer
+546,Ishaan Pillai,Male,98,75,79,84.0,Historian
+547,Pari Yadav,Male,86,79,64,76.33,Writer
+548,Kiara Kapoor,Female,85,97,89,90.33,Writer
+549,Rohan Verma,Male,99,64,100,87.67,Sociologist
+550,Ishaan Joshi,Female,80,95,75,83.33,Lawyer
+551,Rohan Verma,Female,65,68,82,71.67,Teacher
+552,Myra Bansal,Male,94,72,89,85.0,Writer
+553,Aadhya Ghosh,Male,90,67,71,76.0,Teacher
+554,Aadhya Sharma,Female,99,67,100,88.67,Political Analyst
+555,Reyansh Joshi,Female,84,64,89,79.0,Graphic Designer
+556,Krishna Ghosh,Male,68,85,68,73.67,Sociologist
+557,Ananya Nair,Male,86,74,64,74.67,Political Analyst
+558,Pari Sharma,Female,70,75,60,68.33,Historian
+559,Ishaan Kapoor,Female,62,93,84,79.67,Historian
+560,Vivaan Ghosh,Male,74,98,90,87.33,Political Analyst
+561,Reyansh Mishra,Female,62,63,72,65.67,Sociologist
+562,Rohan Reddy,Male,66,68,94,76.0,Graphic Designer
+563,Ira Pillai,Female,100,66,72,79.33,Political Analyst
+564,Ananya Chopra,Male,92,64,100,85.33,Teacher
+565,Anika Verma,Female,71,65,85,73.67,Fashion Designer
+566,Anika Reddy,Male,66,62,65,64.33,Graphic Designer
+567,Arjun Sharma,Male,69,97,66,77.33,Fashion Designer
+568,Kiara Reddy,Male,97,68,61,75.33,Historian
+569,Aarav Kapoor,Male,73,98,70,80.33,Historian
+570,Ayaan Pillai,Female,100,60,78,79.33,Lawyer
+571,Arjun Verma,Female,93,86,88,89.0,Fashion Designer
+572,Diya Patel,Male,77,94,84,85.0,Teacher
+573,Pari Gupta,Female,76,87,81,81.33,Teacher
+574,Rohan Mishra,Male,93,92,94,93.0,Teacher
+575,Kiara Kumar,Male,88,69,85,80.67,Sociologist
+576,Diya Sharma,Male,96,73,86,85.0,Journalist
+577,Diya Mishra,Male,97,76,79,84.0,Teacher
+578,Rohan Kapoor,Male,96,81,84,87.0,Psychologist
+579,Aditya Kapoor,Male,78,67,71,72.0,Writer
+580,Rohan Mishra,Female,95,71,80,82.0,Graphic Designer
+581,Myra Das,Female,65,84,64,71.0,Political Analyst
+582,Saanvi Malhotra,Male,69,72,75,72.0,Historian
+583,Ananya Bansal,Female,69,80,88,79.0,Journalist
+584,Ishaan Verma,Female,65,89,98,84.0,Journalist
+585,Reyansh Tiwari,Male,81,92,78,83.67,Teacher
+586,Myra Ghosh,Male,76,90,66,77.33,Lawyer
+587,Rohan Sharma,Female,70,70,92,77.33,Historian
+588,Anika Joshi,Male,88,73,63,74.67,Writer
+589,Pari Malhotra,Female,96,92,63,83.67,Historian
+590,Krishna Reddy,Male,84,89,68,80.33,Sociologist
+591,Ayaan Mishra,Male,68,90,84,80.67,Sociologist
+592,Arjun Das,Male,80,63,84,75.67,Psychologist
+593,Aadhya Mehta,Female,74,61,100,78.33,Writer
+594,Arjun Pillai,Male,98,95,70,87.67,Historian
+595,Meera Mishra,Male,63,65,96,74.67,Political Analyst
+596,Krishna Pillai,Male,99,80,63,80.67,Fashion Designer
+597,Aarav Bansal,Male,79,66,87,77.33,Historian
+598,Krishna Reddy,Female,94,83,81,86.0,Lawyer
+599,Aditya Joshi,Female,99,84,63,82.0,Historian
+600,Ananya Kumar,Male,91,94,91,92.0,Lawyer
+601,Aadhya Singh,Male,73,76,86,78.33,Fashion Designer
+602,Aarav Bansal,Male,79,83,94,85.33,Psychologist
+603,Ananya Kapoor,Female,74,73,77,74.67,Lawyer
+604,Vivaan Gupta,Male,75,98,78,83.67,Historian
+605,Vihaan Ghosh,Female,86,81,63,76.67,Teacher
+606,Anika Reddy,Male,81,83,84,82.67,Journalist
+607,Ira Singh,Female,78,68,95,80.33,Graphic Designer
+608,Krishna Chopra,Male,74,65,91,76.67,Graphic Designer
+609,Aditya Reddy,Male,82,61,82,75.0,Writer
+610,Diya Tiwari,Male,89,79,92,86.67,Writer
+611,Meera Bansal,Male,81,76,76,77.67,Sociologist
+612,Myra Kumar,Male,82,81,75,79.33,Lawyer
+613,Pari Malhotra,Female,73,95,70,79.33,Sociologist
+614,Kiara Reddy,Male,72,61,93,75.33,Writer
+615,Myra Tiwari,Female,87,75,68,76.67,Fashion Designer
+616,Ishaan Patel,Male,92,78,94,88.0,Historian
+617,Aarav Reddy,Male,89,71,74,78.0,Political Analyst
+618,Anika Singh,Male,96,76,98,90.0,Psychologist
+619,Ira Chopra,Female,76,89,77,80.67,Journalist
+620,Saanvi Verma,Male,96,83,79,86.0,Political Analyst
+621,Ishaan Yadav,Female,74,66,64,68.0,Teacher
+622,Anika Joshi,Female,90,82,66,79.33,Political Analyst
+623,Pari Joshi,Male,62,87,66,71.67,Journalist
+624,Ayaan Yadav,Male,92,70,69,77.0,Fashion Designer
+625,Ayaan Chopra,Female,88,70,98,85.33,Journalist
+626,Aadhya Singh,Female,90,94,79,87.67,Sociologist
+627,Rohan Bansal,Male,92,99,86,92.33,Writer
+628,Ira Singh,Male,76,84,71,77.0,Teacher
+629,Ayaan Verma,Female,96,97,71,88.0,Political Analyst
+630,Vihaan Pillai,Female,96,82,74,84.0,Historian
+631,Vivaan Chopra,Male,76,87,65,76.0,Journalist
+632,Krishna Yadav,Male,78,81,73,77.33,Lawyer
+633,Vivaan Nair,Male,84,62,92,79.33,Teacher
+634,Kiara Sharma,Female,67,78,99,81.33,Fashion Designer
+635,Ira Ghosh,Female,68,65,65,66.0,Political Analyst
+636,Aadhya Bansal,Female,81,79,85,81.67,Writer
+637,Saanvi Sharma,Male,100,76,71,82.33,Teacher
+638,Kiara Sharma,Female,89,86,85,86.67,Sociologist
+639,Diya Ghosh,Female,75,60,63,66.0,Writer
+640,Vihaan Patel,Male,95,77,94,88.67,Journalist
+641,Vivaan Reddy,Female,61,75,68,68.0,Graphic Designer
+642,Aditya Gupta,Male,65,70,95,76.67,Graphic Designer
+643,Ananya Malhotra,Female,84,68,100,84.0,Fashion Designer
+644,Kiara Mishra,Male,77,86,95,86.0,Lawyer
+645,Myra Bansal,Male,96,91,75,87.33,Historian
+646,Rohan Reddy,Female,99,89,80,89.33,Teacher
+647,Ishaan Kapoor,Male,66,84,91,80.33,Historian
+648,Meera Ghosh,Female,89,89,61,79.67,Teacher
+649,Meera Bansal,Male,86,70,72,76.0,Journalist
+650,Vihaan Yadav,Male,92,60,95,82.33,Lawyer
+651,Aarav Chopra,Male,76,84,87,82.33,Writer
+652,Arjun Mishra,Female,98,76,71,81.67,Psychologist
+653,Vihaan Reddy,Male,65,94,81,80.0,Writer
+654,Kiara Bansal,Male,71,80,61,70.67,Sociologist
+655,Arjun Sharma,Male,80,64,86,76.67,Journalist
+656,Aadhya Das,Male,81,87,79,82.33,Graphic Designer
+657,Kiara Sharma,Male,78,81,67,75.33,Psychologist
+658,Saanvi Pillai,Female,71,61,72,68.0,Writer
+659,Aadhya Kapoor,Male,64,63,62,63.0,Graphic Designer
+660,Reyansh Pillai,Male,64,97,93,84.67,Teacher
+661,Ira Bansal,Female,85,91,91,89.0,Historian
+662,Ananya Chopra,Female,76,78,83,79.0,Psychologist
+663,Vihaan Verma,Male,93,61,61,71.67,Sociologist
+664,Myra Das,Female,89,71,94,84.67,Psychologist
+665,Myra Reddy,Female,65,100,91,85.33,Teacher
+666,Ishaan Nair,Female,63,87,90,80.0,Journalist
+667,Arjun Singh,Male,95,73,79,82.33,Writer
+668,Ayaan Nair,Female,65,79,94,79.33,Writer
+669,Ananya Verma,Male,61,82,75,72.67,Journalist
+670,Aditya Gupta,Male,94,91,79,88.0,Lawyer
+671,Aadhya Pillai,Female,76,90,91,85.67,Writer
+672,Ananya Malhotra,Male,70,82,84,78.67,Lawyer
+673,Vivaan Verma,Male,65,74,100,79.67,Journalist
+674,Krishna Gupta,Male,91,78,90,86.33,Journalist
+675,Saanvi Ghosh,Female,86,72,88,82.0,Fashion Designer
+676,Aarav Kapoor,Male,84,83,100,89.0,Lawyer
+677,Aadhya Ghosh,Male,86,88,95,89.67,Historian
+678,Arjun Patel,Male,84,98,93,91.67,Writer
+679,Aadhya Ghosh,Male,95,84,90,89.67,Journalist
+680,Aditya Mishra,Female,76,95,79,83.33,Journalist
+681,Aadhya Das,Male,74,66,77,72.33,Teacher
+682,Vivaan Bansal,Male,91,60,77,76.0,Lawyer
+683,Anika Gupta,Female,95,74,76,81.67,Fashion Designer
+684,Vihaan Bansal,Female,65,69,77,70.33,Fashion Designer
+685,Aditya Ghosh,Male,65,66,67,66.0,Writer
+686,Ira Patel,Female,86,63,70,73.0,Teacher
+687,Ira Gupta,Female,100,89,64,84.33,Political Analyst
+688,Pari Reddy,Female,68,83,60,70.33,Psychologist
+689,Ananya Reddy,Male,60,62,65,62.33,Sociologist
+690,Rohan Reddy,Male,75,69,89,77.67,Graphic Designer
+691,Aarav Sharma,Male,96,82,72,83.33,Journalist
+692,Meera Sharma,Female,80,86,82,82.67,Lawyer
+693,Ayaan Mishra,Female,99,61,74,78.0,Psychologist
+694,Ishaan Das,Male,72,86,85,81.0,Psychologist
+695,Ananya Mishra,Female,94,70,89,84.33,Writer
+696,Krishna Patel,Male,90,71,94,85.0,Political Analyst
+697,Ira Malhotra,Male,66,90,81,79.0,Political Analyst
+698,Saanvi Joshi,Male,77,95,60,77.33,Historian
+699,Saanvi Pillai,Male,72,89,60,73.67,Teacher
+700,Ishaan Singh,Male,83,69,79,77.0,Teacher
+701,Ishaan Chopra,Male,80,69,68,72.33,Writer
+702,Krishna Singh,Female,99,93,71,87.67,Political Analyst
+703,Myra Gupta,Female,60,76,75,70.33,Sociologist
+704,Reyansh Mehta,Female,64,78,73,71.67,Teacher
+705,Krishna Chopra,Male,61,81,90,77.33,Writer
+706,Myra Reddy,Male,89,95,93,92.33,Psychologist
+707,Ishaan Ghosh,Male,81,98,92,90.33,Psychologist
+708,Pari Das,Male,83,77,100,86.67,Graphic Designer
+709,Arjun Sharma,Female,97,92,67,85.33,Teacher
+710,Vihaan Verma,Male,60,88,70,72.67,Psychologist
+711,Arjun Gupta,Female,76,90,60,75.33,Psychologist
+712,Aarav Kapoor,Male,90,81,61,77.33,Teacher
+713,Ananya Bansal,Male,89,74,85,82.67,Political Analyst
+714,Vivaan Kumar,Male,95,65,96,85.33,Historian
+715,Vihaan Das,Female,83,67,90,80.0,Historian
+716,Vihaan Ghosh,Male,80,65,98,81.0,Graphic Designer
+717,Ishaan Ghosh,Female,61,98,85,81.33,Teacher
+718,Anika Tiwari,Female,60,69,82,70.33,Lawyer
+719,Aadhya Verma,Male,95,82,65,80.67,Teacher
+720,Meera Ghosh,Male,97,81,71,83.0,Teacher
+721,Diya Ghosh,Male,86,81,64,77.0,Psychologist
+722,Anika Tiwari,Male,86,98,68,84.0,Lawyer
+723,Diya Gupta,Female,73,68,84,75.0,Fashion Designer
+724,Aditya Tiwari,Female,73,95,70,79.33,Writer
+725,Pari Das,Male,66,77,83,75.33,Writer
+726,Reyansh Yadav,Male,80,96,71,82.33,Lawyer
+727,Meera Verma,Female,92,65,76,77.67,Graphic Designer
+728,Kiara Sharma,Male,68,78,76,74.0,Journalist
+729,Saanvi Malhotra,Female,73,74,78,75.0,Lawyer
+730,Ananya Pillai,Female,84,75,80,79.67,Sociologist
+731,Pari Joshi,Female,64,63,77,68.0,Journalist
+732,Aadhya Sharma,Female,83,67,80,76.67,Graphic Designer
+733,Diya Nair,Female,80,78,74,77.33,Graphic Designer
+734,Ira Kapoor,Female,61,66,100,75.67,Journalist
+735,Ananya Joshi,Female,99,90,68,85.67,Lawyer
+736,Ananya Reddy,Male,95,68,96,86.33,Sociologist
+737,Anika Nair,Male,61,95,86,80.67,Historian
+738,Aditya Patel,Female,64,79,66,69.67,Political Analyst
+739,Ayaan Chopra,Female,74,95,97,88.67,Journalist
+740,Aarav Reddy,Female,88,96,100,94.67,Historian
+741,Reyansh Verma,Male,92,92,100,94.67,Fashion Designer
+742,Saanvi Yadav,Female,97,72,80,83.0,Graphic Designer
+743,Ananya Malhotra,Female,62,73,60,65.0,Graphic Designer
+744,Pari Singh,Female,77,69,79,75.0,Sociologist
+745,Aditya Kapoor,Female,100,83,76,86.33,Graphic Designer
+746,Arjun Reddy,Male,60,77,76,71.0,Historian
+747,Vihaan Nair,Female,78,100,87,88.33,Political Analyst
+748,Reyansh Verma,Male,75,90,70,78.33,Psychologist
+749,Pari Nair,Female,99,63,67,76.33,Writer
+750,Ira Verma,Female,84,88,82,84.67,Political Analyst
+751,Aadhya Bansal,Male,79,87,76,80.67,Writer
+752,Aarav Joshi,Male,63,80,91,78.0,Sociologist
+753,Myra Singh,Male,78,84,92,84.67,Historian
+754,Arjun Mishra,Female,83,78,64,75.0,Sociologist
+755,Aadhya Singh,Female,92,68,91,83.67,Historian
+756,Arjun Joshi,Male,70,96,86,84.0,Historian
+757,Aditya Yadav,Male,100,71,81,84.0,Graphic Designer
+758,Arjun Patel,Male,73,92,70,78.33,Teacher
+759,Meera Mehta,Male,80,98,67,81.67,Journalist
+760,Ayaan Singh,Male,70,96,100,88.67,Teacher
+761,Pari Verma,Female,75,93,98,88.67,Political Analyst
+762,Ira Reddy,Male,80,62,87,76.33,Political Analyst
+763,Reyansh Reddy,Female,87,86,90,87.67,Journalist
+764,Arjun Joshi,Female,68,77,75,73.33,Sociologist
+765,Vihaan Nair,Female,78,91,65,78.0,Fashion Designer
+766,Ayaan Singh,Male,74,75,71,73.33,Fashion Designer
+767,Vihaan Sharma,Male,80,91,92,87.67,Historian
+768,Kiara Joshi,Female,60,83,82,75.0,Psychologist
+769,Pari Chopra,Female,95,64,90,83.0,Historian
+770,Ananya Das,Male,88,67,98,84.33,Teacher
+771,Aadhya Yadav,Male,66,100,60,75.33,Psychologist
+772,Krishna Kumar,Female,80,81,81,80.67,Writer
+773,Diya Mehta,Female,95,69,93,85.67,Fashion Designer
+774,Vihaan Tiwari,Female,72,76,64,70.67,Sociologist
+775,Rohan Bansal,Female,100,64,92,85.33,Psychologist
+776,Pari Joshi,Male,76,74,74,74.67,Teacher
+777,Pari Gupta,Male,83,74,70,75.67,Lawyer
+778,Rohan Gupta,Female,71,100,72,81.0,Psychologist
+779,Ira Mishra,Male,94,81,63,79.33,Writer
+780,Arjun Yadav,Male,98,92,87,92.33,Lawyer
+781,Pari Das,Female,88,65,89,80.67,Journalist
+782,Aditya Gupta,Male,68,63,93,74.67,Sociologist
+783,Vivaan Reddy,Female,92,100,89,93.67,Political Analyst
+784,Myra Patel,Male,97,74,92,87.67,Writer
+785,Vivaan Chopra,Male,90,83,88,87.0,Historian
+786,Aditya Pillai,Female,67,84,87,79.33,Lawyer
+787,Arjun Kumar,Male,99,70,95,88.0,Sociologist
+788,Ishaan Reddy,Male,87,66,98,83.67,Journalist
+789,Krishna Kumar,Male,61,97,62,73.33,Fashion Designer
+790,Diya Ghosh,Female,63,96,64,74.33,Teacher
+791,Ayaan Das,Male,66,68,94,76.0,Historian
+792,Aditya Mehta,Male,68,95,85,82.67,Writer
+793,Ira Yadav,Male,80,66,91,79.0,Sociologist
+794,Vihaan Singh,Male,76,87,62,75.0,Psychologist
+795,Ananya Mehta,Female,61,91,100,84.0,Fashion Designer
+796,Aadhya Mishra,Male,64,88,71,74.33,Graphic Designer
+797,Aarav Nair,Female,76,92,74,80.67,Fashion Designer
+798,Rohan Yadav,Male,76,94,62,77.33,Political Analyst
+799,Aditya Gupta,Male,82,67,100,83.0,Lawyer
+800,Vihaan Bansal,Male,79,62,98,79.67,Sociologist
+801,Krishna Reddy,Male,84,66,96,82.0,Fashion Designer
+802,Ishaan Malhotra,Female,64,68,72,68.0,Sociologist
+803,Aadhya Mishra,Female,88,82,93,87.67,Teacher
+804,Reyansh Sharma,Male,71,82,64,72.33,Journalist
+805,Pari Malhotra,Female,80,79,98,85.67,Graphic Designer
+806,Vivaan Ghosh,Female,96,98,94,96.0,Sociologist
+807,Aadhya Malhotra,Male,73,83,76,77.33,Political Analyst
+808,Anika Chopra,Male,92,78,93,87.67,Teacher
+809,Aadhya Singh,Male,73,61,99,77.67,Political Analyst
+810,Anika Das,Female,67,99,89,85.0,Graphic Designer
+811,Ishaan Kumar,Male,67,75,63,68.33,Lawyer
+812,Anika Kumar,Male,88,85,63,78.67,Journalist
+813,Ira Nair,Male,61,92,89,80.67,Journalist
+814,Aditya Joshi,Male,71,65,100,78.67,Sociologist
+815,Arjun Das,Female,86,76,91,84.33,Political Analyst
+816,Anika Verma,Male,90,71,80,80.33,Fashion Designer
+817,Anika Patel,Male,69,80,71,73.33,Graphic Designer
+818,Aadhya Yadav,Female,92,76,96,88.0,Fashion Designer
+819,Ishaan Mehta,Female,96,97,67,86.67,Political Analyst
+820,Ishaan Chopra,Male,63,83,88,78.0,Lawyer
+821,Aarav Mehta,Male,82,90,93,88.33,Historian
+822,Rohan Pillai,Female,85,74,74,77.67,Journalist
+823,Vivaan Malhotra,Male,79,83,81,81.0,Teacher
+824,Saanvi Ghosh,Female,61,82,99,80.67,Psychologist
+825,Krishna Patel,Female,95,72,65,77.33,Sociologist
+826,Aadhya Bansal,Male,90,86,68,81.33,Lawyer
+827,Krishna Chopra,Female,79,61,91,77.0,Graphic Designer
+828,Anika Verma,Female,70,97,75,80.67,Fashion Designer
+829,Krishna Ghosh,Male,84,77,62,74.33,Lawyer
+830,Aadhya Das,Male,99,93,96,96.0,Fashion Designer
+831,Pari Chopra,Male,74,69,67,70.0,Teacher
+832,Vivaan Patel,Female,79,83,77,79.67,Fashion Designer
+833,Meera Kumar,Male,73,79,84,78.67,Journalist
+834,Diya Chopra,Female,69,77,93,79.67,Journalist
+835,Ananya Nair,Male,74,91,97,87.33,Lawyer
+836,Rohan Sharma,Female,60,97,91,82.67,Journalist
+837,Pari Ghosh,Male,61,97,61,73.0,Lawyer
+838,Meera Ghosh,Male,69,98,63,76.67,Sociologist
+839,Rohan Ghosh,Female,68,96,65,76.33,Historian
+840,Reyansh Nair,Male,81,92,88,87.0,Teacher
+841,Reyansh Tiwari,Male,70,85,79,78.0,Fashion Designer
+842,Aadhya Verma,Male,60,67,63,63.33,Journalist
+843,Aarav Kumar,Female,95,63,64,74.0,Writer
+844,Myra Mishra,Female,87,61,87,78.33,Historian
+845,Reyansh Das,Male,80,77,81,79.33,Lawyer
+846,Rohan Pillai,Female,75,67,83,75.0,Fashion Designer
+847,Kiara Das,Male,97,65,69,77.0,Historian
+848,Vivaan Pillai,Male,64,79,62,68.33,Sociologist
+849,Saanvi Chopra,Male,97,85,98,93.33,Journalist
+850,Kiara Gupta,Female,78,74,88,80.0,Historian
+851,Reyansh Ghosh,Male,81,94,97,90.67,Teacher
+852,Saanvi Kapoor,Male,86,89,94,89.67,Teacher
+853,Ayaan Das,Male,67,95,76,79.33,Fashion Designer
+854,Ishaan Nair,Female,74,77,77,76.0,Historian
+855,Reyansh Singh,Female,90,90,86,88.67,Teacher
+856,Aadhya Bansal,Female,98,76,94,89.33,Lawyer
+857,Vihaan Ghosh,Female,64,84,70,72.67,Teacher
+858,Ananya Gupta,Male,62,69,83,71.33,Teacher
+859,Aarav Sharma,Female,85,69,72,75.33,Teacher
+860,Anika Tiwari,Male,99,86,73,86.0,Sociologist
+861,Pari Reddy,Female,67,89,82,79.33,Political Analyst
+862,Ananya Das,Female,87,69,88,81.33,Writer
+863,Rohan Bansal,Female,67,95,96,86.0,Historian
+864,Meera Joshi,Male,98,96,60,84.67,Journalist
+865,Aarav Kapoor,Female,76,60,62,66.0,Political Analyst
+866,Ayaan Das,Male,87,90,98,91.67,Sociologist
+867,Vivaan Malhotra,Female,86,62,65,71.0,Teacher
+868,Rohan Singh,Male,69,87,91,82.33,Historian
+869,Vihaan Tiwari,Female,95,64,94,84.33,Psychologist
+870,Vivaan Pillai,Male,98,83,85,88.67,Teacher
+871,Ira Mehta,Female,68,97,91,85.33,Psychologist
+872,Ishaan Das,Male,75,98,77,83.33,Fashion Designer
+873,Krishna Pillai,Male,100,98,63,87.0,Political Analyst
+874,Aadhya Singh,Male,93,91,70,84.67,Writer
+875,Pari Pillai,Male,88,74,77,79.67,Sociologist
+876,Saanvi Malhotra,Male,85,75,64,74.67,Sociologist
+877,Vihaan Kapoor,Female,88,78,95,87.0,Political Analyst
+878,Diya Pillai,Female,74,69,74,72.33,Sociologist
+879,Reyansh Reddy,Female,70,91,74,78.33,Lawyer
+880,Arjun Das,Male,77,70,78,75.0,Lawyer
+881,Aarav Kumar,Female,60,72,77,69.67,Lawyer
+882,Anika Singh,Female,64,67,81,70.67,Journalist
+883,Kiara Yadav,Female,79,72,62,71.0,Teacher
+884,Krishna Tiwari,Male,64,70,93,75.67,Sociologist
+885,Aadhya Ghosh,Male,99,64,95,86.0,Historian
+886,Pari Bansal,Female,85,62,87,78.0,Journalist
+887,Vivaan Kapoor,Male,69,80,89,79.33,Fashion Designer
+888,Vihaan Pillai,Male,91,63,68,74.0,Psychologist
+889,Myra Mehta,Female,69,88,61,72.67,Journalist
+890,Rohan Ghosh,Male,74,96,66,78.67,Graphic Designer
+891,Aadhya Tiwari,Female,62,71,67,66.67,Teacher
+892,Ananya Ghosh,Female,88,86,85,86.33,Lawyer
+893,Myra Kumar,Female,83,62,71,72.0,Fashion Designer
+894,Ananya Kapoor,Male,97,76,74,82.33,Historian
+895,Aadhya Sharma,Male,97,77,70,81.33,Journalist
+896,Myra Mishra,Male,64,64,83,70.33,Historian
+897,Krishna Kumar,Female,81,92,97,90.0,Fashion Designer
+898,Aarav Chopra,Female,94,77,70,80.33,Teacher
+899,Kiara Chopra,Male,63,90,73,75.33,Lawyer
+900,Arjun Mishra,Male,94,65,68,75.67,Psychologist
+901,Saanvi Mishra,Female,83,75,82,80.0,Graphic Designer
+902,Aditya Chopra,Female,80,78,78,78.67,Fashion Designer
+903,Saanvi Kapoor,Male,73,75,69,72.33,Fashion Designer
+904,Ayaan Yadav,Male,71,97,98,88.67,Psychologist
+905,Kiara Kapoor,Male,85,87,64,78.67,Historian
+906,Vihaan Patel,Female,85,75,77,79.0,Psychologist
+907,Anika Nair,Male,95,73,88,85.33,Sociologist
+908,Ananya Joshi,Female,64,91,63,72.67,Graphic Designer
+909,Aditya Yadav,Male,72,91,69,77.33,Sociologist
+910,Aadhya Kapoor,Male,85,67,92,81.33,Graphic Designer
+911,Arjun Gupta,Male,94,62,70,75.33,Political Analyst
+912,Rohan Tiwari,Female,73,60,83,72.0,Historian
+913,Aarav Patel,Female,70,78,89,79.0,Teacher
+914,Aarav Chopra,Male,72,74,83,76.33,Political Analyst
+915,Saanvi Mehta,Male,93,62,89,81.33,Historian
+916,Saanvi Patel,Male,70,79,100,83.0,Graphic Designer
+917,Anika Verma,Male,64,70,75,69.67,Lawyer
+918,Ananya Malhotra,Male,75,79,64,72.67,Fashion Designer
+919,Vivaan Verma,Female,67,93,69,76.33,Historian
+920,Meera Nair,Male,91,100,83,91.33,Fashion Designer
+921,Diya Kumar,Female,60,80,68,69.33,Sociologist
+922,Ishaan Malhotra,Male,84,83,70,79.0,Fashion Designer
+923,Anika Pillai,Male,77,85,60,74.0,Journalist
+924,Vivaan Mishra,Male,71,64,88,74.33,Lawyer
+925,Kiara Tiwari,Female,90,94,78,87.33,Teacher
+926,Ananya Chopra,Male,79,85,74,79.33,Sociologist
+927,Myra Patel,Male,90,71,74,78.33,Lawyer
+928,Ishaan Pillai,Male,94,65,76,78.33,Psychologist
+929,Reyansh Bansal,Female,70,74,92,78.67,Teacher
+930,Pari Tiwari,Female,87,83,70,80.0,Journalist
+931,Kiara Chopra,Male,66,95,100,87.0,Political Analyst
+932,Diya Kumar,Female,65,76,78,73.0,Historian
+933,Aditya Tiwari,Male,96,74,79,83.0,Fashion Designer
+934,Meera Nair,Female,72,63,80,71.67,Writer
+935,Meera Chopra,Male,76,81,94,83.67,Graphic Designer
+936,Meera Mehta,Female,75,86,76,79.0,Graphic Designer
+937,Saanvi Sharma,Male,68,87,92,82.33,Psychologist
+938,Pari Ghosh,Male,86,88,90,88.0,Historian
+939,Myra Chopra,Female,81,97,92,90.0,Psychologist
+940,Pari Joshi,Female,85,88,60,77.67,Journalist
+941,Rohan Mishra,Male,76,60,67,67.67,Journalist
+942,Kiara Singh,Male,88,85,78,83.67,Teacher
+943,Anika Chopra,Female,91,100,87,92.67,Journalist
+944,Myra Malhotra,Male,64,99,60,74.33,Writer
+945,Rohan Joshi,Female,63,72,66,67.0,Journalist
+946,Ayaan Joshi,Female,86,71,94,83.67,Historian
+947,Kiara Mehta,Female,84,96,91,90.33,Psychologist
+948,Aadhya Patel,Male,81,99,62,80.67,Historian
+949,Krishna Reddy,Female,75,100,93,89.33,Teacher
+950,Ayaan Singh,Male,72,89,95,85.33,Teacher
+951,Myra Ghosh,Male,72,72,87,77.0,Historian
+952,Aadhya Singh,Male,61,79,83,74.33,Graphic Designer
+953,Rohan Gupta,Male,63,61,97,73.67,Political Analyst
+954,Vivaan Pillai,Female,77,90,66,77.67,Writer
+955,Krishna Nair,Female,64,83,83,76.67,Historian
+956,Diya Yadav,Female,74,95,65,78.0,Journalist
+957,Ira Gupta,Male,100,61,78,79.67,Teacher
+958,Kiara Joshi,Male,63,88,74,75.0,Writer
+959,Vivaan Ghosh,Female,81,95,81,85.67,Writer
+960,Reyansh Kumar,Female,76,62,95,77.67,Historian
+961,Meera Joshi,Male,83,93,61,79.0,Historian
+962,Aadhya Verma,Female,85,79,61,75.0,Fashion Designer
+963,Ira Mishra,Female,68,95,62,75.0,Graphic Designer
+964,Rohan Ghosh,Male,84,70,93,82.33,Graphic Designer
+965,Ananya Chopra,Male,66,76,98,80.0,Political Analyst
+966,Krishna Nair,Male,76,88,74,79.33,Sociologist
+967,Saanvi Pillai,Female,94,73,80,82.33,Journalist
+968,Ishaan Das,Female,82,83,71,78.67,Journalist
+969,Meera Das,Male,99,94,70,87.67,Sociologist
+970,Myra Sharma,Female,74,85,92,83.67,Historian
+971,Vivaan Pillai,Male,60,91,74,75.0,Sociologist
+972,Vivaan Kapoor,Female,80,81,69,76.67,Teacher
+973,Saanvi Verma,Female,60,92,68,73.33,Political Analyst
+974,Ira Tiwari,Male,79,74,71,74.67,Psychologist
+975,Ayaan Das,Female,82,61,62,68.33,Historian
+976,Aarav Yadav,Female,75,85,96,85.33,Psychologist
+977,Diya Nair,Female,89,65,64,72.67,Psychologist
+978,Vihaan Malhotra,Female,83,87,84,84.67,Teacher
+979,Saanvi Singh,Female,60,80,79,73.0,Psychologist
+980,Pari Kumar,Male,78,94,66,79.33,Political Analyst
+981,Saanvi Pillai,Female,98,66,86,83.33,Graphic Designer
+982,Reyansh Sharma,Male,99,96,100,98.33,Political Analyst
+983,Anika Malhotra,Female,89,97,74,86.67,Journalist
+984,Kiara Gupta,Male,69,78,80,75.67,Journalist
+985,Myra Das,Male,79,63,86,76.0,Teacher
+986,Aadhya Kapoor,Female,67,60,63,63.33,Teacher
+987,Aadhya Yadav,Male,62,84,60,68.67,Psychologist
+988,Arjun Das,Female,60,80,96,78.67,Journalist
+989,Krishna Tiwari,Female,81,91,75,82.33,Sociologist
+990,Aadhya Joshi,Female,84,98,68,83.33,Historian
+991,Ira Chopra,Male,68,88,94,83.33,Graphic Designer
+992,Saanvi Kapoor,Female,89,89,77,85.0,Fashion Designer
+993,Kiara Ghosh,Female,84,92,73,83.0,Teacher
+994,Anika Verma,Male,75,100,89,88.0,Historian
+995,Ananya Mishra,Male,70,71,81,74.0,Graphic Designer
+996,Vihaan Mishra,Female,70,78,87,78.33,Historian
+997,Meera Mishra,Male,85,76,71,77.33,Graphic Designer
+998,Vivaan Gupta,Female,71,75,80,75.33,Teacher
+999,Arjun Kapoor,Male,69,86,96,83.67,Psychologist
+1000,Aditya Bansal,Female,96,79,95,90.0,Journalist

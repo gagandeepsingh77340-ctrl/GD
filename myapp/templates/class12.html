@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class 12 - My Smart Counselling Support</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    /* ===== Global Styles ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: #f5f9ff;
+      color: #333;
+      line-height: 1.6;
+    }
+    
+    /* ===== Header Styles ===== */
+    header {
+      background: linear-gradient(135deg, #1a3a8f 0%, #2d5cc2 100%);
+      color: white;
+      padding: 1.2rem 0;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    
+    .header-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 2rem;
+    }
+    
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    
+    .logo i {
+      font-size: 1.8rem;
+      color: #6ee7ff;
+    }
+    
+    .logo h1 {
+      font-size: 1.8rem;
+      font-weight: 700;
+    }
+    
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 2rem;
+    }
+    
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+      transition: color 0.3s;
+      padding: 0.5rem 0;
+      position: relative;
+    }
+    
+    nav a:hover {
+      color: #6ee7ff;
+    }
+    
+    nav a::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 3px;
+      background: #6ee7ff;
+      bottom: 0;
+      left: 0;
+      transition: width 0.3s;
+    }
+    
+    nav a:hover::after {
+      width: 100%;
+    }
+    
+    /* ===== Main Content Area ===== */
+    .main-content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+    }
+    
+    .background-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, #36d1dc, #5b86e5);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      opacity: 0.9;
+      z-index: -1;
+    }
+    
+    /* ===== Stream Selection Container ===== */
+    .stream-container {
+      background: rgba(255, 255, 255, 0.92);
+      padding: 3rem 4rem;
+      border-radius: 25px;
+      box-shadow: 0 15px 40px rgba(91, 134, 229, 0.2);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(10px);
+      max-width: 800px;
+      width: 100%;
+      animation: fadeIn 1s ease-out;
+    }
+    
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    
+    .stream-container h2 {
+      color: #1a3a8f;
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+      font-weight: 800;
+      letter-spacing: 1px;
+    }
+    
+    .stream-container .subtitle {
+      color: #5b86e5;
+      font-size: 1.2rem;
+      margin-bottom: 40px;
+      font-weight: 500;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    /* ===== Stream Boxes ===== */
+    .box-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      margin-bottom: 40px;
+    }
+    
+    @media (max-width: 600px) {
+      .box-container {
+        grid-template-columns: 1fr;
+      }
+    }
+    
+    .stream-box {
+      display: block;
+      text-decoration: none;
+      cursor: pointer;
+      position: relative;
+      background: linear-gradient(135deg, #1a3a8f, #2d5cc2);
+      height: 180px;
+      border-radius: 20px;
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: white;
+      transition: all 0.3s ease;
+      box-shadow: 0 8px 20px rgba(26, 58, 143, 0.3);
+      border: 3px solid transparent;
+      overflow: hidden;
+    }
+    
+    .stream-box:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 30px rgba(26, 58, 143, 0.4);
+      background: linear-gradient(135deg, #2d5cc2, #3a6ae8);
+      text-decoration: none;
+      color: white;
+    }
+    
+    .stream-box:hover .box-content {
+      background: linear-gradient(135deg, #2d5cc2, #3a6ae8);
+    }
+    
+    .stream-box.selected {
+      background: linear-gradient(135deg, #36d1dc, #5b86e5);
+      border-color: white;
+      transform: scale(1.05);
+      box-shadow: 0 15px 30px rgba(54, 209, 220, 0.4);
+    }
+    
+    .stream-box.selected .box-content {
+      background: linear-gradient(135deg, #36d1dc, #5b86e5);
+    }
+    
+    .box-content {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #1a3a8f, #2d5cc2);
+      transition: all 0.3s ease;
+    }
+    
+    .stream-description {
+      font-size: 1rem;
+      margin-top: 10px;
+      color: rgba(255, 255, 255, 0.9);
+      font-weight: 500;
+      line-height: 1.4;
+    }
+    
+    .stream-icon {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+    }
+    
+    /* ===== Stream Details ===== */
+    .stream-details {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 25px;
+      border-radius: 20px;
+      margin-top: 30px;
+      text-align: left;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      display: none;
+    }
+    
+    .stream-details.active {
+      display: block;
+      animation: slideIn 0.5s ease-out;
+    }
+    
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    
+    .stream-details h3 {
+      color: #1a3a8f;
+      margin-bottom: 15px;
+      font-size: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    .stream-details h3 i {
+      color: #36d1dc;
+    }
+    
+    .stream-details p {
+      color: #555;
+      line-height: 1.7;
+      margin-bottom: 15px;
+    }
+    
+    .career-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      margin-top: 15px;
+    }
+    
+    .career-item {
+      padding: 10px;
+      background: #f0f5ff;
+      border-radius: 10px;
+      font-weight: 500;
+      color: #1a3a8f;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    
+    .career-item i {
+      color: #5b86e5;
+    }
+    
+    /* ===== Submit Button ===== */
+    .submit-container {
+      margin-top: 40px;
+    }
+    
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      padding: 16px 40px;
+      background: linear-gradient(to right, #36d1dc, #5b86e5);
+      color: white;
+      border: none;
+      border-radius: 50px;
+      font-size: 1.2rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.3s;
+      box-shadow: 0 8px 20px rgba(54, 209, 220, 0.3);
+      text-decoration: none;
+    }
+    
+    .btn:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 25px rgba(54, 209, 220, 0.4);
+      background: linear-gradient(to right, #5b86e5, #36d1dc);
+      color: white;
+      text-decoration: none;
+    }
+    
+    .btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+      transform: none;
+      box-shadow: 0 8px 20px rgba(54, 209, 220, 0.2);
+    }
+    
+    .btn:disabled:hover {
+      transform: none;
+      box-shadow: 0 8px 20px rgba(54, 209, 220, 0.2);
+    }
+    
+    /* ===== Back Button ===== */
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.2);
+      padding: 10px 20px;
+      border-radius: 50px;
+      text-decoration: none;
+      color: white;
+      font-weight: 600;
+      transition: all 0.3s;
+      margin-bottom: 30px;
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      position: relative;
+      z-index: 10;
+    }
+    
+    .back-btn:hover {
+      background: rgba(255, 255, 255, 0.35);
+      transform: translateY(-3px);
+      color: white;
+      text-decoration: none;
+    }
+    
+    /* ===== Stream-specific colors ===== */
+    .stream-box[href="Arts.html"] .box-content {
+      background: linear-gradient(135deg, #ff9966, #ff5e62);
+    }
+    
+    .stream-box[href="Arts.html"]:hover .box-content {
+      background: linear-gradient(135deg, #ff5e62, #ff9966);
+    }
+    
+    .stream-box[href="Commerce.html"] .box-content {
+      background: linear-gradient(135deg, #43cea2, #185a9d);
+    }
+    
+    .stream-box[href="Commerce.html"]:hover .box-content {
+      background: linear-gradient(135deg, #185a9d, #43cea2);
+    }
+    
+    .stream-box[href="PCB.html"] .box-content {
+      background: linear-gradient(135deg, #36d1dc, #5b86e5);
+    }
+    
+    .stream-box[href="PCB.html"]:hover .box-content {
+      background: linear-gradient(135deg, #5b86e5, #36d1dc);
+    }
+    
+    .stream-box[href="PCM.html"] .box-content {
+      background: linear-gradient(135deg, #834d9b, #d04ed6);
+    }
+    
+    .stream-box[href="PCM.html"]:hover .box-content {
+      background: linear-gradient(135deg, #d04ed6, #834d9b);
+    }
+    
+    /* ===== Footer Styles ===== */
+    footer {
+      background: #1a1a2e;
+      color: #eee;
+      padding: 2.5rem 0 1.5rem;
+      margin-top: auto;
+    }
+    
+    .footer-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+    
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+    
+    .footer-section {
+      flex: 1;
+      min-width: 250px;
+    }
+    
+    .footer-section h3 {
+      font-size: 1.4rem;
+      margin-bottom: 1.2rem;
+      color: #6ee7ff;
+      position: relative;
+      padding-bottom: 0.5rem;
+    }
+    
+    .footer-section h3::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 40px;
+      height: 3px;
+      background: #2d5cc2;
+    }
+    
+    .footer-section p, .footer-section a {
+      color: #bbb;
+      margin-bottom: 0.8rem;
+      display: block;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    
+    .footer-section a:hover {
+      color: #6ee7ff;
+    }
+    
+    .social-icons {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    
+    .social-icons a {
+      background: #2d5cc2;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s;
+    }
+    
+    .social-icons a:hover {
+      background: #6ee7ff;
+      transform: translateY(-5px);
+    }
+    
+    .footer-bottom {
+      text-align: center;
+      padding-top: 1.5rem;
+      border-top: 1px solid #333;
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+    
+    /* ===== Responsive Design ===== */
+    @media (max-width: 768px) {
+      .header-container {
+        flex-direction: column;
+        gap: 1rem;
+      }
+      
+      nav ul {
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+      .stream-container {
+        padding: 2.5rem 2rem;
+        max-width: 90%;
+      }
+      
+      .stream-container h2 {
+        font-size: 2rem;
+      }
+      
+      .stream-box {
+        height: 160px;
+        font-size: 1.6rem;
+      }
+      
+      .career-list {
+        grid-template-columns: 1fr;
+      }
+      
+      .footer-content {
+        flex-direction: column;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .stream-container {
+        padding: 2rem 1.5rem;
+      }
+      
+      .stream-container h2 {
+        font-size: 1.8rem;
+      }
+      
+      .stream-box {
+        height: 140px;
+        font-size: 1.4rem;
+      }
+      
+      .stream-icon {
+        font-size: 2rem;
+      }
+      
+      .btn {
+        padding: 14px 30px;
+        font-size: 1.1rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <i class="fas fa-brain"></i>
+        <h1>MySmartCounsellingSupport</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+          <li><a href="#"><i class="fas fa-users"></i> Services</a></li>
+          <li><a href="counselling.html"><i class="fas fa-graduation-cap"></i> Class Selection</a></li>
+          <li><a href="#"><i class="fas fa-calendar-alt"></i> Appointments</a></li>
+          <li><a href="#"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main class="main-content">
+    <div class="background-image"></div>
+    
+    <div class="stream-container">
+      <a href="counselling.html" class="back-btn">
+        <i class="fas fa-arrow-left"></i> Back to Class Selection
+      </a>
+      
+      <h2>Select Your Stream (Class 12)</h2>
+      <p class="subtitle">Choose your current stream to get personalized career guidance and college recommendations</p>
+      
+      <div class="box-container">
+        <!-- Arts Stream Box -->
+        <a href="Arts.html" class="stream-box" data-stream="arts">
+          <div class="box-content">
+            <div class="stream-icon"><i class="fas fa-palette"></i></div>
+            Arts
+            <div class="stream-description">Humanities & Fine Arts</div>
+          </div>
+        </a>
+
+        <!-- Commerce Stream Box -->
+        <a href="Commerce.html" class="stream-box" data-stream="commerce">
+          <div class="box-content">
+            <div class="stream-icon"><i class="fas fa-chart-line"></i></div>
+            Commerce
+            <div class="stream-description">Business & Finance</div>
+          </div>
+        </a>
+
+        <!-- PCB Stream Box -->
+        <a href="PCB.html" class="stream-box" data-stream="pcb">
+          <div class="box-content">
+            <div class="stream-icon"><i class="fas fa-dna"></i></div>
+            PCB
+            <div class="stream-description">Physics, Chemistry, Biology</div>
+          </div>
+        </a>
+
+        <!-- PCM Stream Box -->
+        <a href="PCM.html" class="stream-box" data-stream="pcm">
+          <div class="box-content">
+            <div class="stream-icon"><i class="fas fa-atom"></i></div>
+            PCM
+            <div class="stream-description">Physics, Chemistry, Maths</div>
+          </div>
+        </a>
+      </div>
+        
+      <div class="stream-details" id="streamDetails">
+        <!-- Details will be populated by JavaScript -->
+        <p style="text-align: center; color: #666; padding: 20px;">Hover over a stream to see details</p>
+      </div>
+        
+      <div class="submit-container">
+        <button class="btn" id="exploreBtn">
+          <i class="fas fa-rocket"></i> Explore All Streams
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Smart Counselling</h3>
+          <p>Providing specialized stream-based career guidance and college recommendations for Class 12 students.</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Stream Resources</h3>
+          <a href="Arts.html"><i class="fas fa-chevron-right"></i> Arts Career Paths</a>
+          <a href="Commerce.html"><i class="fas fa-chevron-right"></i> Commerce Opportunities</a>
+          <a href="PCB.html"><i class="fas fa-chevron-right"></i> Medical (PCB) Guidance</a>
+          <a href="PCM.html"><i class="fas fa-chevron-right"></i> Engineering (PCM) Options</a>
+          <a href="#"><i class="fas fa-chevron-right"></i> Entrance Exam Preparation</a>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Stream Support</h3>
+          <p><i class="fas fa-map-marker-alt"></i> 123 Stream Street, Career City</p>
+          <p><i class="fas fa-phone"></i> +1 (555) 345-6789</p>
+          <p><i class="fas fa-envelope"></i> class12@smartcounselling.com</p>
+          <p><i class="fas fa-clock"></i> Mon-Sat: 8am-8pm, Sun: 10am-6pm</p>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2023 Smart Counselling. All rights reserved. | Stream-specific career guidance for Class 12 students</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Stream data with descriptions and career options
+    const streamData = {
+      arts: {
+        title: "Arts / Humanities Stream",
+        description: "The Arts stream focuses on humanities, social sciences, and fine arts. It develops critical thinking, communication skills, and cultural awareness. Ideal for students interested in literature, history, psychology, sociology, political science, and creative fields.",
+        careers: [
+          "Law & Judiciary",
+          "Journalism & Media",
+          "Psychology & Counseling",
+          "Civil Services (UPSC)",
+          "Teaching & Education",
+          "Social Work",
+          "Fine Arts & Design",
+          "Hotel Management",
+          "Fashion Design",
+          "Archaeology & History"
+        ],
+        icon: "fas fa-palette",
+        color: "#ff9966",
+        link: "Arts.html"
+      },
+      commerce: {
+        title: "Commerce Stream",
+        description: "The Commerce stream focuses on business, finance, accounting, and economics. It develops analytical skills, financial literacy, and business acumen. Perfect for students interested in entrepreneurship, banking, finance, accounting, and business management.",
+        careers: [
+          "Chartered Accountancy (CA)",
+          "Company Secretary (CS)",
+          "Business Administration (MBA)",
+          "Banking & Finance",
+          "Stock Market & Investment",
+          "Insurance & Risk Management",
+          "Economics & Research",
+          "Digital Marketing",
+          "Entrepreneurship",
+          "Human Resources"
+        ],
+        icon: "fas fa-chart-line",
+        color: "#43cea2",
+        link: "Commerce.html"
+      },
+      pcb: {
+        title: "PCB (Physics, Chemistry, Biology)",
+        description: "PCB stream focuses on medical and life sciences. It prepares students for careers in medicine, healthcare, biotechnology, and research. Ideal for students aspiring to become doctors, dentists, veterinarians, pharmacologists, or biomedical researchers.",
+        careers: [
+          "Medicine (MBBS)",
+          "Dentistry (BDS)",
+          "Veterinary Science",
+          "Pharmacy",
+          "Biotechnology",
+          "Physiotherapy",
+          "Nursing",
+          "Medical Research",
+          "Forensic Science",
+          "Nutrition & Dietetics"
+        ],
+        icon: "fas fa-dna",
+        color: "#36d1dc",
+        link: "PCB.html"
+      },
+      pcm: {
+        title: "PCM (Physics, Chemistry, Mathematics)",
+        description: "PCM stream focuses on engineering, technology, and physical sciences. It develops logical reasoning, problem-solving skills, and technical knowledge. Perfect for students interested in engineering, architecture, computer science, data science, or research.",
+        careers: [
+          "Engineering (Various Branches)",
+          "Architecture",
+          "Computer Science & IT",
+          "Data Science & Analytics",
+          "Robotics & AI",
+          "Space Research (ISRO, NASA)",
+          "Defense Services",
+          "Actuarial Science",
+          "Research & Development",
+          "Renewable Energy"
+        ],
+        icon: "fas fa-atom",
+        color: "#5b86e5",
+        link: "PCM.html"
+      }
+    };
+    
+    // DOM elements
+    const streamBoxes = document.querySelectorAll('.stream-box');
+    const streamDetails = document.getElementById('streamDetails');
+    const exploreBtn = document.getElementById('exploreBtn');
+    
+    // Function to display stream details on hover
+    function showStreamDetails(streamKey) {
+      const data = streamData[streamKey];
+      
+      // Generate career list HTML
+      const careerListHTML = data.careers.map(career => 
+        `<div class="career-item"><i class="fas fa-check-circle"></i> ${career}</div>`
+      ).join('');
+      
+      // Update stream details section
+      streamDetails.innerHTML = `
+        <h3><i class="${data.icon}"></i> ${data.title}</h3>
+        <p>${data.description}</p>
+        <div class="career-list">
+          ${careerListHTML}
+        </div>
+        <div style="margin-top: 20px; text-align: center;">
+          <a href="${data.link}" class="btn" style="padding: 12px 30px; font-size: 1rem; display: inline-flex;">
+            <i class="fas fa-arrow-right"></i> Explore ${streamKey.toUpperCase()} Stream
+          </a>
+        </div>
+      `;
+      
+      // Show the details section
+      streamDetails.classList.add('active');
+    }
+    
+    // Add event listeners to stream boxes for hover effect
+    streamBoxes.forEach(box => {
+      box.addEventListener('mouseenter', function() {
+        // Remove selected class from all boxes
+        streamBoxes.forEach(b => b.classList.remove('selected'));
+        
+        // Add selected class to hovered box
+        this.classList.add('selected');
+        
+        // Get stream key from data attribute
+        const streamKey = this.getAttribute('data-stream');
+        
+        // Show stream details
+        showStreamDetails(streamKey);
+      });
+    });
+    
+    // Handle box container mouse leave
+    const boxContainer = document.querySelector('.box-container');
+    boxContainer.addEventListener('mouseleave', function() {
+      // Remove selected class from all boxes
+      streamBoxes.forEach(b => b.classList.remove('selected'));
+      
+      // Hide stream details
+      streamDetails.classList.remove('active');
+      streamDetails.innerHTML = '<p style="text-align: center; color: #666; padding: 20px;">Hover over a stream to see details</p>';
+    });
+    
+    // Explore button click handler
+    exploreBtn.addEventListener('click', function() {
+      const allCareers = [];
+      Object.values(streamData).forEach(stream => {
+        allCareers.push(...stream.careers.slice(0, 3));
+      });
+      
+      const uniqueCareers = [...new Set(allCareers)].slice(0, 8);
+      
+      const careerListHTML = uniqueCareers.map(career => 
+        `<div class="career-item"><i class="fas fa-star"></i> ${career}</div>`
+      ).join('');
+      
+      streamDetails.innerHTML = `
+        <h3><i class="fas fa-globe"></i> All Streams Overview</h3>
+        <p>Explore career opportunities across all streams. Each stream offers unique paths and opportunities. Click on any stream box to explore in detail.</p>
+        <div class="career-list">
+          ${careerListHTML}
+        </div>
+        <p style="margin-top: 15px; text-align: center; font-weight: 600; color: #1a3a8f;">
+          Click on any stream above to explore specific career paths!
+        </p>
+      `;
+      
+      streamDetails.classList.add('active');
+      streamDetails.scrollIntoView({ behavior: 'smooth' });
+    });
+    
+    // Navigation menu interaction
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', function(e) {
+        if(this.getAttribute('href') === '#') {
+          e.preventDefault();
+          alert(`Navigating to ${this.textContent.trim()} section.`);
+        }
+      });
+    });
+    
+    // Add click animation to boxes
+    streamBoxes.forEach(box => {
+      box.addEventListener('mousedown', function() {
+        this.style.transform = 'translateY(-5px) scale(0.98)';
+      });
+      
+      box.addEventListener('mouseup', function() {
+        this.style.transform = 'translateY(-10px)';
+      });
+      
+      box.addEventListener('mouseleave', function() {
+        this.style.transform = '';
+      });
+    });
+  </script>
+</body>
+</html>
