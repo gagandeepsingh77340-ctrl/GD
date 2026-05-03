@@ -146,48 +146,77 @@ def output_ARTS(request):
 
 # Chatbot integration from here
 import json
+import os
 import requests
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
-
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 @csrf_exempt
 def chatbot(request):
-    if request.method == "POST":
-        try:
-            data = json.loads(request.body)
-            user_msg = data.get("message", "")
+    if request.method != "POST":
+        return JsonResponse({"reply": "Only POST allowed"}, status=405)
 
-            response = requests.post(
-                "http://localhost:11434/api/generate",
-                json={
-                    "model": "tinyllama:latest",
-                    "prompt": f"""
-You are an intelligent career counselor for Indian students.
+    if not GROQ_API_KEY:
+        return JsonResponse({"reply": "Server error: API key not set"}, status=500)
 
-Your job:
-- Guide students after class 10 and 12
-- Suggest streams: Science, Commerce, Arts
-- Give practical advice
-- Ask questions if needed
+    try:
+        data = json.loads(request.body.decode("utf-8"))
+        user_msg = data.get("message", "").strip()
 
-Student question: {user_msg}
+        if not user_msg:
+            return JsonResponse({"reply": "Please enter a message."})
 
-Give a helpful, simple and real answer.
-""",
-                    "stream": False   # 🔥 VERY IMPORTANT
-                }
+        url = "https://api.groq.com/openai/v1/chat/completions"
+
+        headers = {
+            "Authorization": f"Bearer {GROQ_API_KEY}",
+            "Content-Type": "application/json",
+        }
+
+        payload = {
+            "model": "llama-3.1-8b-instant",
+            "messages": [
+                {
+                    "role": "system",
+                    "content": (
+                        "You are a helpful career counselor for Indian students. "
+                        "Give concise, practical guidance for choices after class 10 and 12. "
+                        "Ask a clarifying question if needed."
+                    ),
+                },
+                {
+                    "role": "user",
+                    "content": user_msg,
+                },
+            ],
+            "temperature": 0.5,
+        }
+
+        response = requests.post(url, headers=headers, json=payload, timeout=30)
+
+        # Handle HTTP-level errors cleanly
+        if response.status_code != 200:
+            return JsonResponse(
+                {"reply": f"API error ({response.status_code}): {response.text[:300]}"},
+                status=502,
             )
 
-            result = response.json()
-            print("FULL RESPONSE:", result)  # DEBUG
+        result = response.json()
 
-            reply = result.get("response")
+        # Safe extraction (prevents KeyError if API changes or errors)
+        choices = result.get("choices", [])
+        if not choices:
+            return JsonResponse({"reply": f"API returned no choices: {result}"}, status=502)
 
-
-            if not reply:
-                reply = result.get("error", "No response from AI")  # fallback
-
-        except Exception as e:
-            reply = f"Error: {str(e)}"
+        reply = choices[0].get("message", {}).get("content", "").strip()
+        if not reply:
+            reply = "I couldn't generate a response. Please try again."
 
         return JsonResponse({"reply": reply})
+
+    except json.JSONDecodeError:
+        return JsonResponse({"reply": "Invalid JSON request"}, status=400)
+    except requests.exceptions.RequestException as e:
+        return JsonResponse({"reply": f"Network error: {str(e)}"}, status=502)
+    except Exception as e:
+        return JsonResponse({"reply": f"Server error: {str(e)}"}, status=500)
