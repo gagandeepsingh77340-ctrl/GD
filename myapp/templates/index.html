@@ -355,9 +355,13 @@
     background: white;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-    display: flex;
+    display: none;
     flex-direction: column;
     z-index: 9999;
+}
+
+#chatbot.active {
+    display: flex;
 }
 
 /* HEADER */
@@ -558,6 +562,24 @@
 </div>
 </div>
 <script>
+   const toggle = document.getElementById("chat-toggle");
+const box = document.getElementById("chatbot");
+
+// open/close toggle
+toggle.addEventListener("click", (e) => {
+    e.stopPropagation();
+
+    if (box.style.display === "none" || box.style.display === "") {
+        box.style.display = "flex";
+    } else {
+        box.style.display = "none";
+    }
+});
+document.addEventListener("click", (e) => {
+    if (!box.contains(e.target) && !toggle.contains(e.target)) {
+        box.style.display = "none";
+    }
+});
     const input = document.getElementById("chat-input");
 const chatBody = document.getElementById("chat-body");
 
