@@ -19,10 +19,12 @@ from django.urls import path
 from myapp import views
 from myapp.views import chatbot 
 
+# google indexing
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.show),
-   
+    path('google90a4278fbf104ff4.html', views.google_verify),
     path('counselling/', views.counselling, name='counselling'),
     path('counselling.html', views.counselling, name='counselling_html'),
 

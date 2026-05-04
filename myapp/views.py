@@ -1,6 +1,8 @@
 from django.shortcuts import render
 import pickle
-
+from django.http import HttpResponse
+def google_verify(request):
+    return HttpResponse("google-site-verification:google90a4278fbf104ff4.html")
 def show(request):
     return render(request,'index.html')
 
@@ -220,3 +222,5 @@ def chatbot(request):
         return JsonResponse({"reply": f"Network error: {str(e)}"}, status=502)
     except Exception as e:
         return JsonResponse({"reply": f"Server error: {str(e)}"}, status=500)
+
+
